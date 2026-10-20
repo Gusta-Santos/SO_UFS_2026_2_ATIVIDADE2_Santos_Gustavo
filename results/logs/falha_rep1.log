@@ -1,0 +1,3 @@
+1792537848.345430	MainThread	inicio	{"index": "data/nao_existe", "nreq": 10, "workload": "distinct", "uniq": 20, "workers": 1, "producers": 2, "queue_size": 50, "cache_size": 0, "cache_policy": "lru", "vec_mode": "mmap", "k": 5, "max_ctx": 2000, "gen_cpu": 20000, "gen_io_ms": 20.0, "seed": 1, "label": "falha", "rep": 1, "no_cache_lock": false, "no_log_lock": false}
+1792537848.346045	MainThread	falha	{"etapa": "abrir_indice", "erro": "FileNotFoundError(2, 'No such file or directory')"}
+1792537848.346060	MainThread	encerramento	{"status": "erro"}

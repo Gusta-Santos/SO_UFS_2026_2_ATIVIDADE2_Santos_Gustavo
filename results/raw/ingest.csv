@@ -1,0 +1,2 @@
+timestamp,commit,corpus,corpus_mb,n_docs,n_chunks,chunk_words,db_mb,vec_mb,ingest_s,peak_rss_mb,minflt,majflt,disk_read_mb
+2026-10-20T20:08:06,a204ce2,corpus_10mb.txt,10.0,7621,30317,40,11.1,14.8,0.548,73.9,8878,0,10.0
