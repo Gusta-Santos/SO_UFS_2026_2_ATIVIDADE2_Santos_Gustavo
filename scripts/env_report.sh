@@ -17,8 +17,12 @@ mkdir -p results
   echo "=== DISCO ==="; lsblk; df -hT .
   echo "=== PYTHON ==="; which python3; python3 --version; pip freeze
   echo "=== GIT ==="; git --version
-  echo "=== GPU ==="
-  if command -v nvidia-smi >/dev/null 2>&1; then nvidia-smi; else echo "nenhuma detectada (nvidia-smi ausente) / nao utilizada"; fi
+  echo "=== GPU (visivel no WSL) ==="
+  ls -l /dev/dxg 2>&1
+  if command -v nvidia-smi >/dev/null 2>&1; then nvidia-smi; else echo "nvidia-smi ausente no WSL"; fi
+  echo "=== GPU (host Windows) ==="
+  powershell.exe -NoProfile -Command "Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion | Format-List" 2>/dev/null | tr -d '\r'
+  echo "Uso de GPU no experimento: nao utilizada (vetores simulados com numpy em CPU; geracao simulada)"
 
   echo "=== WINDOWS (host) ==="
   cmd.exe /c ver 2>/dev/null | tr -d '\r'
