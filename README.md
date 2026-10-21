@@ -5,8 +5,7 @@ Serviço simplificado inspirado em IA generativa/RAG, usado para estudar como me
 - **Disciplina:** Sistemas Operacionais, UFS, Departamento de Computação (AV2, Atividade 2)
 - **Aluno:** Gustavo Santos Oliveira (trabalho individual)
 - **Professor:** Glauco de Figueiredo Carneiro
-- **Vídeo (até 20 min):** [PREENCHER URL] (também em `VIDEO.md`)
-- **Relatório (PDF):** [PREENCHER nome do arquivo ou URL]
+- **Vídeo (até 20 min):** [[PREENCHER URL](https://youtu.be/BvyIsx3JqeY)] (também em `VIDEO.md`)
 
 > Declaração de uso de ferramentas de terceiros: o código dos scripts foi elaborado com auxílio de um assistente de IA (Claude, Anthropic) e revisado, executado e adaptado pelo autor.
 
