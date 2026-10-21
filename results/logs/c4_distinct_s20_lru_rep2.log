@@ -1,0 +1,2002 @@
+1792539826.345027	MainThread	inicio	{"index": "data/index_100mb", "nreq": 400, "workload": "distinct", "uniq": 20, "workers": 2, "producers": 2, "queue_size": 50, "cache_size": 20, "cache_policy": "lru", "vec_mode": "mmap", "k": 5, "max_ctx": 2000, "gen_cpu": 20000, "gen_io_ms": 20.0, "seed": 1, "label": "c4_distinct_s20_lru", "rep": 2, "no_cache_lock": false, "no_log_lock": false}
+1792539826.347065	produtor-0	enfileirar	{"id": 0, "fila": 1}
+1792539826.347097	produtor-0	enfileirar	{"id": 2, "fila": 2}
+1792539826.347107	produtor-0	enfileirar	{"id": 4, "fila": 3}
+1792539826.347112	produtor-0	enfileirar	{"id": 6, "fila": 4}
+1792539826.347117	produtor-0	enfileirar	{"id": 8, "fila": 5}
+1792539826.347121	produtor-0	enfileirar	{"id": 10, "fila": 6}
+1792539826.347125	produtor-0	enfileirar	{"id": 12, "fila": 7}
+1792539826.347129	produtor-0	enfileirar	{"id": 14, "fila": 8}
+1792539826.347133	produtor-0	enfileirar	{"id": 16, "fila": 9}
+1792539826.347137	produtor-0	enfileirar	{"id": 18, "fila": 10}
+1792539826.347141	produtor-0	enfileirar	{"id": 20, "fila": 11}
+1792539826.347145	produtor-0	enfileirar	{"id": 22, "fila": 12}
+1792539826.347149	produtor-0	enfileirar	{"id": 24, "fila": 13}
+1792539826.347153	produtor-0	enfileirar	{"id": 26, "fila": 14}
+1792539826.347157	produtor-0	enfileirar	{"id": 28, "fila": 15}
+1792539826.347161	produtor-0	enfileirar	{"id": 30, "fila": 16}
+1792539826.347165	produtor-0	enfileirar	{"id": 32, "fila": 17}
+1792539826.347168	produtor-0	enfileirar	{"id": 34, "fila": 18}
+1792539826.347172	produtor-0	enfileirar	{"id": 36, "fila": 19}
+1792539826.347176	produtor-0	enfileirar	{"id": 38, "fila": 20}
+1792539826.347180	produtor-0	enfileirar	{"id": 40, "fila": 21}
+1792539826.347184	produtor-0	enfileirar	{"id": 42, "fila": 22}
+1792539826.347188	produtor-0	enfileirar	{"id": 44, "fila": 23}
+1792539826.347194	produtor-0	enfileirar	{"id": 46, "fila": 24}
+1792539826.347198	produtor-0	enfileirar	{"id": 48, "fila": 25}
+1792539826.347201	produtor-0	enfileirar	{"id": 50, "fila": 26}
+1792539826.347205	produtor-0	enfileirar	{"id": 52, "fila": 27}
+1792539826.347209	produtor-0	enfileirar	{"id": 54, "fila": 28}
+1792539826.347213	produtor-0	enfileirar	{"id": 56, "fila": 29}
+1792539826.347221	produtor-0	enfileirar	{"id": 58, "fila": 30}
+1792539826.347225	produtor-0	enfileirar	{"id": 60, "fila": 31}
+1792539826.347229	produtor-0	enfileirar	{"id": 62, "fila": 32}
+1792539826.347234	produtor-0	enfileirar	{"id": 64, "fila": 33}
+1792539826.347237	produtor-0	enfileirar	{"id": 66, "fila": 34}
+1792539826.347241	produtor-0	enfileirar	{"id": 68, "fila": 35}
+1792539826.347245	produtor-0	enfileirar	{"id": 70, "fila": 36}
+1792539826.347249	produtor-0	enfileirar	{"id": 72, "fila": 37}
+1792539826.347252	produtor-0	enfileirar	{"id": 74, "fila": 38}
+1792539826.347256	produtor-0	enfileirar	{"id": 76, "fila": 39}
+1792539826.347260	produtor-0	enfileirar	{"id": 78, "fila": 40}
+1792539826.347279	produtor-0	enfileirar	{"id": 80, "fila": 41}
+1792539826.347286	produtor-0	enfileirar	{"id": 82, "fila": 42}
+1792539826.347291	produtor-0	enfileirar	{"id": 84, "fila": 43}
+1792539826.347295	produtor-0	enfileirar	{"id": 86, "fila": 44}
+1792539826.347299	produtor-0	enfileirar	{"id": 88, "fila": 45}
+1792539826.347303	produtor-0	enfileirar	{"id": 90, "fila": 46}
+1792539826.347306	produtor-0	enfileirar	{"id": 92, "fila": 47}
+1792539826.347312	produtor-0	enfileirar	{"id": 94, "fila": 48}
+1792539826.347315	produtor-0	enfileirar	{"id": 96, "fila": 49}
+1792539826.347319	produtor-0	enfileirar	{"id": 98, "fila": 50}
+1792539826.347434	consumidor-0	consulta	{"id": 0, "worker": 0, "espera_ms": 0.42}
+1792539826.347445	consumidor-0	cache_erro	{"id": 0}
+1792539826.347502	consumidor-1	consulta	{"id": 2, "worker": 1, "espera_ms": 0.41}
+1792539826.347522	consumidor-1	cache_erro	{"id": 2}
+1792539826.347561	produtor-0	enfileirar	{"id": 100, "fila": 49}
+1792539826.347575	produtor-0	enfileirar	{"id": 102, "fila": 50}
+1792539826.371453	consumidor-1	recuperacao	{"id": 2, "trechos": 5, "bytes": 1364, "tokens_aprox": 141, "ms": 23.91}
+1792539826.373378	consumidor-0	recuperacao	{"id": 0, "trechos": 5, "bytes": 1188, "tokens_aprox": 121, "ms": 25.91}
+1792539826.393498	consumidor-1	geracao	{"id": 2, "ms": 22.02, "resumo": "[7d4907d0] 5 trechos: termo71 termo2414 termo1607 "}
+1792539826.393586	consumidor-1	consulta	{"id": 4, "worker": 1, "espera_ms": 46.45}
+1792539826.393599	consumidor-1	cache_erro	{"id": 4}
+1792539826.393776	produtor-0	enfileirar	{"id": 104, "fila": 50}
+1792539826.394851	consumidor-0	geracao	{"id": 0, "ms": 21.48, "resumo": "[c850dbe8] 5 trechos: termo3818 termo997..."}
+1792539826.394947	consumidor-0	consulta	{"id": 6, "worker": 0, "espera_ms": 47.83}
+1792539826.394987	consumidor-0	cache_erro	{"id": 6}
+1792539826.395228	produtor-1	enfileirar	{"id": 1, "fila": 50}
+1792539826.403447	consumidor-1	recuperacao	{"id": 4, "trechos": 5, "bytes": 1316, "tokens_aprox": 134, "ms": 9.83}
+1792539826.406824	consumidor-0	recuperacao	{"id": 6, "trechos": 5, "bytes": 895, "tokens_aprox": 92, "ms": 11.81}
+1792539826.425915	consumidor-1	geracao	{"id": 4, "ms": 22.47, "resumo": "[d683e0c5] 5 trechos: termo4456 termo4924 termo203"}
+1792539826.426018	consumidor-1	consulta	{"id": 8, "worker": 1, "espera_ms": 78.9}
+1792539826.426030	consumidor-1	cache_erro	{"id": 8}
+1792539826.426281	produtor-0	enfileirar	{"id": 106, "fila": 50}
+1792539826.427983	consumidor-0	geracao	{"id": 6, "ms": 21.16, "resumo": "[adfc371d] 5 trechos: termo4962..."}
+1792539826.428050	consumidor-0	consulta	{"id": 10, "worker": 0, "espera_ms": 80.92}
+1792539826.428061	consumidor-0	cache_erro	{"id": 10}
+1792539826.428228	produtor-1	enfileirar	{"id": 3, "fila": 50}
+1792539826.435017	consumidor-1	recuperacao	{"id": 8, "trechos": 5, "bytes": 65, "tokens_aprox": 7, "ms": 8.97}
+1792539826.437189	consumidor-0	recuperacao	{"id": 10, "trechos": 5, "bytes": 794, "tokens_aprox": 83, "ms": 9.11}
+1792539826.455334	consumidor-1	geracao	{"id": 8, "ms": 20.23, "resumo": "[6dcb30f2] 5 trechos: termo4230..."}
+1792539826.455413	consumidor-1	consulta	{"id": 12, "worker": 1, "espera_ms": 108.28}
+1792539826.455425	consumidor-1	cache_erro	{"id": 12}
+1792539826.455621	produtor-0	enfileirar	{"id": 108, "fila": 50}
+1792539826.458172	consumidor-0	geracao	{"id": 10, "ms": 20.99, "resumo": "[a34de6d4] 5 trechos: termo865..."}
+1792539826.458247	consumidor-0	consulta	{"id": 14, "worker": 0, "espera_ms": 111.1}
+1792539826.458259	consumidor-0	cache_erro	{"id": 14}
+1792539826.458423	produtor-1	enfileirar	{"id": 5, "fila": 50}
+1792539826.464617	consumidor-1	recuperacao	{"id": 12, "trechos": 5, "bytes": 809, "tokens_aprox": 84, "ms": 9.18}
+1792539826.467737	consumidor-0	recuperacao	{"id": 14, "trechos": 5, "bytes": 432, "tokens_aprox": 44, "ms": 9.46}
+1792539826.485626	consumidor-1	geracao	{"id": 12, "ms": 21.01, "resumo": "[d9b099a9] 5 trechos: termo1967..."}
+1792539826.485703	consumidor-1	consulta	{"id": 16, "worker": 1, "espera_ms": 138.57}
+1792539826.485714	consumidor-1	cache_erro	{"id": 16}
+1792539826.485893	produtor-0	enfileirar	{"id": 110, "fila": 50}
+1792539826.488360	consumidor-0	geracao	{"id": 14, "ms": 20.62, "resumo": "[0e6e4c3b] 5 trechos: termo4762..."}
+1792539826.488410	consumidor-0	consulta	{"id": 18, "worker": 0, "espera_ms": 141.27}
+1792539826.488420	consumidor-0	cache_erro	{"id": 18}
+1792539826.488687	produtor-1	enfileirar	{"id": 7, "fila": 50}
+1792539826.495274	consumidor-1	recuperacao	{"id": 16, "trechos": 5, "bytes": 85, "tokens_aprox": 9, "ms": 9.55}
+1792539826.497300	consumidor-0	recuperacao	{"id": 18, "trechos": 5, "bytes": 1369, "tokens_aprox": 140, "ms": 8.86}
+1792539826.515604	consumidor-1	geracao	{"id": 16, "ms": 20.33, "resumo": "[5d6660cd] 5 trechos: termo2593..."}
+1792539826.515679	consumidor-1	consulta	{"id": 20, "worker": 1, "espera_ms": 168.53}
+1792539826.515690	consumidor-1	cache_erro	{"id": 20}
+1792539826.515858	produtor-0	enfileirar	{"id": 112, "fila": 50}
+1792539826.518927	consumidor-0	geracao	{"id": 18, "ms": 21.63, "resumo": "[d61d1ad3] 5 trechos: termo2290..."}
+1792539826.518989	consumidor-0	consulta	{"id": 22, "worker": 0, "espera_ms": 171.84}
+1792539826.519000	consumidor-0	cache_erro	{"id": 22}
+1792539826.519159	produtor-1	enfileirar	{"id": 9, "fila": 50}
+1792539826.525027	consumidor-1	recuperacao	{"id": 20, "trechos": 5, "bytes": 1311, "tokens_aprox": 135, "ms": 9.32}
+1792539826.528138	consumidor-0	recuperacao	{"id": 22, "trechos": 5, "bytes": 163, "tokens_aprox": 17, "ms": 9.13}
+1792539826.546609	consumidor-1	geracao	{"id": 20, "ms": 21.58, "resumo": "[a686157b] 5 trechos: termo1787 termo4232 termo188"}
+1792539826.546716	consumidor-1	consulta	{"id": 24, "worker": 1, "espera_ms": 199.56}
+1792539826.546728	consumidor-1	cache_erro	{"id": 24}
+1792539826.547044	produtor-0	enfileirar	{"id": 114, "fila": 50}
+1792539826.548505	consumidor-0	geracao	{"id": 22, "ms": 20.37, "resumo": "[9f0ff305] 5 trechos: termo840..."}
+1792539826.548553	consumidor-0	consulta	{"id": 26, "worker": 0, "espera_ms": 201.4}
+1792539826.548564	consumidor-0	cache_erro	{"id": 26}
+1792539826.548811	produtor-1	enfileirar	{"id": 11, "fila": 50}
+1792539826.556183	consumidor-1	recuperacao	{"id": 24, "trechos": 5, "bytes": 1188, "tokens_aprox": 122, "ms": 9.44}
+1792539826.558506	consumidor-0	recuperacao	{"id": 26, "trechos": 5, "bytes": 566, "tokens_aprox": 58, "ms": 9.92}
+1792539826.577657	consumidor-1	geracao	{"id": 24, "ms": 21.47, "resumo": "[4073cf64] 5 trechos: termo3028..."}
+1792539826.577747	consumidor-1	consulta	{"id": 28, "worker": 1, "espera_ms": 230.59}
+1792539826.577760	consumidor-1	cache_erro	{"id": 28}
+1792539826.577929	produtor-0	enfileirar	{"id": 116, "fila": 50}
+1792539826.579229	consumidor-0	geracao	{"id": 26, "ms": 20.73, "resumo": "[8e346c83] 5 trechos: termo2582..."}
+1792539826.579293	consumidor-0	consulta	{"id": 30, "worker": 0, "espera_ms": 232.13}
+1792539826.579304	consumidor-0	cache_erro	{"id": 30}
+1792539826.579474	produtor-1	enfileirar	{"id": 13, "fila": 50}
+1792539826.587094	consumidor-1	recuperacao	{"id": 28, "trechos": 5, "bytes": 1951, "tokens_aprox": 200, "ms": 9.31}
+1792539826.590854	consumidor-0	recuperacao	{"id": 30, "trechos": 5, "bytes": 456, "tokens_aprox": 47, "ms": 11.53}
+1792539826.609404	consumidor-1	geracao	{"id": 28, "ms": 22.31, "resumo": "[d5f7bfed] 5 trechos: termo2645 termo3729 termo201"}
+1792539826.609486	consumidor-1	consulta	{"id": 32, "worker": 1, "espera_ms": 262.32}
+1792539826.609498	consumidor-1	cache_erro	{"id": 32}
+1792539826.609758	produtor-0	enfileirar	{"id": 118, "fila": 50}
+1792539826.611883	consumidor-0	geracao	{"id": 30, "ms": 21.04, "resumo": "[8827b09f] 5 trechos: termo2851..."}
+1792539826.611944	consumidor-0	consulta	{"id": 34, "worker": 0, "espera_ms": 264.77}
+1792539826.611955	consumidor-0	cache_erro	{"id": 34}
+1792539826.612112	produtor-1	enfileirar	{"id": 15, "fila": 50}
+1792539826.618221	consumidor-1	recuperacao	{"id": 32, "trechos": 5, "bytes": 1209, "tokens_aprox": 124, "ms": 8.71}
+1792539826.620570	consumidor-0	recuperacao	{"id": 34, "trechos": 5, "bytes": 1892, "tokens_aprox": 194, "ms": 8.59}
+1792539826.639711	consumidor-1	geracao	{"id": 32, "ms": 21.49, "resumo": "[46ad570b] 5 trechos: termo3915 termo573 termo1862"}
+1792539826.639797	consumidor-1	consulta	{"id": 36, "worker": 1, "espera_ms": 292.62}
+1792539826.639809	consumidor-1	cache_erro	{"id": 36}
+1792539826.639984	produtor-0	enfileirar	{"id": 120, "fila": 50}
+1792539826.642773	consumidor-0	geracao	{"id": 34, "ms": 22.21, "resumo": "[833d0073] 5 trechos: termo3350 termo1916 termo416"}
+1792539826.642830	consumidor-0	consulta	{"id": 38, "worker": 0, "espera_ms": 295.65}
+1792539826.642841	consumidor-0	cache_erro	{"id": 38}
+1792539826.642990	produtor-1	enfileirar	{"id": 17, "fila": 50}
+1792539826.649605	consumidor-1	recuperacao	{"id": 36, "trechos": 5, "bytes": 1323, "tokens_aprox": 135, "ms": 9.78}
+1792539826.652200	consumidor-0	recuperacao	{"id": 38, "trechos": 5, "bytes": 321, "tokens_aprox": 34, "ms": 9.35}
+1792539826.671183	consumidor-1	geracao	{"id": 36, "ms": 21.58, "resumo": "[3c3456e6] 5 trechos: termo3241 termo3980 termo290"}
+1792539826.671269	consumidor-1	consulta	{"id": 40, "worker": 1, "espera_ms": 324.08}
+1792539826.671280	consumidor-1	cache_erro	{"id": 40}
+1792539826.671469	produtor-0	enfileirar	{"id": 122, "fila": 50}
+1792539826.672725	consumidor-0	geracao	{"id": 38, "ms": 20.52, "resumo": "[fad51e74] 5 trechos: termo2387 termo4337 termo316"}
+1792539826.672798	consumidor-0	consulta	{"id": 42, "worker": 0, "espera_ms": 325.61}
+1792539826.672810	consumidor-0	cache_erro	{"id": 42}
+1792539826.673284	produtor-1	enfileirar	{"id": 19, "fila": 50}
+1792539826.680483	consumidor-1	recuperacao	{"id": 40, "trechos": 5, "bytes": 1101, "tokens_aprox": 113, "ms": 9.18}
+1792539826.682893	consumidor-0	recuperacao	{"id": 42, "trechos": 5, "bytes": 144, "tokens_aprox": 15, "ms": 10.07}
+1792539826.701950	consumidor-1	geracao	{"id": 40, "ms": 21.47, "resumo": "[fa063cf1] 5 trechos: termo3940 termo1027 termo123"}
+1792539826.702035	consumidor-1	consulta	{"id": 44, "worker": 1, "espera_ms": 354.84}
+1792539826.702046	consumidor-1	cache_erro	{"id": 44}
+1792539826.702246	produtor-0	enfileirar	{"id": 124, "fila": 50}
+1792539826.703188	consumidor-0	geracao	{"id": 42, "ms": 20.29, "resumo": "[0b261a55] 5 trechos: termo3935..."}
+1792539826.703249	consumidor-0	consulta	{"id": 46, "worker": 0, "espera_ms": 356.05}
+1792539826.703259	consumidor-0	cache_erro	{"id": 46}
+1792539826.703434	produtor-1	enfileirar	{"id": 21, "fila": 50}
+1792539826.711225	consumidor-1	recuperacao	{"id": 44, "trechos": 5, "bytes": 587, "tokens_aprox": 60, "ms": 9.16}
+1792539826.712827	consumidor-0	recuperacao	{"id": 46, "trechos": 5, "bytes": 1879, "tokens_aprox": 192, "ms": 9.55}
+1792539826.732217	consumidor-1	geracao	{"id": 44, "ms": 20.99, "resumo": "[41ba6c7f] 5 trechos: termo4940..."}
+1792539826.732304	consumidor-1	consulta	{"id": 48, "worker": 1, "espera_ms": 385.1}
+1792539826.732315	consumidor-1	cache_erro	{"id": 48}
+1792539826.732491	produtor-0	enfileirar	{"id": 126, "fila": 50}
+1792539826.734976	consumidor-0	geracao	{"id": 46, "ms": 22.14, "resumo": "[4f45b768] 5 trechos: termo645 termo753 termo3712 "}
+1792539826.735065	consumidor-0	consulta	{"id": 50, "worker": 0, "espera_ms": 387.86}
+1792539826.735076	consumidor-0	cache_erro	{"id": 50}
+1792539826.735261	produtor-1	enfileirar	{"id": 23, "fila": 50}
+1792539826.741845	consumidor-1	recuperacao	{"id": 48, "trechos": 5, "bytes": 804, "tokens_aprox": 83, "ms": 9.51}
+1792539826.744283	consumidor-0	recuperacao	{"id": 50, "trechos": 5, "bytes": 825, "tokens_aprox": 84, "ms": 9.19}
+1792539826.762870	consumidor-1	geracao	{"id": 48, "ms": 21.02, "resumo": "[02a0125e] 5 trechos: termo4848..."}
+1792539826.762951	consumidor-1	consulta	{"id": 52, "worker": 1, "espera_ms": 415.74}
+1792539826.762962	consumidor-1	cache_erro	{"id": 52}
+1792539826.763146	produtor-0	enfileirar	{"id": 128, "fila": 50}
+1792539826.765302	consumidor-0	geracao	{"id": 50, "ms": 21.02, "resumo": "[f539d7de] 5 trechos: termo1231..."}
+1792539826.765371	consumidor-0	consulta	{"id": 54, "worker": 0, "espera_ms": 418.16}
+1792539826.765382	consumidor-0	cache_erro	{"id": 54}
+1792539826.765543	produtor-1	enfileirar	{"id": 25, "fila": 50}
+1792539826.772339	consumidor-1	recuperacao	{"id": 52, "trechos": 5, "bytes": 838, "tokens_aprox": 86, "ms": 9.36}
+1792539826.775030	consumidor-0	recuperacao	{"id": 54, "trechos": 5, "bytes": 455, "tokens_aprox": 47, "ms": 9.63}
+1792539826.793598	consumidor-1	geracao	{"id": 52, "ms": 21.26, "resumo": "[315a658b] 5 trechos: termo4766 termo2466 termo452"}
+1792539826.793668	consumidor-1	consulta	{"id": 56, "worker": 1, "espera_ms": 446.45}
+1792539826.793678	consumidor-1	cache_erro	{"id": 56}
+1792539826.793907	produtor-0	enfileirar	{"id": 130, "fila": 50}
+1792539826.795718	consumidor-0	geracao	{"id": 54, "ms": 20.69, "resumo": "[0844c189] 5 trechos: termo1454..."}
+1792539826.795774	consumidor-0	consulta	{"id": 58, "worker": 0, "espera_ms": 448.55}
+1792539826.795784	consumidor-0	cache_erro	{"id": 58}
+1792539826.795979	produtor-1	enfileirar	{"id": 27, "fila": 50}
+1792539826.802865	consumidor-1	recuperacao	{"id": 56, "trechos": 5, "bytes": 460, "tokens_aprox": 47, "ms": 9.17}
+1792539826.805636	consumidor-0	recuperacao	{"id": 58, "trechos": 5, "bytes": 824, "tokens_aprox": 85, "ms": 9.84}
+1792539826.823626	consumidor-1	geracao	{"id": 56, "ms": 20.77, "resumo": "[d6d32c7d] 5 trechos: termo1995 termo4924..."}
+1792539826.823752	consumidor-1	consulta	{"id": 60, "worker": 1, "espera_ms": 476.52}
+1792539826.823767	consumidor-1	cache_erro	{"id": 60}
+1792539826.823940	produtor-0	enfileirar	{"id": 132, "fila": 50}
+1792539826.826905	consumidor-0	geracao	{"id": 58, "ms": 21.27, "resumo": "[17f7751d] 5 trechos: termo2380 termo1632 termo290"}
+1792539826.826963	consumidor-0	consulta	{"id": 62, "worker": 0, "espera_ms": 479.73}
+1792539826.826974	consumidor-0	cache_erro	{"id": 62}
+1792539826.827065	produtor-1	enfileirar	{"id": 29, "fila": 50}
+1792539826.832341	consumidor-1	recuperacao	{"id": 60, "trechos": 5, "bytes": 1556, "tokens_aprox": 161, "ms": 8.56}
+1792539826.836086	consumidor-0	recuperacao	{"id": 62, "trechos": 5, "bytes": 435, "tokens_aprox": 45, "ms": 9.1}
+1792539826.854238	consumidor-1	geracao	{"id": 60, "ms": 21.9, "resumo": "[4fa17114] 5 trechos: termo4249 termo3530 termo242"}
+1792539826.854318	consumidor-1	consulta	{"id": 64, "worker": 1, "espera_ms": 507.08}
+1792539826.854329	consumidor-1	cache_erro	{"id": 64}
+1792539826.854534	produtor-0	enfileirar	{"id": 134, "fila": 50}
+1792539826.856775	consumidor-0	geracao	{"id": 62, "ms": 20.69, "resumo": "[9efda37f] 5 trechos: termo2853..."}
+1792539826.856829	consumidor-0	consulta	{"id": 66, "worker": 0, "espera_ms": 509.59}
+1792539826.856850	consumidor-0	cache_erro	{"id": 66}
+1792539826.857051	produtor-1	enfileirar	{"id": 31, "fila": 50}
+1792539826.863280	consumidor-1	recuperacao	{"id": 64, "trechos": 5, "bytes": 1207, "tokens_aprox": 125, "ms": 8.94}
+1792539826.865762	consumidor-0	recuperacao	{"id": 66, "trechos": 5, "bytes": 821, "tokens_aprox": 84, "ms": 8.9}
+1792539826.884844	consumidor-1	geracao	{"id": 64, "ms": 21.56, "resumo": "[3d8f3aa5] 5 trechos: termo37..."}
+1792539826.884911	consumidor-1	consulta	{"id": 68, "worker": 1, "espera_ms": 537.67}
+1792539826.884922	consumidor-1	cache_erro	{"id": 68}
+1792539826.885063	produtor-0	enfileirar	{"id": 136, "fila": 50}
+1792539826.886904	consumidor-0	geracao	{"id": 66, "ms": 21.14, "resumo": "[39fbbc7a] 5 trechos: termo1125..."}
+1792539826.886959	consumidor-0	consulta	{"id": 70, "worker": 0, "espera_ms": 539.71}
+1792539826.886970	consumidor-0	cache_erro	{"id": 70}
+1792539826.887158	produtor-1	enfileirar	{"id": 33, "fila": 50}
+1792539826.893798	consumidor-1	recuperacao	{"id": 68, "trechos": 5, "bytes": 44, "tokens_aprox": 5, "ms": 8.86}
+1792539826.895406	consumidor-0	recuperacao	{"id": 70, "trechos": 5, "bytes": 992, "tokens_aprox": 102, "ms": 8.42}
+1792539826.914019	consumidor-1	geracao	{"id": 68, "ms": 20.21, "resumo": "[eb804fa8] 5 trechos: termo4244..."}
+1792539826.914108	consumidor-1	consulta	{"id": 72, "worker": 1, "espera_ms": 566.86}
+1792539826.914119	consumidor-1	cache_erro	{"id": 72}
+1792539826.914319	produtor-0	enfileirar	{"id": 138, "fila": 50}
+1792539826.916682	consumidor-0	geracao	{"id": 70, "ms": 21.28, "resumo": "[1e36feaf] 5 trechos: termo4800..."}
+1792539826.916732	consumidor-0	consulta	{"id": 74, "worker": 0, "espera_ms": 569.48}
+1792539826.916747	consumidor-0	cache_erro	{"id": 74}
+1792539826.916970	produtor-1	enfileirar	{"id": 35, "fila": 50}
+1792539826.922978	consumidor-1	recuperacao	{"id": 72, "trechos": 5, "bytes": 45, "tokens_aprox": 5, "ms": 8.85}
+1792539826.925192	consumidor-0	recuperacao	{"id": 74, "trechos": 5, "bytes": 813, "tokens_aprox": 85, "ms": 8.43}
+1792539826.943264	consumidor-1	geracao	{"id": 72, "ms": 20.28, "resumo": "[a09e59a6] 5 trechos: termo4039..."}
+1792539826.943341	consumidor-1	consulta	{"id": 76, "worker": 1, "espera_ms": 596.08}
+1792539826.943352	consumidor-1	cache_erro	{"id": 76}
+1792539826.943525	produtor-0	enfileirar	{"id": 140, "fila": 50}
+1792539826.946286	consumidor-0	geracao	{"id": 74, "ms": 21.09, "resumo": "[8a030292] 5 trechos: termo3502..."}
+1792539826.946352	consumidor-0	consulta	{"id": 78, "worker": 0, "espera_ms": 599.09}
+1792539826.946363	consumidor-0	cache_erro	{"id": 78}
+1792539826.946494	produtor-1	enfileirar	{"id": 37, "fila": 50}
+1792539826.952242	consumidor-1	recuperacao	{"id": 76, "trechos": 5, "bytes": 1300, "tokens_aprox": 134, "ms": 8.87}
+1792539826.954974	consumidor-0	recuperacao	{"id": 78, "trechos": 5, "bytes": 1588, "tokens_aprox": 161, "ms": 8.6}
+1792539826.973790	consumidor-1	geracao	{"id": 76, "ms": 21.55, "resumo": "[4efbf057] 5 trechos: termo2041..."}
+1792539826.973879	consumidor-1	consulta	{"id": 80, "worker": 1, "espera_ms": 626.6}
+1792539826.973890	consumidor-1	cache_erro	{"id": 80}
+1792539826.974073	produtor-0	enfileirar	{"id": 142, "fila": 50}
+1792539826.976792	consumidor-0	geracao	{"id": 78, "ms": 21.82, "resumo": "[e2bdc630] 5 trechos: termo3028..."}
+1792539826.976854	consumidor-0	consulta	{"id": 82, "worker": 0, "espera_ms": 629.57}
+1792539826.976865	consumidor-0	cache_erro	{"id": 82}
+1792539826.977027	produtor-1	enfileirar	{"id": 39, "fila": 50}
+1792539826.982998	consumidor-1	recuperacao	{"id": 80, "trechos": 5, "bytes": 1073, "tokens_aprox": 110, "ms": 9.09}
+1792539826.985258	consumidor-0	recuperacao	{"id": 82, "trechos": 5, "bytes": 1181, "tokens_aprox": 122, "ms": 8.38}
+1792539827.004291	consumidor-1	geracao	{"id": 80, "ms": 21.29, "resumo": "[688ef6c7] 5 trechos: termo3845 termo2508..."}
+1792539827.004364	consumidor-1	consulta	{"id": 84, "worker": 1, "espera_ms": 657.07}
+1792539827.004374	consumidor-1	cache_erro	{"id": 84}
+1792539827.004590	produtor-0	enfileirar	{"id": 144, "fila": 50}
+1792539827.006634	consumidor-0	geracao	{"id": 82, "ms": 21.37, "resumo": "[eff26d97] 5 trechos: termo3805..."}
+1792539827.006702	consumidor-0	consulta	{"id": 86, "worker": 0, "espera_ms": 659.4}
+1792539827.006713	consumidor-0	cache_erro	{"id": 86}
+1792539827.006784	produtor-1	enfileirar	{"id": 41, "fila": 50}
+1792539827.013464	consumidor-1	recuperacao	{"id": 84, "trechos": 5, "bytes": 942, "tokens_aprox": 97, "ms": 9.07}
+1792539827.015766	consumidor-0	recuperacao	{"id": 86, "trechos": 5, "bytes": 1627, "tokens_aprox": 167, "ms": 9.04}
+1792539827.034596	consumidor-1	geracao	{"id": 84, "ms": 21.13, "resumo": "[bfd70de5] 5 trechos: termo3859 termo1523 termo391"}
+1792539827.034677	consumidor-1	consulta	{"id": 88, "worker": 1, "espera_ms": 687.37}
+1792539827.034688	consumidor-1	cache_erro	{"id": 88}
+1792539827.034895	produtor-0	enfileirar	{"id": 146, "fila": 50}
+1792539827.037640	consumidor-0	geracao	{"id": 86, "ms": 21.87, "resumo": "[c73a5a84] 5 trechos: termo4539 termo3863 termo437"}
+1792539827.037716	consumidor-0	consulta	{"id": 90, "worker": 0, "espera_ms": 690.41}
+1792539827.037727	consumidor-0	cache_erro	{"id": 90}
+1792539827.037879	produtor-1	enfileirar	{"id": 43, "fila": 50}
+1792539827.043839	consumidor-1	recuperacao	{"id": 88, "trechos": 5, "bytes": 1569, "tokens_aprox": 161, "ms": 9.12}
+1792539827.046607	consumidor-0	recuperacao	{"id": 90, "trechos": 5, "bytes": 738, "tokens_aprox": 76, "ms": 8.86}
+1792539827.065798	consumidor-1	geracao	{"id": 88, "ms": 21.97, "resumo": "[77ec94c8] 5 trechos: termo1797 termo4747 termo535"}
+1792539827.065873	consumidor-1	consulta	{"id": 92, "worker": 1, "espera_ms": 718.56}
+1792539827.065884	consumidor-1	cache_erro	{"id": 92}
+1792539827.066037	produtor-0	enfileirar	{"id": 148, "fila": 50}
+1792539827.067722	consumidor-0	geracao	{"id": 90, "ms": 21.12, "resumo": "[21676e2f] 5 trechos: termo2034..."}
+1792539827.067785	consumidor-0	consulta	{"id": 94, "worker": 0, "espera_ms": 720.47}
+1792539827.067808	consumidor-0	cache_erro	{"id": 94}
+1792539827.068004	produtor-1	enfileirar	{"id": 45, "fila": 50}
+1792539827.076629	consumidor-1	recuperacao	{"id": 92, "trechos": 5, "bytes": 1263, "tokens_aprox": 129, "ms": 10.72}
+1792539827.078444	consumidor-0	recuperacao	{"id": 94, "trechos": 5, "bytes": 468, "tokens_aprox": 48, "ms": 10.62}
+1792539827.098328	consumidor-1	geracao	{"id": 92, "ms": 21.71, "resumo": "[e49277c6] 5 trechos: termo3351 termo3202 termo218"}
+1792539827.098388	consumidor-1	consulta	{"id": 96, "worker": 1, "espera_ms": 751.07}
+1792539827.098398	consumidor-1	cache_erro	{"id": 96}
+1792539827.098601	produtor-0	enfileirar	{"id": 150, "fila": 50}
+1792539827.099317	consumidor-0	geracao	{"id": 94, "ms": 20.88, "resumo": "[eabcc65e] 5 trechos: termo2551..."}
+1792539827.099430	consumidor-0	consulta	{"id": 98, "worker": 0, "espera_ms": 752.11}
+1792539827.099442	consumidor-0	cache_erro	{"id": 98}
+1792539827.099613	produtor-1	enfileirar	{"id": 47, "fila": 50}
+1792539827.108045	consumidor-1	recuperacao	{"id": 96, "trechos": 5, "bytes": 74, "tokens_aprox": 8, "ms": 9.63}
+1792539827.108376	consumidor-0	recuperacao	{"id": 98, "trechos": 5, "bytes": 437, "tokens_aprox": 45, "ms": 8.92}
+1792539827.128263	consumidor-1	geracao	{"id": 96, "ms": 20.22, "resumo": "[cc446b4d] 5 trechos: termo1345..."}
+1792539827.128338	consumidor-1	consulta	{"id": 100, "worker": 1, "espera_ms": 781.01}
+1792539827.128348	consumidor-1	cache_erro	{"id": 100}
+1792539827.128541	produtor-0	enfileirar	{"id": 152, "fila": 50}
+1792539827.129168	consumidor-0	geracao	{"id": 98, "ms": 20.79, "resumo": "[de670db2] 5 trechos: termo3567..."}
+1792539827.129226	consumidor-0	consulta	{"id": 102, "worker": 0, "espera_ms": 781.65}
+1792539827.129237	consumidor-0	cache_erro	{"id": 102}
+1792539827.129404	produtor-1	enfileirar	{"id": 49, "fila": 50}
+1792539827.137645	consumidor-1	recuperacao	{"id": 100, "trechos": 5, "bytes": 309, "tokens_aprox": 32, "ms": 9.28}
+1792539827.139108	consumidor-0	recuperacao	{"id": 102, "trechos": 5, "bytes": 1264, "tokens_aprox": 130, "ms": 9.86}
+1792539827.158146	consumidor-1	geracao	{"id": 100, "ms": 20.51, "resumo": "[428e38bc] 5 trechos: termo4218..."}
+1792539827.158205	consumidor-1	consulta	{"id": 104, "worker": 1, "espera_ms": 810.62}
+1792539827.158216	consumidor-1	cache_erro	{"id": 104}
+1792539827.158412	produtor-0	enfileirar	{"id": 154, "fila": 50}
+1792539827.160803	consumidor-0	geracao	{"id": 102, "ms": 21.7, "resumo": "[cf7a30ec] 5 trechos: termo4865..."}
+1792539827.160862	consumidor-0	consulta	{"id": 1, "worker": 0, "espera_ms": 813.24}
+1792539827.160873	consumidor-0	cache_erro	{"id": 1}
+1792539827.161028	produtor-1	enfileirar	{"id": 51, "fila": 50}
+1792539827.167516	consumidor-1	recuperacao	{"id": 104, "trechos": 5, "bytes": 785, "tokens_aprox": 80, "ms": 9.27}
+1792539827.169882	consumidor-0	recuperacao	{"id": 1, "trechos": 5, "bytes": 1005, "tokens_aprox": 103, "ms": 8.99}
+1792539827.188659	consumidor-1	geracao	{"id": 104, "ms": 21.16, "resumo": "[da2966c9] 5 trechos: termo2560 termo3590..."}
+1792539827.188723	consumidor-1	consulta	{"id": 106, "worker": 1, "espera_ms": 794.91}
+1792539827.188733	consumidor-1	cache_erro	{"id": 106}
+1792539827.188950	produtor-0	enfileirar	{"id": 156, "fila": 50}
+1792539827.191088	consumidor-0	geracao	{"id": 1, "ms": 21.21, "resumo": "[f944cf83] 5 trechos: termo4314 termo4293 termo204"}
+1792539827.191146	consumidor-0	consulta	{"id": 3, "worker": 0, "espera_ms": 795.89}
+1792539827.191157	consumidor-0	cache_erro	{"id": 3}
+1792539827.191300	produtor-1	enfileirar	{"id": 53, "fila": 50}
+1792539827.197500	consumidor-1	recuperacao	{"id": 106, "trechos": 5, "bytes": 1248, "tokens_aprox": 128, "ms": 8.75}
+1792539827.200151	consumidor-0	recuperacao	{"id": 3, "trechos": 5, "bytes": 1107, "tokens_aprox": 114, "ms": 8.98}
+1792539827.219328	consumidor-1	geracao	{"id": 106, "ms": 21.83, "resumo": "[c9f1549d] 5 trechos: termo119 termo3519..."}
+1792539827.219437	consumidor-1	consulta	{"id": 108, "worker": 1, "espera_ms": 793.13}
+1792539827.219449	consumidor-1	cache_erro	{"id": 108}
+1792539827.219520	produtor-0	enfileirar	{"id": 158, "fila": 50}
+1792539827.221642	consumidor-0	geracao	{"id": 3, "ms": 21.5, "resumo": "[91d70517] 5 trechos: termo127 termo3588..."}
+1792539827.221683	consumidor-0	consulta	{"id": 5, "worker": 0, "espera_ms": 793.43}
+1792539827.221692	consumidor-0	cache_erro	{"id": 5}
+1792539827.221827	produtor-1	enfileirar	{"id": 55, "fila": 50}
+1792539827.229410	consumidor-1	recuperacao	{"id": 108, "trechos": 5, "bytes": 1956, "tokens_aprox": 200, "ms": 9.94}
+1792539827.232867	consumidor-0	recuperacao	{"id": 5, "trechos": 5, "bytes": 804, "tokens_aprox": 83, "ms": 11.16}
+1792539827.251778	consumidor-1	geracao	{"id": 108, "ms": 22.37, "resumo": "[04da7253] 5 trechos: termo4365 termo807 termo4734"}
+1792539827.251852	consumidor-1	consulta	{"id": 110, "worker": 1, "espera_ms": 796.2}
+1792539827.251863	consumidor-1	cache_erro	{"id": 110}
+1792539827.252024	produtor-0	enfileirar	{"id": 160, "fila": 50}
+1792539827.253885	consumidor-0	geracao	{"id": 5, "ms": 21.02, "resumo": "[07927f61] 5 trechos: termo1093..."}
+1792539827.253926	consumidor-0	consulta	{"id": 7, "worker": 0, "espera_ms": 795.48}
+1792539827.253935	consumidor-0	cache_erro	{"id": 7}
+1792539827.254068	produtor-1	enfileirar	{"id": 57, "fila": 50}
+1792539827.260839	consumidor-1	recuperacao	{"id": 110, "trechos": 5, "bytes": 1707, "tokens_aprox": 175, "ms": 8.96}
+1792539827.263566	consumidor-0	recuperacao	{"id": 7, "trechos": 5, "bytes": 328, "tokens_aprox": 34, "ms": 9.62}
+1792539827.282770	consumidor-1	geracao	{"id": 110, "ms": 21.93, "resumo": "[6f8c9937] 5 trechos: termo2588 termo4971 termo240"}
+1792539827.282834	consumidor-1	consulta	{"id": 112, "worker": 1, "espera_ms": 796.91}
+1792539827.282844	consumidor-1	cache_erro	{"id": 112}
+1792539827.283041	produtor-0	enfileirar	{"id": 162, "fila": 50}
+1792539827.284109	consumidor-0	geracao	{"id": 7, "ms": 20.54, "resumo": "[ef0c6a2d] 5 trechos: termo604..."}
+1792539827.284163	consumidor-0	consulta	{"id": 9, "worker": 0, "espera_ms": 795.45}
+1792539827.284173	consumidor-0	cache_erro	{"id": 9}
+1792539827.284294	produtor-1	enfileirar	{"id": 59, "fila": 50}
+1792539827.293052	consumidor-0	recuperacao	{"id": 9, "trechos": 5, "bytes": 1326, "tokens_aprox": 136, "ms": 8.86}
+1792539827.294924	consumidor-1	recuperacao	{"id": 112, "trechos": 5, "bytes": 816, "tokens_aprox": 84, "ms": 12.02}
+1792539827.314910	consumidor-0	geracao	{"id": 9, "ms": 21.86, "resumo": "[8858a395] 5 trechos: termo2820 termo2093 termo153"}
+1792539827.314987	consumidor-0	consulta	{"id": 114, "worker": 0, "espera_ms": 799.09}
+1792539827.314998	consumidor-0	cache_erro	{"id": 114}
+1792539827.315187	produtor-0	enfileirar	{"id": 164, "fila": 50}
+1792539827.317249	consumidor-1	geracao	{"id": 112, "ms": 22.37, "resumo": "[e187d597] 5 trechos: termo725..."}
+1792539827.317319	consumidor-1	consulta	{"id": 11, "worker": 1, "espera_ms": 798.06}
+1792539827.317339	consumidor-1	cache_erro	{"id": 11}
+1792539827.317548	produtor-1	enfileirar	{"id": 61, "fila": 50}
+1792539827.324182	consumidor-0	recuperacao	{"id": 114, "trechos": 5, "bytes": 439, "tokens_aprox": 46, "ms": 9.17}
+1792539827.326840	consumidor-1	recuperacao	{"id": 11, "trechos": 5, "bytes": 1398, "tokens_aprox": 143, "ms": 9.48}
+1792539827.344848	consumidor-0	geracao	{"id": 114, "ms": 20.67, "resumo": "[e502a7c3] 5 trechos: termo1367 termo422..."}
+1792539827.344929	consumidor-0	consulta	{"id": 116, "worker": 0, "espera_ms": 797.85}
+1792539827.344939	consumidor-0	cache_erro	{"id": 116}
+1792539827.345116	produtor-0	enfileirar	{"id": 166, "fila": 50}
+1792539827.348555	consumidor-1	geracao	{"id": 11, "ms": 21.72, "resumo": "[8bcdca7d] 5 trechos: termo3974 termo2149 termo457"}
+1792539827.348615	consumidor-1	consulta	{"id": 13, "worker": 1, "espera_ms": 799.77}
+1792539827.348626	consumidor-1	cache_erro	{"id": 13}
+1792539827.348802	produtor-1	enfileirar	{"id": 63, "fila": 50}
+1792539827.353572	consumidor-0	recuperacao	{"id": 116, "trechos": 5, "bytes": 424, "tokens_aprox": 44, "ms": 8.6}
+1792539827.357134	consumidor-1	recuperacao	{"id": 13, "trechos": 5, "bytes": 1177, "tokens_aprox": 121, "ms": 8.49}
+1792539827.374177	consumidor-0	geracao	{"id": 116, "ms": 20.62, "resumo": "[18c9a86b] 5 trechos: termo4675..."}
+1792539827.374265	consumidor-0	consulta	{"id": 118, "worker": 0, "espera_ms": 796.3}
+1792539827.374276	consumidor-0	cache_erro	{"id": 118}
+1792539827.374499	produtor-0	enfileirar	{"id": 168, "fila": 50}
+1792539827.378531	consumidor-1	geracao	{"id": 13, "ms": 21.39, "resumo": "[c5e02e58] 5 trechos: termo3128 termo1427 termo478"}
+1792539827.378652	consumidor-1	consulta	{"id": 15, "worker": 1, "espera_ms": 799.15}
+1792539827.378673	consumidor-1	cache_erro	{"id": 15}
+1792539827.378935	produtor-1	enfileirar	{"id": 65, "fila": 50}
+1792539827.383277	consumidor-0	recuperacao	{"id": 118, "trechos": 5, "bytes": 1008, "tokens_aprox": 104, "ms": 8.98}
+1792539827.387609	consumidor-1	recuperacao	{"id": 15, "trechos": 5, "bytes": 856, "tokens_aprox": 89, "ms": 8.91}
+1792539827.404593	consumidor-0	geracao	{"id": 118, "ms": 21.32, "resumo": "[9bde79cf] 5 trechos: termo4400..."}
+1792539827.404667	consumidor-0	consulta	{"id": 120, "worker": 0, "espera_ms": 794.86}
+1792539827.404678	consumidor-0	cache_erro	{"id": 120}
+1792539827.404839	produtor-0	enfileirar	{"id": 170, "fila": 50}
+1792539827.408825	consumidor-1	geracao	{"id": 15, "ms": 21.22, "resumo": "[f7263a66] 5 trechos: termo28..."}
+1792539827.408917	consumidor-1	consulta	{"id": 17, "worker": 1, "espera_ms": 796.78}
+1792539827.408928	consumidor-1	cache_erro	{"id": 17}
+1792539827.409130	produtor-1	enfileirar	{"id": 67, "fila": 50}
+1792539827.413522	consumidor-0	recuperacao	{"id": 120, "trechos": 5, "bytes": 502, "tokens_aprox": 52, "ms": 8.82}
+1792539827.417697	consumidor-1	recuperacao	{"id": 17, "trechos": 5, "bytes": 1428, "tokens_aprox": 146, "ms": 8.75}
+1792539827.434327	consumidor-0	geracao	{"id": 120, "ms": 20.81, "resumo": "[17619634] 5 trechos: termo4743 termo456..."}
+1792539827.434389	consumidor-0	consulta	{"id": 122, "worker": 0, "espera_ms": 794.37}
+1792539827.434402	consumidor-0	cache_erro	{"id": 122}
+1792539827.434557	produtor-0	enfileirar	{"id": 172, "fila": 50}
+1792539827.439479	consumidor-1	geracao	{"id": 17, "ms": 21.78, "resumo": "[093401e8] 5 trechos: termo3544 termo2885 termo178"}
+1792539827.439558	consumidor-1	consulta	{"id": 19, "worker": 1, "espera_ms": 796.53}
+1792539827.439753	consumidor-1	cache_erro	{"id": 19}
+1792539827.439960	produtor-1	enfileirar	{"id": 69, "fila": 50}
+1792539827.442897	consumidor-0	recuperacao	{"id": 122, "trechos": 5, "bytes": 937, "tokens_aprox": 96, "ms": 8.48}
+1792539827.448179	consumidor-1	recuperacao	{"id": 19, "trechos": 5, "bytes": 931, "tokens_aprox": 95, "ms": 8.41}
+1792539827.464113	consumidor-0	geracao	{"id": 122, "ms": 21.22, "resumo": "[fe136d81] 5 trechos: termo1975..."}
+1792539827.464220	consumidor-0	consulta	{"id": 124, "worker": 0, "espera_ms": 792.72}
+1792539827.464265	consumidor-0	cache_erro	{"id": 124}
+1792539827.464424	produtor-0	enfileirar	{"id": 174, "fila": 50}
+1792539827.469339	consumidor-1	geracao	{"id": 19, "ms": 21.16, "resumo": "[e1cd5764] 5 trechos: termo3985..."}
+1792539827.469424	consumidor-1	consulta	{"id": 21, "worker": 1, "espera_ms": 796.11}
+1792539827.469446	consumidor-1	cache_erro	{"id": 21}
+1792539827.469678	produtor-1	enfileirar	{"id": 71, "fila": 50}
+1792539827.473200	consumidor-0	recuperacao	{"id": 124, "trechos": 5, "bytes": 1037, "tokens_aprox": 107, "ms": 8.91}
+1792539827.478553	consumidor-1	recuperacao	{"id": 21, "trechos": 5, "bytes": 668, "tokens_aprox": 69, "ms": 9.09}
+1792539827.494467	consumidor-0	geracao	{"id": 124, "ms": 21.27, "resumo": "[d48147c7] 5 trechos: termo4378 termo4414 termo366"}
+1792539827.494535	consumidor-0	consulta	{"id": 126, "worker": 0, "espera_ms": 792.26}
+1792539827.494545	consumidor-0	cache_erro	{"id": 126}
+1792539827.494697	produtor-0	enfileirar	{"id": 176, "fila": 50}
+1792539827.499442	consumidor-1	geracao	{"id": 21, "ms": 20.89, "resumo": "[87f8be73] 5 trechos: termo347..."}
+1792539827.499502	consumidor-1	consulta	{"id": 23, "worker": 1, "espera_ms": 796.04}
+1792539827.499513	consumidor-1	cache_erro	{"id": 23}
+1792539827.499650	produtor-1	enfileirar	{"id": 73, "fila": 50}
+1792539827.503326	consumidor-0	recuperacao	{"id": 126, "trechos": 5, "bytes": 802, "tokens_aprox": 83, "ms": 8.76}
+1792539827.508844	consumidor-1	recuperacao	{"id": 23, "trechos": 5, "bytes": 1256, "tokens_aprox": 129, "ms": 9.31}
+1792539827.524434	consumidor-0	geracao	{"id": 126, "ms": 21.11, "resumo": "[1afdcd5d] 5 trechos: termo4781..."}
+1792539827.524510	consumidor-0	consulta	{"id": 128, "worker": 0, "espera_ms": 791.97}
+1792539827.524520	consumidor-0	cache_erro	{"id": 128}
+1792539827.524689	produtor-0	enfileirar	{"id": 178, "fila": 50}
+1792539827.530388	consumidor-1	geracao	{"id": 23, "ms": 21.55, "resumo": "[b4148dee] 5 trechos: termo1642 termo2977 termo118"}
+1792539827.530443	consumidor-1	consulta	{"id": 25, "worker": 1, "espera_ms": 795.14}
+1792539827.530454	consumidor-1	cache_erro	{"id": 25}
+1792539827.530591	produtor-1	enfileirar	{"id": 75, "fila": 50}
+1792539827.532895	consumidor-0	recuperacao	{"id": 128, "trechos": 5, "bytes": 1206, "tokens_aprox": 124, "ms": 8.36}
+1792539827.538764	consumidor-1	recuperacao	{"id": 25, "trechos": 5, "bytes": 811, "tokens_aprox": 83, "ms": 8.29}
+1792539827.554353	consumidor-0	geracao	{"id": 128, "ms": 21.46, "resumo": "[659a6560] 5 trechos: termo2605 termo821..."}
+1792539827.554437	consumidor-0	consulta	{"id": 130, "worker": 0, "espera_ms": 791.26}
+1792539827.554448	consumidor-0	cache_erro	{"id": 130}
+1792539827.554629	produtor-0	enfileirar	{"id": 180, "fila": 50}
+1792539827.559874	consumidor-1	geracao	{"id": 25, "ms": 21.12, "resumo": "[cf3b5868] 5 trechos: termo3594..."}
+1792539827.559922	consumidor-1	consulta	{"id": 27, "worker": 1, "espera_ms": 794.32}
+1792539827.559932	consumidor-1	cache_erro	{"id": 27}
+1792539827.560086	produtor-1	enfileirar	{"id": 77, "fila": 50}
+1792539827.562737	consumidor-0	recuperacao	{"id": 130, "trechos": 5, "bytes": 663, "tokens_aprox": 69, "ms": 8.27}
+1792539827.568828	consumidor-1	recuperacao	{"id": 27, "trechos": 5, "bytes": 653, "tokens_aprox": 67, "ms": 8.88}
+1792539827.583678	consumidor-0	geracao	{"id": 130, "ms": 20.94, "resumo": "[3f8dd104] 5 trechos: termo1626..."}
+1792539827.583760	consumidor-0	consulta	{"id": 132, "worker": 0, "espera_ms": 789.82}
+1792539827.583772	consumidor-0	cache_erro	{"id": 132}
+1792539827.583916	produtor-0	enfileirar	{"id": 182, "fila": 50}
+1792539827.589720	consumidor-1	geracao	{"id": 27, "ms": 20.89, "resumo": "[ce777e04] 5 trechos: termo495 termo1606 termo924 "}
+1792539827.589795	consumidor-1	consulta	{"id": 29, "worker": 1, "espera_ms": 793.79}
+1792539827.589807	consumidor-1	cache_erro	{"id": 29}
+1792539827.589936	produtor-1	enfileirar	{"id": 79, "fila": 50}
+1792539827.592799	consumidor-0	recuperacao	{"id": 132, "trechos": 5, "bytes": 419, "tokens_aprox": 43, "ms": 9.01}
+1792539827.598826	consumidor-1	recuperacao	{"id": 29, "trechos": 5, "bytes": 792, "tokens_aprox": 82, "ms": 9.0}
+1792539827.613403	consumidor-0	geracao	{"id": 132, "ms": 20.6, "resumo": "[a68d12db] 5 trechos: termo3572 termo4677 termo344"}
+1792539827.613479	consumidor-0	consulta	{"id": 134, "worker": 0, "espera_ms": 789.51}
+1792539827.613490	consumidor-0	cache_erro	{"id": 134}
+1792539827.613700	produtor-0	enfileirar	{"id": 184, "fila": 50}
+1792539827.619781	consumidor-1	geracao	{"id": 29, "ms": 20.96, "resumo": "[e9e5ce08] 5 trechos: termo42..."}
+1792539827.619841	consumidor-1	consulta	{"id": 31, "worker": 1, "espera_ms": 792.75}
+1792539827.619856	consumidor-1	cache_erro	{"id": 31}
+1792539827.620026	produtor-1	enfileirar	{"id": 81, "fila": 50}
+1792539827.621431	consumidor-0	recuperacao	{"id": 134, "trechos": 5, "bytes": 499, "tokens_aprox": 51, "ms": 7.93}
+1792539827.628340	consumidor-1	recuperacao	{"id": 31, "trechos": 5, "bytes": 1141, "tokens_aprox": 116, "ms": 8.47}
+1792539827.642137	consumidor-0	geracao	{"id": 134, "ms": 20.7, "resumo": "[487e8359] 5 trechos: termo4532 termo4711..."}
+1792539827.642222	consumidor-0	consulta	{"id": 136, "worker": 0, "espera_ms": 787.66}
+1792539827.642233	consumidor-0	cache_erro	{"id": 136}
+1792539827.642414	produtor-0	enfileirar	{"id": 186, "fila": 50}
+1792539827.649719	consumidor-1	geracao	{"id": 31, "ms": 21.38, "resumo": "[84ff5857] 5 trechos: termo207 termo4338 termo3312"}
+1792539827.649773	consumidor-1	consulta	{"id": 33, "worker": 1, "espera_ms": 792.7}
+1792539827.649784	consumidor-1	cache_erro	{"id": 33}
+1792539827.649920	produtor-1	enfileirar	{"id": 83, "fila": 50}
+1792539827.650296	consumidor-0	recuperacao	{"id": 136, "trechos": 5, "bytes": 825, "tokens_aprox": 85, "ms": 8.05}
+1792539827.657890	consumidor-1	recuperacao	{"id": 33, "trechos": 5, "bytes": 181, "tokens_aprox": 19, "ms": 8.09}
+1792539827.671335	consumidor-0	geracao	{"id": 136, "ms": 21.04, "resumo": "[fc531bfb] 5 trechos: termo3436..."}
+1792539827.671392	consumidor-0	consulta	{"id": 138, "worker": 0, "espera_ms": 786.3}
+1792539827.671447	consumidor-0	cache_erro	{"id": 138}
+1792539827.671645	produtor-0	enfileirar	{"id": 188, "fila": 50}
+1792539827.678314	consumidor-1	geracao	{"id": 33, "ms": 20.42, "resumo": "[c72d5faa] 5 trechos: termo1626..."}
+1792539827.678387	consumidor-1	consulta	{"id": 35, "worker": 1, "espera_ms": 791.2}
+1792539827.678398	consumidor-1	cache_erro	{"id": 35}
+1792539827.678460	produtor-1	enfileirar	{"id": 85, "fila": 50}
+1792539827.679906	consumidor-0	recuperacao	{"id": 138, "trechos": 5, "bytes": 816, "tokens_aprox": 85, "ms": 8.44}
+1792539827.686854	consumidor-1	recuperacao	{"id": 35, "trechos": 5, "bytes": 1214, "tokens_aprox": 125, "ms": 8.44}
+1792539827.700965	consumidor-0	geracao	{"id": 138, "ms": 21.06, "resumo": "[7a3bb496] 5 trechos: termo2631..."}
+1792539827.701026	consumidor-0	consulta	{"id": 140, "worker": 0, "espera_ms": 786.67}
+1792539827.701037	consumidor-0	cache_erro	{"id": 140}
+1792539827.701231	produtor-0	enfileirar	{"id": 190, "fila": 50}
+1792539827.708261	consumidor-1	geracao	{"id": 35, "ms": 21.41, "resumo": "[e5c1a7f8] 5 trechos: termo1669 termo4188 termo369"}
+1792539827.708330	consumidor-1	consulta	{"id": 37, "worker": 1, "espera_ms": 791.32}
+1792539827.708341	consumidor-1	cache_erro	{"id": 37}
+1792539827.708722	produtor-1	enfileirar	{"id": 87, "fila": 50}
+1792539827.709803	consumidor-0	recuperacao	{"id": 140, "trechos": 5, "bytes": 889, "tokens_aprox": 91, "ms": 8.75}
+1792539827.716941	consumidor-1	recuperacao	{"id": 37, "trechos": 5, "bytes": 1269, "tokens_aprox": 130, "ms": 8.58}
+1792539827.730846	consumidor-0	geracao	{"id": 140, "ms": 21.04, "resumo": "[ef377a64] 5 trechos: termo1418..."}
+1792539827.730917	consumidor-0	consulta	{"id": 142, "worker": 0, "espera_ms": 787.36}
+1792539827.730927	consumidor-0	cache_erro	{"id": 142}
+1792539827.730984	produtor-0	enfileirar	{"id": 192, "fila": 50}
+1792539827.738532	consumidor-1	geracao	{"id": 37, "ms": 21.59, "resumo": "[513599e7] 5 trechos: termo4554..."}
+1792539827.738628	consumidor-1	consulta	{"id": 39, "worker": 1, "espera_ms": 792.1}
+1792539827.738642	consumidor-1	cache_erro	{"id": 39}
+1792539827.739101	produtor-1	enfileirar	{"id": 89, "fila": 50}
+1792539827.740568	consumidor-0	recuperacao	{"id": 142, "trechos": 5, "bytes": 1207, "tokens_aprox": 123, "ms": 9.62}
+1792539827.746993	consumidor-1	recuperacao	{"id": 39, "trechos": 5, "bytes": 882, "tokens_aprox": 90, "ms": 8.33}
+1792539827.762069	consumidor-0	geracao	{"id": 142, "ms": 21.5, "resumo": "[965f9254] 5 trechos: termo2821 termo4635 termo242"}
+1792539827.762150	consumidor-0	consulta	{"id": 144, "worker": 0, "espera_ms": 788.04}
+1792539827.762161	consumidor-0	cache_erro	{"id": 144}
+1792539827.762218	produtor-0	enfileirar	{"id": 194, "fila": 50}
+1792539827.768177	consumidor-1	geracao	{"id": 39, "ms": 21.19, "resumo": "[18dc00ff] 5 trechos: termo195..."}
+1792539827.768247	consumidor-1	consulta	{"id": 41, "worker": 1, "espera_ms": 791.19}
+1792539827.768258	consumidor-1	cache_erro	{"id": 41}
+1792539827.768447	produtor-1	enfileirar	{"id": 91, "fila": 50}
+1792539827.770544	consumidor-0	recuperacao	{"id": 144, "trechos": 5, "bytes": 1488, "tokens_aprox": 153, "ms": 8.37}
+1792539827.776639	consumidor-1	recuperacao	{"id": 41, "trechos": 5, "bytes": 426, "tokens_aprox": 44, "ms": 8.37}
+1792539827.793275	consumidor-0	geracao	{"id": 144, "ms": 22.73, "resumo": "[6f3cacfb] 5 trechos: termo1496..."}
+1792539827.793356	consumidor-0	consulta	{"id": 146, "worker": 0, "espera_ms": 788.74}
+1792539827.793369	consumidor-0	cache_erro	{"id": 146}
+1792539827.793451	produtor-0	enfileirar	{"id": 196, "fila": 50}
+1792539827.797411	consumidor-1	geracao	{"id": 41, "ms": 20.78, "resumo": "[0b863633] 5 trechos: termo1333..."}
+1792539827.797476	consumidor-1	consulta	{"id": 43, "worker": 1, "espera_ms": 790.68}
+1792539827.797487	consumidor-1	cache_erro	{"id": 43}
+1792539827.797634	produtor-1	enfileirar	{"id": 93, "fila": 50}
+1792539827.803407	consumidor-0	recuperacao	{"id": 146, "trechos": 5, "bytes": 1196, "tokens_aprox": 122, "ms": 10.01}
+1792539827.807424	consumidor-1	recuperacao	{"id": 43, "trechos": 5, "bytes": 455, "tokens_aprox": 47, "ms": 9.92}
+1792539827.826265	consumidor-0	geracao	{"id": 146, "ms": 22.87, "resumo": "[b47e61e8] 5 trechos: termo2859..."}
+1792539827.826334	consumidor-0	consulta	{"id": 148, "worker": 0, "espera_ms": 791.4}
+1792539827.826344	consumidor-0	cache_erro	{"id": 148}
+1792539827.826535	produtor-0	enfileirar	{"id": 198, "fila": 50}
+1792539827.828033	consumidor-1	geracao	{"id": 43, "ms": 20.61, "resumo": "[0becc584] 5 trechos: termo2628 termo842 termo1198"}
+1792539827.828087	consumidor-1	consulta	{"id": 45, "worker": 1, "espera_ms": 790.17}
+1792539827.828097	consumidor-1	cache_erro	{"id": 45}
+1792539827.828217	produtor-1	enfileirar	{"id": 95, "fila": 50}
+1792539827.835486	consumidor-0	recuperacao	{"id": 148, "trechos": 5, "bytes": 242, "tokens_aprox": 25, "ms": 9.13}
+1792539827.836770	consumidor-1	recuperacao	{"id": 45, "trechos": 5, "bytes": 1638, "tokens_aprox": 168, "ms": 8.66}
+1792539827.855991	consumidor-0	geracao	{"id": 148, "ms": 20.51, "resumo": "[06f872f0] 5 trechos: termo4972..."}
+1792539827.856071	consumidor-0	consulta	{"id": 150, "worker": 0, "espera_ms": 790.0}
+1792539827.856082	consumidor-0	cache_erro	{"id": 150}
+1792539827.856273	produtor-0	enfileirar	{"id": 200, "fila": 50}
+1792539827.858664	consumidor-1	geracao	{"id": 45, "ms": 21.9, "resumo": "[2a0f8ab6] 5 trechos: termo2424 termo2044 termo674"}
+1792539827.858719	consumidor-1	consulta	{"id": 47, "worker": 1, "espera_ms": 790.68}
+1792539827.858730	consumidor-1	cache_erro	{"id": 47}
+1792539827.858856	produtor-1	enfileirar	{"id": 97, "fila": 50}
+1792539827.865428	consumidor-0	recuperacao	{"id": 150, "trechos": 5, "bytes": 183, "tokens_aprox": 19, "ms": 9.33}
+1792539827.867696	consumidor-1	recuperacao	{"id": 47, "trechos": 5, "bytes": 707, "tokens_aprox": 73, "ms": 8.95}
+1792539827.885923	consumidor-0	geracao	{"id": 150, "ms": 20.49, "resumo": "[07fb2017] 5 trechos: termo4493..."}
+1792539827.886013	consumidor-0	consulta	{"id": 152, "worker": 0, "espera_ms": 787.38}
+1792539827.886024	consumidor-0	cache_erro	{"id": 152}
+1792539827.886093	produtor-0	enfileirar	{"id": 202, "fila": 50}
+1792539827.888582	consumidor-1	geracao	{"id": 47, "ms": 20.89, "resumo": "[b3128a8d] 5 trechos: termo2249..."}
+1792539827.888642	consumidor-1	consulta	{"id": 49, "worker": 1, "espera_ms": 789.0}
+1792539827.888652	consumidor-1	cache_erro	{"id": 49}
+1792539827.888838	produtor-1	enfileirar	{"id": 99, "fila": 50}
+1792539827.895123	consumidor-0	recuperacao	{"id": 152, "trechos": 5, "bytes": 941, "tokens_aprox": 96, "ms": 9.08}
+1792539827.897301	consumidor-1	recuperacao	{"id": 49, "trechos": 5, "bytes": 1236, "tokens_aprox": 128, "ms": 8.64}
+1792539827.916314	consumidor-0	geracao	{"id": 152, "ms": 21.19, "resumo": "[69c89bba] 5 trechos: termo2561 termo4493 termo691"}
+1792539827.916374	consumidor-0	consulta	{"id": 154, "worker": 0, "espera_ms": 787.81}
+1792539827.916385	consumidor-0	cache_erro	{"id": 154}
+1792539827.916547	produtor-0	enfileirar	{"id": 204, "fila": 50}
+1792539827.918741	consumidor-1	geracao	{"id": 49, "ms": 21.44, "resumo": "[8dbe90dd] 5 trechos: termo4899..."}
+1792539827.918796	consumidor-1	consulta	{"id": 51, "worker": 1, "espera_ms": 789.36}
+1792539827.918806	consumidor-1	cache_erro	{"id": 51}
+1792539827.918931	produtor-1	enfileirar	{"id": 101, "fila": 50}
+1792539827.925278	consumidor-0	recuperacao	{"id": 154, "trechos": 5, "bytes": 1183, "tokens_aprox": 122, "ms": 8.75}
+1792539827.927630	consumidor-1	recuperacao	{"id": 51, "trechos": 5, "bytes": 1159, "tokens_aprox": 119, "ms": 8.81}
+1792539827.946867	consumidor-0	geracao	{"id": 154, "ms": 21.72, "resumo": "[39e90fe8] 5 trechos: termo2428..."}
+1792539827.946943	consumidor-0	consulta	{"id": 156, "worker": 0, "espera_ms": 788.5}
+1792539827.946958	consumidor-0	cache_erro	{"id": 156}
+1792539827.947140	produtor-0	enfileirar	{"id": 206, "fila": 50}
+1792539827.948951	consumidor-1	geracao	{"id": 51, "ms": 21.32, "resumo": "[64fbf736] 5 trechos: termo1533..."}
+1792539827.949004	consumidor-1	consulta	{"id": 53, "worker": 1, "espera_ms": 787.95}
+1792539827.949064	consumidor-1	cache_erro	{"id": 53}
+1792539827.949190	produtor-1	enfileirar	{"id": 103, "fila": 50}
+1792539827.956143	consumidor-0	recuperacao	{"id": 156, "trechos": 5, "bytes": 74, "tokens_aprox": 8, "ms": 9.17}
+1792539827.957581	consumidor-1	recuperacao	{"id": 53, "trechos": 5, "bytes": 1206, "tokens_aprox": 123, "ms": 8.5}
+1792539827.976385	consumidor-0	geracao	{"id": 156, "ms": 20.24, "resumo": "[ff15f27a] 5 trechos: termo2398..."}
+1792539827.976480	consumidor-0	consulta	{"id": 158, "worker": 0, "espera_ms": 787.49}
+1792539827.976491	consumidor-0	cache_erro	{"id": 158}
+1792539827.976665	produtor-0	enfileirar	{"id": 208, "fila": 50}
+1792539827.979086	consumidor-1	geracao	{"id": 53, "ms": 21.5, "resumo": "[4b2ae8c2] 5 trechos: termo2979..."}
+1792539827.979177	consumidor-1	consulta	{"id": 55, "worker": 1, "espera_ms": 787.84}
+1792539827.979198	consumidor-1	cache_erro	{"id": 55}
+1792539827.979396	produtor-1	enfileirar	{"id": 105, "fila": 50}
+1792539827.985458	consumidor-0	recuperacao	{"id": 158, "trechos": 5, "bytes": 820, "tokens_aprox": 84, "ms": 8.95}
+1792539827.987989	consumidor-1	recuperacao	{"id": 55, "trechos": 5, "bytes": 484, "tokens_aprox": 50, "ms": 8.77}
+1792539828.006479	consumidor-0	geracao	{"id": 158, "ms": 21.02, "resumo": "[86501d7b] 5 trechos: termo4847..."}
+1792539828.006556	consumidor-0	consulta	{"id": 160, "worker": 0, "espera_ms": 787.01}
+1792539828.006567	consumidor-0	cache_erro	{"id": 160}
+1792539828.006736	produtor-0	enfileirar	{"id": 210, "fila": 50}
+1792539828.008654	consumidor-1	geracao	{"id": 55, "ms": 20.67, "resumo": "[22c6e07f] 5 trechos: termo719 termo1320 termo4145"}
+1792539828.008697	consumidor-1	consulta	{"id": 57, "worker": 1, "espera_ms": 786.84}
+1792539828.008706	consumidor-1	cache_erro	{"id": 57}
+1792539828.008849	produtor-1	enfileirar	{"id": 107, "fila": 50}
+1792539828.015558	consumidor-0	recuperacao	{"id": 160, "trechos": 5, "bytes": 903, "tokens_aprox": 93, "ms": 8.97}
+1792539828.017603	consumidor-1	recuperacao	{"id": 57, "trechos": 5, "bytes": 575, "tokens_aprox": 59, "ms": 8.88}
+1792539828.036828	consumidor-0	geracao	{"id": 160, "ms": 21.27, "resumo": "[8b226871] 5 trechos: termo3343..."}
+1792539828.036897	consumidor-0	consulta	{"id": 162, "worker": 0, "espera_ms": 784.85}
+1792539828.036913	consumidor-0	cache_erro	{"id": 162}
+1792539828.037105	produtor-0	enfileirar	{"id": 212, "fila": 50}
+1792539828.038397	consumidor-1	geracao	{"id": 57, "ms": 20.79, "resumo": "[e7e35380] 5 trechos: termo4596..."}
+1792539828.038455	consumidor-1	consulta	{"id": 59, "worker": 1, "espera_ms": 784.36}
+1792539828.038466	consumidor-1	cache_erro	{"id": 59}
+1792539828.038590	produtor-1	enfileirar	{"id": 109, "fila": 50}
+1792539828.046398	consumidor-0	recuperacao	{"id": 162, "trechos": 5, "bytes": 446, "tokens_aprox": 46, "ms": 9.47}
+1792539828.048062	consumidor-1	recuperacao	{"id": 59, "trechos": 5, "bytes": 1196, "tokens_aprox": 123, "ms": 9.58}
+1792539828.067112	consumidor-0	geracao	{"id": 162, "ms": 20.71, "resumo": "[afa56975] 5 trechos: termo4526..."}
+1792539828.067281	consumidor-0	consulta	{"id": 164, "worker": 0, "espera_ms": 784.2}
+1792539828.067298	consumidor-0	cache_erro	{"id": 164}
+1792539828.067502	produtor-0	enfileirar	{"id": 214, "fila": 50}
+1792539828.069456	consumidor-1	geracao	{"id": 59, "ms": 21.39, "resumo": "[20b44c7a] 5 trechos: termo4203..."}
+1792539828.069577	consumidor-1	consulta	{"id": 61, "worker": 1, "espera_ms": 785.25}
+1792539828.069608	consumidor-1	cache_erro	{"id": 61}
+1792539828.069800	produtor-1	enfileirar	{"id": 111, "fila": 50}
+1792539828.083081	consumidor-0	recuperacao	{"id": 164, "trechos": 5, "bytes": 849, "tokens_aprox": 87, "ms": 15.76}
+1792539828.084806	consumidor-1	recuperacao	{"id": 61, "trechos": 5, "bytes": 1572, "tokens_aprox": 161, "ms": 15.18}
+1792539828.104711	consumidor-0	geracao	{"id": 164, "ms": 21.61, "resumo": "[7c5d5cfd] 5 trechos: termo2699 termo4243 termo379"}
+1792539828.104802	consumidor-0	consulta	{"id": 166, "worker": 0, "espera_ms": 789.56}
+1792539828.104815	consumidor-0	cache_erro	{"id": 166}
+1792539828.104991	produtor-0	enfileirar	{"id": 216, "fila": 50}
+1792539828.106678	consumidor-1	geracao	{"id": 61, "ms": 21.88, "resumo": "[9cf3e2f3] 5 trechos: termo191 termo831 termo734 t"}
+1792539828.106769	consumidor-1	consulta	{"id": 63, "worker": 1, "espera_ms": 789.19}
+1792539828.106781	consumidor-1	cache_erro	{"id": 63}
+1792539828.106975	produtor-1	enfileirar	{"id": 113, "fila": 50}
+1792539828.115046	consumidor-0	recuperacao	{"id": 166, "trechos": 5, "bytes": 804, "tokens_aprox": 84, "ms": 10.21}
+1792539828.117056	consumidor-1	recuperacao	{"id": 63, "trechos": 5, "bytes": 731, "tokens_aprox": 75, "ms": 10.26}
+1792539828.136193	consumidor-0	geracao	{"id": 166, "ms": 21.15, "resumo": "[e11f23ef] 5 trechos: termo4211..."}
+1792539828.136276	consumidor-0	consulta	{"id": 168, "worker": 0, "espera_ms": 791.12}
+1792539828.136287	consumidor-0	cache_erro	{"id": 168}
+1792539828.136507	produtor-0	enfileirar	{"id": 218, "fila": 50}
+1792539828.138144	consumidor-1	geracao	{"id": 63, "ms": 21.09, "resumo": "[5507818e] 5 trechos: termo625..."}
+1792539828.138217	consumidor-1	consulta	{"id": 65, "worker": 1, "espera_ms": 789.38}
+1792539828.138228	consumidor-1	cache_erro	{"id": 65}
+1792539828.138367	produtor-1	enfileirar	{"id": 115, "fila": 50}
+1792539828.145547	consumidor-0	recuperacao	{"id": 168, "trechos": 5, "bytes": 779, "tokens_aprox": 80, "ms": 9.24}
+1792539828.147547	consumidor-1	recuperacao	{"id": 65, "trechos": 5, "bytes": 808, "tokens_aprox": 83, "ms": 9.3}
+1792539828.166674	consumidor-0	geracao	{"id": 168, "ms": 21.13, "resumo": "[59f49275] 5 trechos: termo2069..."}
+1792539828.166756	consumidor-0	consulta	{"id": 170, "worker": 0, "espera_ms": 792.2}
+1792539828.166769	consumidor-0	cache_erro	{"id": 170}
+1792539828.166966	produtor-0	enfileirar	{"id": 220, "fila": 50}
+1792539828.168615	consumidor-1	geracao	{"id": 65, "ms": 21.07, "resumo": "[7296a5fe] 5 trechos: termo2191..."}
+1792539828.168676	consumidor-1	consulta	{"id": 67, "worker": 1, "espera_ms": 789.71}
+1792539828.168687	consumidor-1	cache_erro	{"id": 67}
+1792539828.168790	produtor-1	enfileirar	{"id": 117, "fila": 50}
+1792539828.176161	consumidor-0	recuperacao	{"id": 170, "trechos": 5, "bytes": 1158, "tokens_aprox": 119, "ms": 9.37}
+1792539828.178446	consumidor-1	recuperacao	{"id": 67, "trechos": 5, "bytes": 830, "tokens_aprox": 86, "ms": 9.75}
+1792539828.197642	consumidor-0	geracao	{"id": 170, "ms": 21.48, "resumo": "[85415d7b] 5 trechos: termo1956 termo3592 termo477"}
+1792539828.197762	consumidor-0	consulta	{"id": 172, "worker": 0, "espera_ms": 792.89}
+1792539828.197816	consumidor-0	cache_erro	{"id": 172}
+1792539828.198027	produtor-0	enfileirar	{"id": 222, "fila": 50}
+1792539828.199493	consumidor-1	geracao	{"id": 67, "ms": 21.04, "resumo": "[9f91f3ba] 5 trechos: termo240..."}
+1792539828.199591	consumidor-1	consulta	{"id": 69, "worker": 1, "espera_ms": 790.41}
+1792539828.199615	consumidor-1	cache_erro	{"id": 69}
+1792539828.199906	produtor-1	enfileirar	{"id": 119, "fila": 50}
+1792539828.206774	consumidor-0	recuperacao	{"id": 172, "trechos": 5, "bytes": 1222, "tokens_aprox": 126, "ms": 8.93}
+1792539828.208854	consumidor-1	recuperacao	{"id": 69, "trechos": 5, "bytes": 652, "tokens_aprox": 67, "ms": 9.22}
+1792539828.228330	consumidor-0	geracao	{"id": 172, "ms": 21.55, "resumo": "[2c7df05b] 5 trechos: termo2004 termo1343 termo492"}
+1792539828.228426	consumidor-0	consulta	{"id": 174, "worker": 0, "espera_ms": 793.84}
+1792539828.228437	consumidor-0	cache_erro	{"id": 174}
+1792539828.228516	produtor-0	enfileirar	{"id": 224, "fila": 50}
+1792539828.229815	consumidor-1	geracao	{"id": 69, "ms": 20.96, "resumo": "[1f20704e] 5 trechos: termo4281..."}
+1792539828.229877	consumidor-1	consulta	{"id": 71, "worker": 1, "espera_ms": 789.88}
+1792539828.229887	consumidor-1	cache_erro	{"id": 71}
+1792539828.230058	produtor-1	enfileirar	{"id": 121, "fila": 50}
+1792539828.238011	consumidor-0	recuperacao	{"id": 174, "trechos": 5, "bytes": 421, "tokens_aprox": 44, "ms": 9.56}
+1792539828.240200	consumidor-1	recuperacao	{"id": 71, "trechos": 5, "bytes": 812, "tokens_aprox": 83, "ms": 10.3}
+1792539828.258674	consumidor-0	geracao	{"id": 174, "ms": 20.66, "resumo": "[6e9c5d5a] 5 trechos: termo1526..."}
+1792539828.258753	consumidor-0	consulta	{"id": 176, "worker": 0, "espera_ms": 794.3}
+1792539828.258765	consumidor-0	cache_erro	{"id": 176}
+1792539828.258925	produtor-0	enfileirar	{"id": 226, "fila": 50}
+1792539828.261278	consumidor-1	geracao	{"id": 71, "ms": 21.08, "resumo": "[0d99874e] 5 trechos: termo3585..."}
+1792539828.261332	consumidor-1	consulta	{"id": 73, "worker": 1, "espera_ms": 791.61}
+1792539828.261342	consumidor-1	cache_erro	{"id": 73}
+1792539828.261578	produtor-1	enfileirar	{"id": 123, "fila": 50}
+1792539828.268213	consumidor-0	recuperacao	{"id": 176, "trechos": 5, "bytes": 295, "tokens_aprox": 31, "ms": 9.43}
+1792539828.270812	consumidor-1	recuperacao	{"id": 73, "trechos": 5, "bytes": 1359, "tokens_aprox": 140, "ms": 9.45}
+1792539828.288700	consumidor-0	geracao	{"id": 176, "ms": 20.49, "resumo": "[ffc4807d] 5 trechos: termo1254..."}
+1792539828.288779	consumidor-0	consulta	{"id": 178, "worker": 0, "espera_ms": 794.06}
+1792539828.288790	consumidor-0	cache_erro	{"id": 178}
+1792539828.288960	produtor-0	enfileirar	{"id": 228, "fila": 50}
+1792539828.292511	consumidor-1	geracao	{"id": 73, "ms": 21.7, "resumo": "[808e3db6] 5 trechos: termo4797..."}
+1792539828.292570	consumidor-1	consulta	{"id": 75, "worker": 1, "espera_ms": 792.89}
+1792539828.292581	consumidor-1	cache_erro	{"id": 75}
+1792539828.292729	produtor-1	enfileirar	{"id": 125, "fila": 50}
+1792539828.297482	consumidor-0	recuperacao	{"id": 178, "trechos": 5, "bytes": 551, "tokens_aprox": 57, "ms": 8.68}
+1792539828.301191	consumidor-1	recuperacao	{"id": 75, "trechos": 5, "bytes": 1561, "tokens_aprox": 161, "ms": 8.6}
+1792539828.318237	consumidor-0	geracao	{"id": 178, "ms": 20.75, "resumo": "[318464b2] 5 trechos: termo1996..."}
+1792539828.318328	consumidor-0	consulta	{"id": 180, "worker": 0, "espera_ms": 793.61}
+1792539828.318339	consumidor-0	cache_erro	{"id": 180}
+1792539828.318558	produtor-0	enfileirar	{"id": 230, "fila": 50}
+1792539828.323174	consumidor-1	geracao	{"id": 75, "ms": 21.98, "resumo": "[8f3034ef] 5 trechos: termo4544..."}
+1792539828.323240	consumidor-1	consulta	{"id": 77, "worker": 1, "espera_ms": 792.63}
+1792539828.323251	consumidor-1	cache_erro	{"id": 77}
+1792539828.323393	produtor-1	enfileirar	{"id": 127, "fila": 50}
+1792539828.326840	consumidor-0	recuperacao	{"id": 180, "trechos": 5, "bytes": 439, "tokens_aprox": 45, "ms": 8.49}
+1792539828.331756	consumidor-1	recuperacao	{"id": 77, "trechos": 5, "bytes": 187, "tokens_aprox": 20, "ms": 8.49}
+1792539828.347524	consumidor-0	geracao	{"id": 180, "ms": 20.68, "resumo": "[655dc2c6] 5 trechos: termo4351..."}
+1792539828.347605	consumidor-0	consulta	{"id": 182, "worker": 0, "espera_ms": 792.95}
+1792539828.347617	consumidor-0	cache_erro	{"id": 182}
+1792539828.347857	produtor-0	enfileirar	{"id": 232, "fila": 50}
+1792539828.352299	consumidor-1	geracao	{"id": 77, "ms": 20.54, "resumo": "[7d20a1cc] 5 trechos: termo3771 termo1771 termo495"}
+1792539828.352358	consumidor-1	consulta	{"id": 79, "worker": 1, "espera_ms": 792.24}
+1792539828.352369	consumidor-1	cache_erro	{"id": 79}
+1792539828.352598	produtor-1	enfileirar	{"id": 129, "fila": 50}
+1792539828.356583	consumidor-0	recuperacao	{"id": 182, "trechos": 5, "bytes": 1014, "tokens_aprox": 105, "ms": 8.95}
+1792539828.361041	consumidor-1	recuperacao	{"id": 79, "trechos": 5, "bytes": 337, "tokens_aprox": 35, "ms": 8.66}
+1792539828.377925	consumidor-0	geracao	{"id": 182, "ms": 21.34, "resumo": "[f5240fe4] 5 trechos: termo269..."}
+1792539828.378002	consumidor-0	consulta	{"id": 184, "worker": 0, "espera_ms": 794.03}
+1792539828.378014	consumidor-0	cache_erro	{"id": 184}
+1792539828.378204	produtor-0	enfileirar	{"id": 234, "fila": 50}
+1792539828.381711	consumidor-1	geracao	{"id": 79, "ms": 20.67, "resumo": "[b9b81d2c] 5 trechos: termo2928 termo675..."}
+1792539828.381773	consumidor-1	consulta	{"id": 81, "worker": 1, "espera_ms": 791.8}
+1792539828.381818	consumidor-1	cache_erro	{"id": 81}
+1792539828.381991	produtor-1	enfileirar	{"id": 131, "fila": 50}
+1792539828.386806	consumidor-0	recuperacao	{"id": 184, "trechos": 5, "bytes": 1518, "tokens_aprox": 156, "ms": 8.77}
+1792539828.390526	consumidor-1	recuperacao	{"id": 81, "trechos": 5, "bytes": 1229, "tokens_aprox": 125, "ms": 8.69}
+1792539828.408597	consumidor-0	geracao	{"id": 184, "ms": 21.79, "resumo": "[23c6c05f] 5 trechos: termo2743 termo2256 termo269"}
+1792539828.408712	consumidor-0	consulta	{"id": 186, "worker": 0, "espera_ms": 794.98}
+1792539828.408725	consumidor-0	cache_erro	{"id": 186}
+1792539828.408959	produtor-0	enfileirar	{"id": 236, "fila": 50}
+1792539828.412102	consumidor-1	geracao	{"id": 81, "ms": 21.58, "resumo": "[90400eda] 5 trechos: termo1916 termo4773..."}
+1792539828.412161	consumidor-1	consulta	{"id": 83, "worker": 1, "espera_ms": 792.11}
+1792539828.412172	consumidor-1	cache_erro	{"id": 83}
+1792539828.412321	produtor-1	enfileirar	{"id": 133, "fila": 50}
+1792539828.417136	consumidor-0	recuperacao	{"id": 186, "trechos": 5, "bytes": 1158, "tokens_aprox": 119, "ms": 8.39}
+1792539828.420688	consumidor-1	recuperacao	{"id": 83, "trechos": 5, "bytes": 656, "tokens_aprox": 67, "ms": 8.5}
+1792539828.438618	consumidor-0	geracao	{"id": 186, "ms": 21.48, "resumo": "[29ac2515] 5 trechos: termo778..."}
+1792539828.438705	consumidor-0	consulta	{"id": 188, "worker": 0, "espera_ms": 796.26}
+1792539828.438717	consumidor-0	cache_erro	{"id": 188}
+1792539828.439060	produtor-0	enfileirar	{"id": 238, "fila": 50}
+1792539828.441548	consumidor-1	geracao	{"id": 83, "ms": 20.85, "resumo": "[9b325746] 5 trechos: termo1556..."}
+1792539828.441652	consumidor-1	consulta	{"id": 85, "worker": 1, "espera_ms": 791.71}
+1792539828.441663	consumidor-1	cache_erro	{"id": 85}
+1792539828.441845	produtor-1	enfileirar	{"id": 135, "fila": 50}
+1792539828.449207	consumidor-0	recuperacao	{"id": 188, "trechos": 5, "bytes": 230, "tokens_aprox": 24, "ms": 10.47}
+1792539828.450849	consumidor-1	recuperacao	{"id": 85, "trechos": 5, "bytes": 951, "tokens_aprox": 98, "ms": 9.17}
+1792539828.469637	consumidor-0	geracao	{"id": 188, "ms": 20.43, "resumo": "[79dc2d05] 5 trechos: termo3005..."}
+1792539828.469713	consumidor-0	consulta	{"id": 190, "worker": 0, "espera_ms": 798.03}
+1792539828.469724	consumidor-0	cache_erro	{"id": 190}
+1792539828.469954	produtor-0	enfileirar	{"id": 240, "fila": 50}
+1792539828.472064	consumidor-1	geracao	{"id": 85, "ms": 21.22, "resumo": "[44a3f57c] 5 trechos: termo3238..."}
+1792539828.472129	consumidor-1	consulta	{"id": 87, "worker": 1, "espera_ms": 793.64}
+1792539828.472153	consumidor-1	cache_erro	{"id": 87}
+1792539828.472307	produtor-1	enfileirar	{"id": 137, "fila": 50}
+1792539828.478530	consumidor-0	recuperacao	{"id": 190, "trechos": 5, "bytes": 599, "tokens_aprox": 62, "ms": 8.79}
+1792539828.481134	consumidor-1	recuperacao	{"id": 87, "trechos": 5, "bytes": 795, "tokens_aprox": 82, "ms": 8.97}
+1792539828.499431	consumidor-0	geracao	{"id": 190, "ms": 20.9, "resumo": "[e2ed4b58] 5 trechos: termo2297..."}
+1792539828.499504	consumidor-0	consulta	{"id": 192, "worker": 0, "espera_ms": 798.25}
+1792539828.499514	consumidor-0	cache_erro	{"id": 192}
+1792539828.499698	produtor-0	enfileirar	{"id": 242, "fila": 50}
+1792539828.502235	consumidor-1	geracao	{"id": 87, "ms": 21.1, "resumo": "[5b8627f6] 5 trechos: termo4172..."}
+1792539828.502288	consumidor-1	consulta	{"id": 89, "worker": 1, "espera_ms": 793.54}
+1792539828.502298	consumidor-1	cache_erro	{"id": 89}
+1792539828.502434	produtor-1	enfileirar	{"id": 139, "fila": 50}
+1792539828.508332	consumidor-0	recuperacao	{"id": 192, "trechos": 5, "bytes": 1114, "tokens_aprox": 115, "ms": 8.8}
+1792539828.511549	consumidor-1	recuperacao	{"id": 89, "trechos": 5, "bytes": 1572, "tokens_aprox": 161, "ms": 9.23}
+1792539828.529663	consumidor-0	geracao	{"id": 192, "ms": 21.33, "resumo": "[aa4844be] 5 trechos: termo2581 termo2002 termo10 "}
+1792539828.529740	consumidor-0	consulta	{"id": 194, "worker": 0, "espera_ms": 798.72}
+1792539828.529752	consumidor-0	cache_erro	{"id": 194}
+1792539828.530002	produtor-0	enfileirar	{"id": 244, "fila": 50}
+1792539828.533368	consumidor-1	geracao	{"id": 89, "ms": 21.82, "resumo": "[70c89a16] 5 trechos: termo4489..."}
+1792539828.533456	consumidor-1	consulta	{"id": 91, "worker": 1, "espera_ms": 794.32}
+1792539828.533467	consumidor-1	cache_erro	{"id": 91}
+1792539828.533600	produtor-1	enfileirar	{"id": 141, "fila": 50}
+1792539828.538562	consumidor-0	recuperacao	{"id": 194, "trechos": 5, "bytes": 479, "tokens_aprox": 49, "ms": 8.8}
+1792539828.542521	consumidor-1	recuperacao	{"id": 91, "trechos": 5, "bytes": 897, "tokens_aprox": 92, "ms": 9.04}
+1792539828.559222	consumidor-0	geracao	{"id": 194, "ms": 20.66, "resumo": "[08ff7a00] 5 trechos: termo4010..."}
+1792539828.559286	consumidor-0	consulta	{"id": 196, "worker": 0, "espera_ms": 797.02}
+1792539828.559296	consumidor-0	cache_erro	{"id": 196}
+1792539828.559491	produtor-0	enfileirar	{"id": 246, "fila": 50}
+1792539828.563593	consumidor-1	geracao	{"id": 91, "ms": 21.08, "resumo": "[40d6ac31] 5 trechos: termo3837..."}
+1792539828.563645	consumidor-1	consulta	{"id": 93, "worker": 1, "espera_ms": 795.16}
+1792539828.563655	consumidor-1	cache_erro	{"id": 93}
+1792539828.563869	produtor-1	enfileirar	{"id": 143, "fila": 50}
+1792539828.567671	consumidor-0	recuperacao	{"id": 196, "trechos": 5, "bytes": 793, "tokens_aprox": 82, "ms": 8.36}
+1792539828.572139	consumidor-1	recuperacao	{"id": 93, "trechos": 5, "bytes": 1205, "tokens_aprox": 124, "ms": 8.47}
+1792539828.588650	consumidor-0	geracao	{"id": 196, "ms": 20.98, "resumo": "[67c7ea86] 5 trechos: termo1537 termo3860..."}
+1792539828.588728	consumidor-0	consulta	{"id": 198, "worker": 0, "espera_ms": 795.26}
+1792539828.588739	consumidor-0	cache_erro	{"id": 198}
+1792539828.588963	produtor-0	enfileirar	{"id": 248, "fila": 50}
+1792539828.593665	consumidor-1	geracao	{"id": 93, "ms": 21.53, "resumo": "[8ba3b686] 5 trechos: termo226 termo3458..."}
+1792539828.593738	consumidor-1	consulta	{"id": 95, "worker": 1, "espera_ms": 796.07}
+1792539828.593761	consumidor-1	cache_erro	{"id": 95}
+1792539828.593812	produtor-1	enfileirar	{"id": 145, "fila": 50}
+1792539828.597509	consumidor-0	recuperacao	{"id": 198, "trechos": 5, "bytes": 1046, "tokens_aprox": 107, "ms": 8.75}
+1792539828.602470	consumidor-1	recuperacao	{"id": 95, "trechos": 5, "bytes": 1039, "tokens_aprox": 106, "ms": 8.69}
+1792539828.618750	consumidor-0	geracao	{"id": 198, "ms": 21.24, "resumo": "[4d927dc5] 5 trechos: termo3365..."}
+1792539828.618814	consumidor-0	consulta	{"id": 200, "worker": 0, "espera_ms": 792.24}
+1792539828.618824	consumidor-0	cache_erro	{"id": 200}
+1792539828.618995	produtor-0	enfileirar	{"id": 250, "fila": 50}
+1792539828.623678	consumidor-1	geracao	{"id": 95, "ms": 21.21, "resumo": "[c51cbcb1] 5 trechos: termo2058 termo4573 termo331"}
+1792539828.623738	consumidor-1	consulta	{"id": 97, "worker": 1, "espera_ms": 795.49}
+1792539828.623749	consumidor-1	cache_erro	{"id": 97}
+1792539828.623919	produtor-1	enfileirar	{"id": 147, "fila": 50}
+1792539828.627352	consumidor-0	recuperacao	{"id": 200, "trechos": 5, "bytes": 540, "tokens_aprox": 56, "ms": 8.52}
+1792539828.632510	consumidor-1	recuperacao	{"id": 97, "trechos": 5, "bytes": 1567, "tokens_aprox": 161, "ms": 8.74}
+1792539828.648042	consumidor-0	geracao	{"id": 200, "ms": 20.69, "resumo": "[ec9a68f0] 5 trechos: termo4169..."}
+1792539828.648123	consumidor-0	consulta	{"id": 202, "worker": 0, "espera_ms": 791.81}
+1792539828.648133	consumidor-0	cache_erro	{"id": 202}
+1792539828.648293	produtor-0	enfileirar	{"id": 252, "fila": 50}
+1792539828.654457	consumidor-1	geracao	{"id": 97, "ms": 21.93, "resumo": "[ac667df7] 5 trechos: termo1841..."}
+1792539828.654568	consumidor-1	consulta	{"id": 99, "worker": 1, "espera_ms": 795.64}
+1792539828.654601	consumidor-1	cache_erro	{"id": 99}
+1792539828.654753	produtor-1	enfileirar	{"id": 149, "fila": 50}
+1792539828.656795	consumidor-0	recuperacao	{"id": 202, "trechos": 5, "bytes": 1203, "tokens_aprox": 123, "ms": 8.65}
+1792539828.663382	consumidor-1	recuperacao	{"id": 99, "trechos": 5, "bytes": 272, "tokens_aprox": 29, "ms": 8.77}
+1792539828.678239	consumidor-0	geracao	{"id": 202, "ms": 21.44, "resumo": "[c5d68830] 5 trechos: termo968..."}
+1792539828.678331	consumidor-0	consulta	{"id": 204, "worker": 0, "espera_ms": 792.22}
+1792539828.678342	consumidor-0	cache_erro	{"id": 204}
+1792539828.678532	produtor-0	enfileirar	{"id": 254, "fila": 50}
+1792539828.683932	consumidor-1	geracao	{"id": 99, "ms": 20.55, "resumo": "[9a49e302] 5 trechos: termo861..."}
+1792539828.684000	consumidor-1	consulta	{"id": 101, "worker": 1, "espera_ms": 795.12}
+1792539828.684034	consumidor-1	cache_erro	{"id": 101}
+1792539828.684195	produtor-1	enfileirar	{"id": 151, "fila": 50}
+1792539828.687452	consumidor-0	recuperacao	{"id": 204, "trechos": 5, "bytes": 439, "tokens_aprox": 45, "ms": 9.1}
+1792539828.692469	consumidor-1	recuperacao	{"id": 101, "trechos": 5, "bytes": 53, "tokens_aprox": 6, "ms": 8.42}
+1792539828.708220	consumidor-0	geracao	{"id": 204, "ms": 20.77, "resumo": "[2695ecea] 5 trechos: termo372..."}
+1792539828.708295	consumidor-0	consulta	{"id": 206, "worker": 0, "espera_ms": 791.72}
+1792539828.708306	consumidor-0	cache_erro	{"id": 206}
+1792539828.708464	produtor-0	enfileirar	{"id": 256, "fila": 50}
+1792539828.712661	consumidor-1	geracao	{"id": 101, "ms": 20.19, "resumo": "[656528c1] 5 trechos: termo949..."}
+1792539828.712718	consumidor-1	consulta	{"id": 103, "worker": 1, "espera_ms": 793.76}
+1792539828.712729	consumidor-1	cache_erro	{"id": 103}
+1792539828.712869	produtor-1	enfileirar	{"id": 153, "fila": 50}
+1792539828.716772	consumidor-0	recuperacao	{"id": 206, "trechos": 5, "bytes": 547, "tokens_aprox": 56, "ms": 8.44}
+1792539828.721021	consumidor-1	recuperacao	{"id": 103, "trechos": 5, "bytes": 1142, "tokens_aprox": 117, "ms": 8.28}
+1792539828.737643	consumidor-0	geracao	{"id": 206, "ms": 20.87, "resumo": "[38dd507a] 5 trechos: termo1681 termo1953..."}
+1792539828.737713	consumidor-0	consulta	{"id": 208, "worker": 0, "espera_ms": 790.55}
+1792539828.737724	consumidor-0	cache_erro	{"id": 208}
+1792539828.737893	produtor-0	enfileirar	{"id": 258, "fila": 50}
+1792539828.742694	consumidor-1	geracao	{"id": 103, "ms": 21.67, "resumo": "[f140ad86] 5 trechos: termo1805..."}
+1792539828.742768	consumidor-1	consulta	{"id": 105, "worker": 1, "espera_ms": 793.55}
+1792539828.742779	consumidor-1	cache_erro	{"id": 105}
+1792539828.742952	produtor-1	enfileirar	{"id": 155, "fila": 50}
+1792539828.746172	consumidor-0	recuperacao	{"id": 208, "trechos": 5, "bytes": 569, "tokens_aprox": 59, "ms": 8.42}
+1792539828.751450	consumidor-1	recuperacao	{"id": 105, "trechos": 5, "bytes": 1190, "tokens_aprox": 122, "ms": 8.66}
+1792539828.766967	consumidor-0	geracao	{"id": 208, "ms": 20.79, "resumo": "[ef1e240a] 5 trechos: termo2926..."}
+1792539828.767043	consumidor-0	consulta	{"id": 210, "worker": 0, "espera_ms": 790.35}
+1792539828.767057	consumidor-0	cache_erro	{"id": 210}
+1792539828.767242	produtor-0	enfileirar	{"id": 260, "fila": 50}
+1792539828.773168	consumidor-1	geracao	{"id": 105, "ms": 21.72, "resumo": "[26954a8a] 5 trechos: termo276..."}
+1792539828.773278	consumidor-1	consulta	{"id": 107, "worker": 1, "espera_ms": 793.85}
+1792539828.773299	consumidor-1	cache_erro	{"id": 107}
+1792539828.773519	produtor-1	enfileirar	{"id": 157, "fila": 50}
+1792539828.775560	consumidor-0	recuperacao	{"id": 210, "trechos": 5, "bytes": 1043, "tokens_aprox": 107, "ms": 8.49}
+1792539828.782106	consumidor-1	recuperacao	{"id": 107, "trechos": 5, "bytes": 468, "tokens_aprox": 48, "ms": 8.74}
+1792539828.796939	consumidor-0	geracao	{"id": 210, "ms": 21.38, "resumo": "[df2a524d] 5 trechos: termo960 termo1032 termo2731"}
+1792539828.797022	consumidor-0	consulta	{"id": 212, "worker": 0, "espera_ms": 790.26}
+1792539828.797046	consumidor-0	cache_erro	{"id": 212}
+1792539828.797216	produtor-0	enfileirar	{"id": 262, "fila": 50}
+1792539828.802743	consumidor-1	geracao	{"id": 107, "ms": 20.63, "resumo": "[4e3feac5] 5 trechos: termo1712..."}
+1792539828.802845	consumidor-1	consulta	{"id": 109, "worker": 1, "espera_ms": 793.96}
+1792539828.802857	consumidor-1	cache_erro	{"id": 109}
+1792539828.803041	produtor-1	enfileirar	{"id": 159, "fila": 50}
+1792539828.806007	consumidor-0	recuperacao	{"id": 212, "trechos": 5, "bytes": 442, "tokens_aprox": 45, "ms": 8.95}
+1792539828.811784	consumidor-1	recuperacao	{"id": 109, "trechos": 5, "bytes": 579, "tokens_aprox": 60, "ms": 8.91}
+1792539828.826752	consumidor-0	geracao	{"id": 212, "ms": 20.75, "resumo": "[3a7f0f94] 5 trechos: termo2974..."}
+1792539828.826824	consumidor-0	consulta	{"id": 214, "worker": 0, "espera_ms": 789.69}
+1792539828.826841	consumidor-0	cache_erro	{"id": 214}
+1792539828.826905	produtor-0	enfileirar	{"id": 264, "fila": 50}
+1792539828.832534	consumidor-1	geracao	{"id": 109, "ms": 20.75, "resumo": "[77d065c3] 5 trechos: termo1059..."}
+1792539828.832605	consumidor-1	consulta	{"id": 111, "worker": 1, "espera_ms": 793.98}
+1792539828.832615	consumidor-1	cache_erro	{"id": 111}
+1792539828.832805	produtor-1	enfileirar	{"id": 161, "fila": 50}
+1792539828.835583	consumidor-0	recuperacao	{"id": 214, "trechos": 5, "bytes": 815, "tokens_aprox": 83, "ms": 8.71}
+1792539828.841391	consumidor-1	recuperacao	{"id": 111, "trechos": 5, "bytes": 834, "tokens_aprox": 86, "ms": 8.76}
+1792539828.856785	consumidor-0	geracao	{"id": 214, "ms": 21.21, "resumo": "[cd84701b] 5 trechos: termo2088..."}
+1792539828.856848	consumidor-0	consulta	{"id": 216, "worker": 0, "espera_ms": 789.32}
+1792539828.856859	consumidor-0	cache_erro	{"id": 216}
+1792539828.857035	produtor-0	enfileirar	{"id": 266, "fila": 50}
+1792539828.862551	consumidor-1	geracao	{"id": 111, "ms": 21.16, "resumo": "[95361914] 5 trechos: termo3792..."}
+1792539828.862617	consumidor-1	consulta	{"id": 113, "worker": 1, "espera_ms": 792.76}
+1792539828.862628	consumidor-1	cache_erro	{"id": 113}
+1792539828.862760	produtor-1	enfileirar	{"id": 163, "fila": 50}
+1792539828.865604	consumidor-0	recuperacao	{"id": 216, "trechos": 5, "bytes": 1241, "tokens_aprox": 129, "ms": 8.73}
+1792539828.871144	consumidor-1	recuperacao	{"id": 113, "trechos": 5, "bytes": 1116, "tokens_aprox": 115, "ms": 8.5}
+1792539828.887151	consumidor-0	geracao	{"id": 216, "ms": 21.55, "resumo": "[477d492b] 5 trechos: termo1680 termo200..."}
+1792539828.887229	consumidor-0	consulta	{"id": 218, "worker": 0, "espera_ms": 782.21}
+1792539828.887247	consumidor-0	cache_erro	{"id": 218}
+1792539828.887429	produtor-0	enfileirar	{"id": 268, "fila": 50}
+1792539828.892449	consumidor-1	geracao	{"id": 113, "ms": 21.31, "resumo": "[0394daba] 5 trechos: termo649..."}
+1792539828.892507	consumidor-1	consulta	{"id": 115, "worker": 1, "espera_ms": 785.5}
+1792539828.892518	consumidor-1	cache_erro	{"id": 115}
+1792539828.892733	produtor-1	enfileirar	{"id": 165, "fila": 50}
+1792539828.895881	consumidor-0	recuperacao	{"id": 218, "trechos": 5, "bytes": 575, "tokens_aprox": 59, "ms": 8.61}
+1792539828.901839	consumidor-1	recuperacao	{"id": 115, "trechos": 5, "bytes": 477, "tokens_aprox": 49, "ms": 9.31}
+1792539828.916698	consumidor-0	geracao	{"id": 218, "ms": 20.82, "resumo": "[04244196] 5 trechos: termo4359..."}
+1792539828.916778	consumidor-0	consulta	{"id": 220, "worker": 0, "espera_ms": 780.23}
+1792539828.916803	consumidor-0	cache_erro	{"id": 220}
+1792539828.916973	produtor-0	enfileirar	{"id": 270, "fila": 50}
+1792539828.922588	consumidor-1	geracao	{"id": 115, "ms": 20.75, "resumo": "[42ba49e1] 5 trechos: termo3282 termo3433..."}
+1792539828.922660	consumidor-1	consulta	{"id": 117, "worker": 1, "espera_ms": 784.26}
+1792539828.922676	consumidor-1	cache_erro	{"id": 117}
+1792539828.922855	produtor-1	enfileirar	{"id": 167, "fila": 50}
+1792539828.925241	consumidor-0	recuperacao	{"id": 220, "trechos": 5, "bytes": 1208, "tokens_aprox": 124, "ms": 8.42}
+1792539828.931009	consumidor-1	recuperacao	{"id": 117, "trechos": 5, "bytes": 1629, "tokens_aprox": 168, "ms": 8.32}
+1792539828.946705	consumidor-0	geracao	{"id": 220, "ms": 21.46, "resumo": "[39f8cc00] 5 trechos: termo645..."}
+1792539828.946782	consumidor-0	consulta	{"id": 222, "worker": 0, "espera_ms": 779.78}
+1792539828.946794	consumidor-0	cache_erro	{"id": 222}
+1792539828.946982	produtor-0	enfileirar	{"id": 272, "fila": 50}
+1792539828.952872	consumidor-1	geracao	{"id": 117, "ms": 21.87, "resumo": "[5e1d3827] 5 trechos: termo2376 termo3682 termo604"}
+1792539828.952934	consumidor-1	consulta	{"id": 119, "worker": 1, "espera_ms": 784.12}
+1792539828.952945	consumidor-1	cache_erro	{"id": 119}
+1792539828.953075	produtor-1	enfileirar	{"id": 169, "fila": 50}
+1792539828.954942	consumidor-0	recuperacao	{"id": 222, "trechos": 5, "bytes": 1222, "tokens_aprox": 126, "ms": 8.13}
+1792539828.961320	consumidor-1	recuperacao	{"id": 119, "trechos": 5, "bytes": 1169, "tokens_aprox": 120, "ms": 8.36}
+1792539828.976545	consumidor-0	geracao	{"id": 222, "ms": 21.6, "resumo": "[d253a8ee] 5 trechos: termo4192..."}
+1792539828.976613	consumidor-0	consulta	{"id": 224, "worker": 0, "espera_ms": 778.55}
+1792539828.976625	consumidor-0	cache_erro	{"id": 224}
+1792539828.976782	produtor-0	enfileirar	{"id": 274, "fila": 50}
+1792539828.982806	consumidor-1	geracao	{"id": 119, "ms": 21.49, "resumo": "[50970058] 5 trechos: termo3958 termo4882 termo249"}
+1792539828.982864	consumidor-1	consulta	{"id": 121, "worker": 1, "espera_ms": 782.93}
+1792539828.982880	consumidor-1	cache_erro	{"id": 121}
+1792539828.983071	produtor-1	enfileirar	{"id": 171, "fila": 50}
+1792539828.984660	consumidor-0	recuperacao	{"id": 224, "trechos": 5, "bytes": 1578, "tokens_aprox": 161, "ms": 8.02}
+1792539828.991433	consumidor-1	recuperacao	{"id": 121, "trechos": 5, "bytes": 1137, "tokens_aprox": 117, "ms": 8.54}
+1792539829.006502	consumidor-0	geracao	{"id": 224, "ms": 21.84, "resumo": "[c68dc6f3] 5 trechos: termo1274..."}
+1792539829.006580	consumidor-0	consulta	{"id": 226, "worker": 0, "espera_ms": 778.03}
+1792539829.006595	consumidor-0	cache_erro	{"id": 226}
+1792539829.006757	produtor-0	enfileirar	{"id": 276, "fila": 50}
+1792539829.012851	consumidor-1	geracao	{"id": 121, "ms": 21.42, "resumo": "[0006f663] 5 trechos: termo959 termo4065..."}
+1792539829.012920	consumidor-1	consulta	{"id": 123, "worker": 1, "espera_ms": 782.82}
+1792539829.012930	consumidor-1	cache_erro	{"id": 123}
+1792539829.013077	produtor-1	enfileirar	{"id": 173, "fila": 50}
+1792539829.014805	consumidor-0	recuperacao	{"id": 226, "trechos": 5, "bytes": 55, "tokens_aprox": 6, "ms": 8.2}
+1792539829.022262	consumidor-1	recuperacao	{"id": 123, "trechos": 5, "bytes": 538, "tokens_aprox": 56, "ms": 9.31}
+1792539829.035050	consumidor-0	geracao	{"id": 226, "ms": 20.24, "resumo": "[81ea2add] 5 trechos: termo4530..."}
+1792539829.035131	consumidor-0	consulta	{"id": 228, "worker": 0, "espera_ms": 776.18}
+1792539829.035155	consumidor-0	cache_erro	{"id": 228}
+1792539829.035350	produtor-0	enfileirar	{"id": 278, "fila": 50}
+1792539829.043029	consumidor-1	geracao	{"id": 123, "ms": 20.77, "resumo": "[93603826] 5 trechos: termo305 termo4572 termo2752"}
+1792539829.043102	consumidor-1	consulta	{"id": 125, "worker": 1, "espera_ms": 781.49}
+1792539829.043113	consumidor-1	cache_erro	{"id": 125}
+1792539829.043298	produtor-1	enfileirar	{"id": 175, "fila": 50}
+1792539829.043460	consumidor-0	recuperacao	{"id": 228, "trechos": 5, "bytes": 801, "tokens_aprox": 83, "ms": 8.29}
+1792539829.052060	consumidor-1	recuperacao	{"id": 125, "trechos": 5, "bytes": 130, "tokens_aprox": 14, "ms": 8.93}
+1792539829.064461	consumidor-0	geracao	{"id": 228, "ms": 21.0, "resumo": "[fa086206] 5 trechos: termo1007..."}
+1792539829.064543	consumidor-0	consulta	{"id": 230, "worker": 0, "espera_ms": 775.55}
+1792539829.064554	consumidor-0	cache_erro	{"id": 230}
+1792539829.064679	produtor-0	enfileirar	{"id": 280, "fila": 50}
+1792539829.072418	consumidor-1	geracao	{"id": 125, "ms": 20.35, "resumo": "[9519cf47] 5 trechos: termo4747 termo24 termo1693 "}
+1792539829.072529	consumidor-1	consulta	{"id": 127, "worker": 1, "espera_ms": 779.77}
+1792539829.072545	consumidor-1	cache_erro	{"id": 127}
+1792539829.073072	produtor-1	enfileirar	{"id": 177, "fila": 50}
+1792539829.073307	consumidor-0	recuperacao	{"id": 230, "trechos": 5, "bytes": 1275, "tokens_aprox": 131, "ms": 8.74}
+1792539829.080367	consumidor-1	recuperacao	{"id": 127, "trechos": 5, "bytes": 1460, "tokens_aprox": 149, "ms": 7.81}
+1792539829.094870	consumidor-0	geracao	{"id": 230, "ms": 21.57, "resumo": "[591ebc2f] 5 trechos: termo3680 termo1906 termo222"}
+1792539829.094990	consumidor-0	consulta	{"id": 232, "worker": 0, "espera_ms": 776.39}
+1792539829.095003	consumidor-0	cache_erro	{"id": 232}
+1792539829.095121	produtor-0	enfileirar	{"id": 282, "fila": 50}
+1792539829.102420	consumidor-1	geracao	{"id": 127, "ms": 22.05, "resumo": "[86a748ed] 5 trechos: termo1514 termo3115 termo232"}
+1792539829.102494	consumidor-1	consulta	{"id": 129, "worker": 1, "espera_ms": 779.07}
+1792539829.102504	consumidor-1	cache_erro	{"id": 129}
+1792539829.102679	produtor-1	enfileirar	{"id": 179, "fila": 50}
+1792539829.103184	consumidor-0	recuperacao	{"id": 232, "trechos": 5, "bytes": 806, "tokens_aprox": 83, "ms": 8.17}
+1792539829.110732	consumidor-1	recuperacao	{"id": 129, "trechos": 5, "bytes": 866, "tokens_aprox": 89, "ms": 8.21}
+1792539829.124256	consumidor-0	geracao	{"id": 232, "ms": 21.07, "resumo": "[c21f299f] 5 trechos: termo470..."}
+1792539829.124326	consumidor-0	consulta	{"id": 234, "worker": 0, "espera_ms": 776.44}
+1792539829.124337	consumidor-0	cache_erro	{"id": 234}
+1792539829.124464	produtor-0	enfileirar	{"id": 284, "fila": 50}
+1792539829.131873	consumidor-1	geracao	{"id": 129, "ms": 21.13, "resumo": "[4d85e44e] 5 trechos: termo217 termo1906 termo1726"}
+1792539829.131999	consumidor-1	consulta	{"id": 131, "worker": 1, "espera_ms": 779.37}
+1792539829.132026	consumidor-1	cache_erro	{"id": 131}
+1792539829.132408	produtor-1	enfileirar	{"id": 181, "fila": 50}
+1792539829.132614	consumidor-0	recuperacao	{"id": 234, "trechos": 5, "bytes": 649, "tokens_aprox": 67, "ms": 8.26}
+1792539829.140574	consumidor-1	recuperacao	{"id": 131, "trechos": 5, "bytes": 1185, "tokens_aprox": 122, "ms": 8.53}
+1792539829.153623	consumidor-0	geracao	{"id": 234, "ms": 21.01, "resumo": "[e2e96ab4] 5 trechos: termo985..."}
+1792539829.153689	consumidor-0	consulta	{"id": 236, "worker": 0, "espera_ms": 775.45}
+1792539829.153700	consumidor-0	cache_erro	{"id": 236}
+1792539829.153854	produtor-0	enfileirar	{"id": 286, "fila": 50}
+1792539829.161705	consumidor-0	recuperacao	{"id": 236, "trechos": 5, "bytes": 1188, "tokens_aprox": 122, "ms": 7.99}
+1792539829.163125	consumidor-1	geracao	{"id": 131, "ms": 22.55, "resumo": "[4069fdf0] 5 trechos: termo4572..."}
+1792539829.163204	consumidor-1	consulta	{"id": 133, "worker": 1, "espera_ms": 781.18}
+1792539829.163234	consumidor-1	cache_erro	{"id": 133}
+1792539829.163671	produtor-1	enfileirar	{"id": 183, "fila": 50}
+1792539829.171621	consumidor-1	recuperacao	{"id": 133, "trechos": 5, "bytes": 1187, "tokens_aprox": 122, "ms": 8.37}
+1792539829.183278	consumidor-0	geracao	{"id": 236, "ms": 21.58, "resumo": "[6e3b5fb6] 5 trechos: termo3437 termo3027 termo353"}
+1792539829.183348	consumidor-0	consulta	{"id": 238, "worker": 0, "espera_ms": 774.35}
+1792539829.183360	consumidor-0	cache_erro	{"id": 238}
+1792539829.183451	produtor-0	enfileirar	{"id": 288, "fila": 50}
+1792539829.191551	consumidor-0	recuperacao	{"id": 238, "trechos": 5, "bytes": 1455, "tokens_aprox": 149, "ms": 8.16}
+1792539829.193127	consumidor-1	geracao	{"id": 133, "ms": 21.51, "resumo": "[425686dd] 5 trechos: termo4611..."}
+1792539829.193180	consumidor-1	consulta	{"id": 135, "worker": 1, "espera_ms": 780.83}
+1792539829.193191	consumidor-1	cache_erro	{"id": 135}
+1792539829.193362	produtor-1	enfileirar	{"id": 185, "fila": 50}
+1792539829.201674	consumidor-1	recuperacao	{"id": 135, "trechos": 5, "bytes": 1203, "tokens_aprox": 124, "ms": 8.46}
+1792539829.213381	consumidor-0	geracao	{"id": 238, "ms": 21.83, "resumo": "[5e5ca388] 5 trechos: termo1318 termo2111 termo323"}
+1792539829.213464	consumidor-0	consulta	{"id": 240, "worker": 0, "espera_ms": 774.36}
+1792539829.213475	consumidor-0	cache_erro	{"id": 240}
+1792539829.213672	produtor-0	enfileirar	{"id": 290, "fila": 50}
+1792539829.221343	consumidor-0	recuperacao	{"id": 240, "trechos": 5, "bytes": 1206, "tokens_aprox": 124, "ms": 7.85}
+1792539829.223065	consumidor-1	geracao	{"id": 135, "ms": 21.4, "resumo": "[5191b9cd] 5 trechos: termo2322..."}
+1792539829.223118	consumidor-1	consulta	{"id": 137, "worker": 1, "espera_ms": 781.23}
+1792539829.223129	consumidor-1	cache_erro	{"id": 137}
+1792539829.223284	produtor-1	enfileirar	{"id": 187, "fila": 50}
+1792539829.231453	consumidor-1	recuperacao	{"id": 137, "trechos": 5, "bytes": 1194, "tokens_aprox": 123, "ms": 8.28}
+1792539829.242782	consumidor-0	geracao	{"id": 240, "ms": 21.44, "resumo": "[e275897c] 5 trechos: termo3935..."}
+1792539829.242850	consumidor-0	consulta	{"id": 242, "worker": 0, "espera_ms": 772.86}
+1792539829.242860	consumidor-0	cache_erro	{"id": 242}
+1792539829.243012	produtor-0	enfileirar	{"id": 292, "fila": 50}
+1792539829.250800	consumidor-0	recuperacao	{"id": 242, "trechos": 5, "bytes": 700, "tokens_aprox": 72, "ms": 7.93}
+1792539829.252908	consumidor-1	geracao	{"id": 137, "ms": 21.49, "resumo": "[b816bfb3] 5 trechos: termo534..."}
+1792539829.252963	consumidor-1	consulta	{"id": 139, "worker": 1, "espera_ms": 780.62}
+1792539829.252974	consumidor-1	cache_erro	{"id": 139}
+1792539829.253101	produtor-1	enfileirar	{"id": 189, "fila": 50}
+1792539829.260914	consumidor-1	recuperacao	{"id": 139, "trechos": 5, "bytes": 499, "tokens_aprox": 51, "ms": 7.93}
+1792539829.271798	consumidor-0	geracao	{"id": 242, "ms": 21.0, "resumo": "[b468cc16] 5 trechos: termo2754..."}
+1792539829.271883	consumidor-0	consulta	{"id": 244, "worker": 0, "espera_ms": 772.15}
+1792539829.271895	consumidor-0	cache_erro	{"id": 244}
+1792539829.272053	produtor-0	enfileirar	{"id": 294, "fila": 50}
+1792539829.279683	consumidor-0	recuperacao	{"id": 244, "trechos": 5, "bytes": 1194, "tokens_aprox": 123, "ms": 7.77}
+1792539829.281584	consumidor-1	geracao	{"id": 139, "ms": 20.67, "resumo": "[7aefe5ec] 5 trechos: termo1840..."}
+1792539829.281675	consumidor-1	consulta	{"id": 141, "worker": 1, "espera_ms": 779.22}
+1792539829.281686	consumidor-1	cache_erro	{"id": 141}
+1792539829.281847	produtor-1	enfileirar	{"id": 191, "fila": 50}
+1792539829.289671	consumidor-1	recuperacao	{"id": 141, "trechos": 5, "bytes": 1273, "tokens_aprox": 131, "ms": 7.97}
+1792539829.301316	consumidor-0	geracao	{"id": 244, "ms": 21.64, "resumo": "[2126d056] 5 trechos: termo1625 termo63 termo2648 "}
+1792539829.301391	consumidor-0	consulta	{"id": 246, "worker": 0, "espera_ms": 771.28}
+1792539829.301402	consumidor-0	cache_erro	{"id": 246}
+1792539829.301584	produtor-0	enfileirar	{"id": 296, "fila": 50}
+1792539829.309241	consumidor-0	recuperacao	{"id": 246, "trechos": 5, "bytes": 846, "tokens_aprox": 87, "ms": 7.82}
+1792539829.311118	consumidor-1	geracao	{"id": 141, "ms": 21.44, "resumo": "[c79a394a] 5 trechos: termo1991 termo3961 termo229"}
+1792539829.311167	consumidor-1	consulta	{"id": 143, "worker": 1, "espera_ms": 777.53}
+1792539829.311177	consumidor-1	cache_erro	{"id": 143}
+1792539829.311313	produtor-1	enfileirar	{"id": 193, "fila": 50}
+1792539829.319111	consumidor-1	recuperacao	{"id": 143, "trechos": 5, "bytes": 621, "tokens_aprox": 64, "ms": 7.91}
+1792539829.330364	consumidor-0	geracao	{"id": 246, "ms": 21.13, "resumo": "[5ed99dfd] 5 trechos: termo4099..."}
+1792539829.330419	consumidor-0	consulta	{"id": 248, "worker": 0, "espera_ms": 770.9}
+1792539829.330430	consumidor-0	cache_erro	{"id": 248}
+1792539829.330584	produtor-0	enfileirar	{"id": 298, "fila": 50}
+1792539829.339715	consumidor-0	recuperacao	{"id": 248, "trechos": 5, "bytes": 487, "tokens_aprox": 51, "ms": 9.27}
+1792539829.340419	consumidor-1	geracao	{"id": 143, "ms": 21.32, "resumo": "[f9cda4b0] 5 trechos: termo2435..."}
+1792539829.340478	consumidor-1	consulta	{"id": 145, "worker": 1, "espera_ms": 776.58}
+1792539829.340489	consumidor-1	cache_erro	{"id": 145}
+1792539829.340676	produtor-1	enfileirar	{"id": 195, "fila": 50}
+1792539829.348917	consumidor-1	recuperacao	{"id": 145, "trechos": 5, "bytes": 623, "tokens_aprox": 65, "ms": 8.41}
+1792539829.360630	consumidor-0	geracao	{"id": 248, "ms": 20.92, "resumo": "[c191fce2] 5 trechos: termo3630..."}
+1792539829.360688	consumidor-0	consulta	{"id": 250, "worker": 0, "espera_ms": 771.69}
+1792539829.360698	consumidor-0	cache_erro	{"id": 250}
+1792539829.360851	produtor-0	enfileirar	{"id": 300, "fila": 50}
+1792539829.368708	consumidor-0	recuperacao	{"id": 250, "trechos": 5, "bytes": 859, "tokens_aprox": 89, "ms": 7.99}
+1792539829.369732	consumidor-1	geracao	{"id": 145, "ms": 20.82, "resumo": "[1e194f1b] 5 trechos: termo600..."}
+1792539829.369824	consumidor-1	consulta	{"id": 147, "worker": 1, "espera_ms": 775.97}
+1792539829.369848	consumidor-1	cache_erro	{"id": 147}
+1792539829.369982	produtor-1	enfileirar	{"id": 197, "fila": 50}
+1792539829.378320	consumidor-1	recuperacao	{"id": 147, "trechos": 5, "bytes": 506, "tokens_aprox": 52, "ms": 8.45}
+1792539829.389884	consumidor-0	geracao	{"id": 250, "ms": 21.17, "resumo": "[a552d9da] 5 trechos: termo4367..."}
+1792539829.389963	consumidor-0	consulta	{"id": 252, "worker": 0, "espera_ms": 770.93}
+1792539829.389974	consumidor-0	cache_erro	{"id": 252}
+1792539829.390138	produtor-0	enfileirar	{"id": 302, "fila": 50}
+1792539829.399133	consumidor-1	geracao	{"id": 147, "ms": 20.81, "resumo": "[62ec13f8] 5 trechos: termo2585 termo3149..."}
+1792539829.399256	consumidor-1	consulta	{"id": 149, "worker": 1, "espera_ms": 775.31}
+1792539829.399280	consumidor-1	cache_erro	{"id": 149}
+1792539829.399614	consumidor-0	recuperacao	{"id": 252, "trechos": 5, "bytes": 1946, "tokens_aprox": 200, "ms": 9.61}
+1792539829.404528	produtor-1	enfileirar	{"id": 199, "fila": 50}
+1792539829.407880	consumidor-1	recuperacao	{"id": 149, "trechos": 5, "bytes": 812, "tokens_aprox": 83, "ms": 8.58}
+1792539829.424711	consumidor-0	geracao	{"id": 252, "ms": 25.1, "resumo": "[5d0cffc3] 5 trechos: termo542 termo4489 termo87 t"}
+1792539829.424822	consumidor-0	consulta	{"id": 254, "worker": 0, "espera_ms": 776.5}
+1792539829.424833	consumidor-0	cache_erro	{"id": 254}
+1792539829.425056	produtor-0	enfileirar	{"id": 304, "fila": 50}
+1792539829.428960	consumidor-1	geracao	{"id": 149, "ms": 21.08, "resumo": "[2b713fde] 5 trechos: termo3306 termo4136 termo422"}
+1792539829.429067	consumidor-1	consulta	{"id": 151, "worker": 1, "espera_ms": 774.28}
+1792539829.429079	consumidor-1	cache_erro	{"id": 151}
+1792539829.429299	produtor-1	enfileirar	{"id": 201, "fila": 50}
+1792539829.435114	consumidor-0	recuperacao	{"id": 254, "trechos": 5, "bytes": 921, "tokens_aprox": 95, "ms": 10.26}
+1792539829.439549	consumidor-1	recuperacao	{"id": 151, "trechos": 5, "bytes": 1299, "tokens_aprox": 134, "ms": 10.45}
+1792539829.456313	consumidor-0	geracao	{"id": 254, "ms": 21.2, "resumo": "[2b0de59b] 5 trechos: termo951 termo2843 termo2933"}
+1792539829.456417	consumidor-0	consulta	{"id": 256, "worker": 0, "espera_ms": 777.86}
+1792539829.456429	consumidor-0	cache_erro	{"id": 256}
+1792539829.456611	produtor-0	enfileirar	{"id": 306, "fila": 50}
+1792539829.461163	consumidor-1	geracao	{"id": 151, "ms": 21.62, "resumo": "[869a3e0c] 5 trechos: termo3770 termo3893 termo265"}
+1792539829.461248	consumidor-1	consulta	{"id": 153, "worker": 1, "espera_ms": 777.01}
+1792539829.461260	consumidor-1	cache_erro	{"id": 153}
+1792539829.461456	produtor-1	enfileirar	{"id": 203, "fila": 50}
+1792539829.465735	consumidor-0	recuperacao	{"id": 256, "trechos": 5, "bytes": 1210, "tokens_aprox": 125, "ms": 9.28}
+1792539829.471363	consumidor-1	recuperacao	{"id": 153, "trechos": 5, "bytes": 563, "tokens_aprox": 58, "ms": 10.08}
+1792539829.487447	consumidor-0	geracao	{"id": 256, "ms": 21.72, "resumo": "[b35ec971] 5 trechos: termo161..."}
+1792539829.487540	consumidor-0	consulta	{"id": 258, "worker": 0, "espera_ms": 779.04}
+1792539829.487552	consumidor-0	cache_erro	{"id": 258}
+1792539829.487859	produtor-0	enfileirar	{"id": 308, "fila": 50}
+1792539829.492315	consumidor-1	geracao	{"id": 153, "ms": 20.95, "resumo": "[804680ee] 5 trechos: termo1435..."}
+1792539829.492392	consumidor-1	consulta	{"id": 155, "worker": 1, "espera_ms": 779.49}
+1792539829.492404	consumidor-1	cache_erro	{"id": 155}
+1792539829.492567	produtor-1	enfileirar	{"id": 205, "fila": 50}
+1792539829.496226	consumidor-0	recuperacao	{"id": 258, "trechos": 5, "bytes": 826, "tokens_aprox": 85, "ms": 8.66}
+1792539829.500924	consumidor-1	recuperacao	{"id": 155, "trechos": 5, "bytes": 265, "tokens_aprox": 28, "ms": 8.51}
+1792539829.517342	consumidor-0	geracao	{"id": 258, "ms": 21.12, "resumo": "[c99cfda6] 5 trechos: termo976..."}
+1792539829.517433	consumidor-0	consulta	{"id": 260, "worker": 0, "espera_ms": 779.52}
+1792539829.517444	consumidor-0	cache_erro	{"id": 260}
+1792539829.517651	produtor-0	enfileirar	{"id": 310, "fila": 50}
+1792539829.521431	consumidor-1	geracao	{"id": 155, "ms": 20.51, "resumo": "[a7056677] 5 trechos: termo1146..."}
+1792539829.521497	consumidor-1	consulta	{"id": 157, "worker": 1, "espera_ms": 778.5}
+1792539829.521508	consumidor-1	cache_erro	{"id": 157}
+1792539829.521710	produtor-1	enfileirar	{"id": 207, "fila": 50}
+1792539829.526221	consumidor-0	recuperacao	{"id": 260, "trechos": 5, "bytes": 755, "tokens_aprox": 77, "ms": 8.75}
+1792539829.529755	consumidor-1	recuperacao	{"id": 157, "trechos": 5, "bytes": 474, "tokens_aprox": 49, "ms": 8.23}
+1792539829.547265	consumidor-0	geracao	{"id": 260, "ms": 21.05, "resumo": "[51b7e958] 5 trechos: termo2162..."}
+1792539829.547364	consumidor-0	consulta	{"id": 262, "worker": 0, "espera_ms": 780.09}
+1792539829.547381	consumidor-0	cache_erro	{"id": 262}
+1792539829.547605	produtor-0	enfileirar	{"id": 312, "fila": 50}
+1792539829.550629	consumidor-1	geracao	{"id": 157, "ms": 20.87, "resumo": "[a4065506] 5 trechos: termo3059 termo823..."}
+1792539829.550802	consumidor-1	consulta	{"id": 159, "worker": 1, "espera_ms": 777.24}
+1792539829.550851	consumidor-1	cache_erro	{"id": 159}
+1792539829.551105	produtor-1	enfileirar	{"id": 209, "fila": 50}
+1792539829.556446	consumidor-0	recuperacao	{"id": 262, "trechos": 5, "bytes": 1189, "tokens_aprox": 122, "ms": 9.04}
+1792539829.561781	consumidor-1	recuperacao	{"id": 159, "trechos": 5, "bytes": 63, "tokens_aprox": 7, "ms": 10.9}
+1792539829.577947	consumidor-0	geracao	{"id": 262, "ms": 21.51, "resumo": "[152c1149] 5 trechos: termo2193 termo3862 termo279"}
+1792539829.578019	consumidor-0	consulta	{"id": 264, "worker": 0, "espera_ms": 780.77}
+1792539829.578030	consumidor-0	cache_erro	{"id": 264}
+1792539829.578189	produtor-0	enfileirar	{"id": 314, "fila": 50}
+1792539829.581971	consumidor-1	geracao	{"id": 159, "ms": 20.19, "resumo": "[0fa44bc8] 5 trechos: termo2398..."}
+1792539829.582027	consumidor-1	consulta	{"id": 161, "worker": 1, "espera_ms": 778.95}
+1792539829.582037	consumidor-1	cache_erro	{"id": 161}
+1792539829.582182	produtor-1	enfileirar	{"id": 211, "fila": 50}
+1792539829.586679	consumidor-0	recuperacao	{"id": 264, "trechos": 5, "bytes": 863, "tokens_aprox": 88, "ms": 8.63}
+1792539829.590245	consumidor-1	recuperacao	{"id": 161, "trechos": 5, "bytes": 1209, "tokens_aprox": 124, "ms": 8.19}
+1792539829.607743	consumidor-0	geracao	{"id": 264, "ms": 21.06, "resumo": "[07ab0f3a] 5 trechos: termo4981 termo2817 termo868"}
+1792539829.607823	consumidor-0	consulta	{"id": 266, "worker": 0, "espera_ms": 780.89}
+1792539829.607833	consumidor-0	cache_erro	{"id": 266}
+1792539829.608008	produtor-0	enfileirar	{"id": 316, "fila": 50}
+1792539829.611742	consumidor-1	geracao	{"id": 161, "ms": 21.5, "resumo": "[a4c96a62] 5 trechos: termo2539..."}
+1792539829.611802	consumidor-1	consulta	{"id": 163, "worker": 1, "espera_ms": 778.96}
+1792539829.611813	consumidor-1	cache_erro	{"id": 163}
+1792539829.611942	produtor-1	enfileirar	{"id": 213, "fila": 50}
+1792539829.616302	consumidor-0	recuperacao	{"id": 266, "trechos": 5, "bytes": 1191, "tokens_aprox": 122, "ms": 8.45}
+1792539829.620226	consumidor-1	recuperacao	{"id": 163, "trechos": 5, "bytes": 1552, "tokens_aprox": 158, "ms": 8.39}
+1792539829.637806	consumidor-0	geracao	{"id": 266, "ms": 21.5, "resumo": "[8bb07b87] 5 trechos: termo1919..."}
+1792539829.637896	consumidor-0	consulta	{"id": 268, "worker": 0, "espera_ms": 780.83}
+1792539829.637908	consumidor-0	cache_erro	{"id": 268}
+1792539829.638067	produtor-0	enfileirar	{"id": 318, "fila": 50}
+1792539829.642122	consumidor-1	geracao	{"id": 163, "ms": 21.9, "resumo": "[254d0f05] 5 trechos: termo1041 termo2785 termo628"}
+1792539829.642198	consumidor-1	consulta	{"id": 165, "worker": 1, "espera_ms": 779.37}
+1792539829.642210	consumidor-1	cache_erro	{"id": 165}
+1792539829.642483	produtor-1	enfileirar	{"id": 215, "fila": 50}
+1792539829.646462	consumidor-0	recuperacao	{"id": 268, "trechos": 5, "bytes": 899, "tokens_aprox": 92, "ms": 8.54}
+1792539829.650565	consumidor-1	recuperacao	{"id": 165, "trechos": 5, "bytes": 476, "tokens_aprox": 49, "ms": 8.28}
+1792539829.667630	consumidor-0	geracao	{"id": 268, "ms": 21.17, "resumo": "[ff6a1d29] 5 trechos: termo1532..."}
+1792539829.667706	consumidor-0	consulta	{"id": 270, "worker": 0, "espera_ms": 780.25}
+1792539829.667717	consumidor-0	cache_erro	{"id": 270}
+1792539829.667883	produtor-0	enfileirar	{"id": 320, "fila": 50}
+1792539829.671283	consumidor-1	geracao	{"id": 165, "ms": 20.71, "resumo": "[b3da9ec4] 5 trechos: termo2702..."}
+1792539829.671389	consumidor-1	consulta	{"id": 167, "worker": 1, "espera_ms": 778.62}
+1792539829.671415	consumidor-1	cache_erro	{"id": 167}
+1792539829.671807	produtor-1	enfileirar	{"id": 217, "fila": 50}
+1792539829.678501	consumidor-0	recuperacao	{"id": 270, "trechos": 5, "bytes": 728, "tokens_aprox": 75, "ms": 10.74}
+1792539829.681732	consumidor-1	recuperacao	{"id": 167, "trechos": 5, "bytes": 923, "tokens_aprox": 94, "ms": 10.29}
+1792539829.700248	consumidor-0	geracao	{"id": 270, "ms": 21.78, "resumo": "[3c48a3ec] 5 trechos: termo1205 termo1162..."}
+1792539829.700325	consumidor-0	consulta	{"id": 272, "worker": 0, "espera_ms": 783.32}
+1792539829.700336	consumidor-0	cache_erro	{"id": 272}
+1792539829.700520	produtor-0	enfileirar	{"id": 322, "fila": 50}
+1792539829.702891	consumidor-1	geracao	{"id": 167, "ms": 21.16, "resumo": "[83eb783a] 5 trechos: termo4283 termo4746 termo226"}
+1792539829.702948	consumidor-1	consulta	{"id": 169, "worker": 1, "espera_ms": 780.04}
+1792539829.702958	consumidor-1	cache_erro	{"id": 169}
+1792539829.703095	produtor-1	enfileirar	{"id": 219, "fila": 50}
+1792539829.708920	consumidor-0	recuperacao	{"id": 272, "trechos": 5, "bytes": 1398, "tokens_aprox": 143, "ms": 8.57}
+1792539829.711940	consumidor-1	recuperacao	{"id": 169, "trechos": 5, "bytes": 1192, "tokens_aprox": 122, "ms": 8.97}
+1792539829.730571	consumidor-0	geracao	{"id": 272, "ms": 21.65, "resumo": "[d3b884e9] 5 trechos: termo2102..."}
+1792539829.730654	consumidor-0	consulta	{"id": 274, "worker": 0, "espera_ms": 783.64}
+1792539829.730664	consumidor-0	cache_erro	{"id": 274}
+1792539829.730813	produtor-0	enfileirar	{"id": 324, "fila": 50}
+1792539829.733588	consumidor-1	geracao	{"id": 169, "ms": 21.65, "resumo": "[fe91b9e4] 5 trechos: termo1838..."}
+1792539829.733659	consumidor-1	consulta	{"id": 171, "worker": 1, "espera_ms": 780.55}
+1792539829.733670	consumidor-1	cache_erro	{"id": 171}
+1792539829.733821	produtor-1	enfileirar	{"id": 221, "fila": 50}
+1792539829.740988	consumidor-0	recuperacao	{"id": 274, "trechos": 5, "bytes": 602, "tokens_aprox": 63, "ms": 10.31}
+1792539829.742864	consumidor-1	recuperacao	{"id": 171, "trechos": 5, "bytes": 844, "tokens_aprox": 87, "ms": 9.18}
+1792539829.761894	consumidor-0	geracao	{"id": 274, "ms": 20.91, "resumo": "[51294fad] 5 trechos: termo4947..."}
+1792539829.761968	consumidor-0	consulta	{"id": 276, "worker": 0, "espera_ms": 785.16}
+1792539829.761979	consumidor-0	cache_erro	{"id": 276}
+1792539829.762155	produtor-0	enfileirar	{"id": 326, "fila": 50}
+1792539829.763877	consumidor-1	geracao	{"id": 171, "ms": 21.01, "resumo": "[2cd1cee1] 5 trechos: termo1650 termo1856 termo246"}
+1792539829.763959	consumidor-1	consulta	{"id": 173, "worker": 1, "espera_ms": 780.85}
+1792539829.763980	consumidor-1	cache_erro	{"id": 173}
+1792539829.764198	produtor-1	enfileirar	{"id": 223, "fila": 50}
+1792539829.771352	consumidor-0	recuperacao	{"id": 276, "trechos": 5, "bytes": 834, "tokens_aprox": 86, "ms": 9.35}
+1792539829.774558	consumidor-1	recuperacao	{"id": 173, "trechos": 5, "bytes": 275, "tokens_aprox": 29, "ms": 10.56}
+1792539829.793454	consumidor-0	geracao	{"id": 276, "ms": 22.11, "resumo": "[da8fb258] 5 trechos: termo1587..."}
+1792539829.793539	consumidor-0	consulta	{"id": 278, "worker": 0, "espera_ms": 786.75}
+1792539829.793550	consumidor-0	cache_erro	{"id": 278}
+1792539829.793744	produtor-0	enfileirar	{"id": 328, "fila": 50}
+1792539829.795100	consumidor-1	geracao	{"id": 173, "ms": 20.55, "resumo": "[cccef243] 5 trechos: termo2111..."}
+1792539829.795144	consumidor-1	consulta	{"id": 175, "worker": 1, "espera_ms": 782.03}
+1792539829.795154	consumidor-1	cache_erro	{"id": 175}
+1792539829.795298	produtor-1	enfileirar	{"id": 225, "fila": 50}
+1792539829.802364	consumidor-0	recuperacao	{"id": 278, "trechos": 5, "bytes": 890, "tokens_aprox": 91, "ms": 8.78}
+1792539829.804370	consumidor-1	recuperacao	{"id": 175, "trechos": 5, "bytes": 504, "tokens_aprox": 52, "ms": 9.2}
+1792539829.823457	consumidor-0	geracao	{"id": 278, "ms": 21.09, "resumo": "[20b3344c] 5 trechos: termo3739..."}
+1792539829.823538	consumidor-0	consulta	{"id": 280, "worker": 0, "espera_ms": 788.16}
+1792539829.823550	consumidor-0	cache_erro	{"id": 280}
+1792539829.823733	produtor-0	enfileirar	{"id": 330, "fila": 50}
+1792539829.825016	consumidor-1	geracao	{"id": 175, "ms": 20.65, "resumo": "[e15ba700] 5 trechos: termo115..."}
+1792539829.825063	consumidor-1	consulta	{"id": 177, "worker": 1, "espera_ms": 781.74}
+1792539829.825073	consumidor-1	cache_erro	{"id": 177}
+1792539829.825256	produtor-1	enfileirar	{"id": 227, "fila": 50}
+1792539829.832727	consumidor-0	recuperacao	{"id": 280, "trechos": 5, "bytes": 1206, "tokens_aprox": 124, "ms": 9.16}
+1792539829.835011	consumidor-1	recuperacao	{"id": 177, "trechos": 5, "bytes": 454, "tokens_aprox": 47, "ms": 9.93}
+1792539829.854285	consumidor-0	geracao	{"id": 280, "ms": 21.56, "resumo": "[25a38061] 5 trechos: termo437 termo648 termo3730 "}
+1792539829.854358	consumidor-0	consulta	{"id": 282, "worker": 0, "espera_ms": 789.63}
+1792539829.854369	consumidor-0	cache_erro	{"id": 282}
+1792539829.854522	produtor-0	enfileirar	{"id": 332, "fila": 50}
+1792539829.855753	consumidor-1	geracao	{"id": 177, "ms": 20.74, "resumo": "[74e36f98] 5 trechos: termo1825 termo2651 termo362"}
+1792539829.855840	consumidor-1	consulta	{"id": 179, "worker": 1, "espera_ms": 782.72}
+1792539829.855860	consumidor-1	cache_erro	{"id": 179}
+1792539829.856074	produtor-1	enfileirar	{"id": 229, "fila": 50}
+1792539829.863166	consumidor-0	recuperacao	{"id": 282, "trechos": 5, "bytes": 842, "tokens_aprox": 87, "ms": 8.78}
+1792539829.865468	consumidor-1	recuperacao	{"id": 179, "trechos": 5, "bytes": 1191, "tokens_aprox": 122, "ms": 9.59}
+1792539829.884598	consumidor-0	geracao	{"id": 282, "ms": 21.43, "resumo": "[2344ba97] 5 trechos: termo1056..."}
+1792539829.884699	consumidor-0	consulta	{"id": 284, "worker": 0, "espera_ms": 789.55}
+1792539829.884711	consumidor-0	cache_erro	{"id": 284}
+1792539829.884927	produtor-0	enfileirar	{"id": 334, "fila": 50}
+1792539829.887000	consumidor-1	geracao	{"id": 179, "ms": 21.54, "resumo": "[4db35d55] 5 trechos: termo1609..."}
+1792539829.887046	consumidor-1	consulta	{"id": 181, "worker": 1, "espera_ms": 784.33}
+1792539829.887064	consumidor-1	cache_erro	{"id": 181}
+1792539829.887238	produtor-1	enfileirar	{"id": 231, "fila": 50}
+1792539829.893535	consumidor-0	recuperacao	{"id": 284, "trechos": 5, "bytes": 483, "tokens_aprox": 50, "ms": 8.81}
+1792539829.895842	consumidor-1	recuperacao	{"id": 181, "trechos": 5, "bytes": 919, "tokens_aprox": 95, "ms": 8.76}
+1792539829.914416	consumidor-0	geracao	{"id": 284, "ms": 20.88, "resumo": "[4671e673] 5 trechos: termo2776 termo537..."}
+1792539829.914501	consumidor-0	consulta	{"id": 286, "worker": 0, "espera_ms": 790.0}
+1792539829.914513	consumidor-0	cache_erro	{"id": 286}
+1792539829.914696	produtor-0	enfileirar	{"id": 336, "fila": 50}
+1792539829.917175	consumidor-1	geracao	{"id": 181, "ms": 21.34, "resumo": "[42caa7a7] 5 trechos: termo2678..."}
+1792539829.917231	consumidor-1	consulta	{"id": 183, "worker": 1, "espera_ms": 784.8}
+1792539829.917242	consumidor-1	cache_erro	{"id": 183}
+1792539829.917383	produtor-1	enfileirar	{"id": 233, "fila": 50}
+1792539829.923133	consumidor-0	recuperacao	{"id": 286, "trechos": 5, "bytes": 1253, "tokens_aprox": 129, "ms": 8.6}
+1792539829.925898	consumidor-1	recuperacao	{"id": 183, "trechos": 5, "bytes": 1179, "tokens_aprox": 122, "ms": 8.64}
+1792539829.944666	consumidor-0	geracao	{"id": 286, "ms": 21.53, "resumo": "[80e1d9da] 5 trechos: termo2812 termo4282 termo305"}
+1792539829.944752	consumidor-0	consulta	{"id": 288, "worker": 0, "espera_ms": 790.87}
+1792539829.944764	consumidor-0	cache_erro	{"id": 288}
+1792539829.944945	produtor-0	enfileirar	{"id": 338, "fila": 50}
+1792539829.948039	consumidor-1	geracao	{"id": 183, "ms": 22.14, "resumo": "[08f62a10] 5 trechos: termo2650..."}
+1792539829.948089	consumidor-1	consulta	{"id": 185, "worker": 1, "espera_ms": 784.39}
+1792539829.948099	consumidor-1	cache_erro	{"id": 185}
+1792539829.948244	produtor-1	enfileirar	{"id": 235, "fila": 50}
+1792539829.953677	consumidor-0	recuperacao	{"id": 288, "trechos": 5, "bytes": 1576, "tokens_aprox": 162, "ms": 8.9}
+1792539829.957155	consumidor-1	recuperacao	{"id": 185, "trechos": 5, "bytes": 1190, "tokens_aprox": 123, "ms": 9.04}
+1792539829.975619	consumidor-0	geracao	{"id": 288, "ms": 21.94, "resumo": "[9d626f55] 5 trechos: termo2349 termo4572 termo579"}
+1792539829.975700	consumidor-0	consulta	{"id": 290, "worker": 0, "espera_ms": 792.22}
+1792539829.975711	consumidor-0	cache_erro	{"id": 290}
+1792539829.975889	produtor-0	enfileirar	{"id": 340, "fila": 50}
+1792539829.978639	consumidor-1	geracao	{"id": 185, "ms": 21.48, "resumo": "[9fc95439] 5 trechos: termo850 termo4219..."}
+1792539829.978704	consumidor-1	consulta	{"id": 187, "worker": 1, "espera_ms": 785.32}
+1792539829.978716	consumidor-1	cache_erro	{"id": 187}
+1792539829.978888	produtor-1	enfileirar	{"id": 237, "fila": 50}
+1792539829.984702	consumidor-0	recuperacao	{"id": 290, "trechos": 5, "bytes": 1361, "tokens_aprox": 140, "ms": 8.97}
+1792539829.987484	consumidor-1	recuperacao	{"id": 187, "trechos": 5, "bytes": 594, "tokens_aprox": 61, "ms": 8.76}
+1792539830.006274	consumidor-0	geracao	{"id": 290, "ms": 21.57, "resumo": "[1ff3bb73] 5 trechos: termo3 termo36 termo1169 ter"}
+1792539830.006357	consumidor-0	consulta	{"id": 292, "worker": 0, "espera_ms": 792.64}
+1792539830.006368	consumidor-0	cache_erro	{"id": 292}
+1792539830.006532	produtor-0	enfileirar	{"id": 342, "fila": 50}
+1792539830.008278	consumidor-1	geracao	{"id": 187, "ms": 20.79, "resumo": "[8797f7a0] 5 trechos: termo4442..."}
+1792539830.008394	consumidor-1	consulta	{"id": 189, "worker": 1, "espera_ms": 785.05}
+1792539830.008415	consumidor-1	cache_erro	{"id": 189}
+1792539830.008628	produtor-1	enfileirar	{"id": 239, "fila": 50}
+1792539830.015198	consumidor-0	recuperacao	{"id": 292, "trechos": 5, "bytes": 1214, "tokens_aprox": 125, "ms": 8.81}
+1792539830.017450	consumidor-1	recuperacao	{"id": 189, "trechos": 5, "bytes": 1131, "tokens_aprox": 115, "ms": 9.02}
+1792539830.036712	consumidor-0	geracao	{"id": 292, "ms": 21.51, "resumo": "[a156f32a] 5 trechos: termo4764 termo2539 termo471"}
+1792539830.036793	consumidor-0	consulta	{"id": 294, "worker": 0, "espera_ms": 793.76}
+1792539830.036803	consumidor-0	cache_erro	{"id": 294}
+1792539830.036966	produtor-0	enfileirar	{"id": 344, "fila": 50}
+1792539830.038859	consumidor-1	geracao	{"id": 189, "ms": 21.41, "resumo": "[2b50e092] 5 trechos: termo4761..."}
+1792539830.038959	consumidor-1	consulta	{"id": 191, "worker": 1, "espera_ms": 785.81}
+1792539830.038983	consumidor-1	cache_erro	{"id": 191}
+1792539830.039277	produtor-1	enfileirar	{"id": 241, "fila": 50}
+1792539830.045759	consumidor-0	recuperacao	{"id": 294, "trechos": 5, "bytes": 467, "tokens_aprox": 48, "ms": 8.94}
+1792539830.047896	consumidor-1	recuperacao	{"id": 191, "trechos": 5, "bytes": 428, "tokens_aprox": 44, "ms": 8.9}
+1792539830.066452	consumidor-0	geracao	{"id": 294, "ms": 20.69, "resumo": "[2713b2bf] 5 trechos: termo1980..."}
+1792539830.066561	consumidor-0	consulta	{"id": 296, "worker": 0, "espera_ms": 794.47}
+1792539830.066615	consumidor-0	cache_erro	{"id": 296}
+1792539830.066804	produtor-0	enfileirar	{"id": 346, "fila": 50}
+1792539830.068465	consumidor-1	geracao	{"id": 191, "ms": 20.57, "resumo": "[a9cd9894] 5 trechos: termo2111..."}
+1792539830.068517	consumidor-1	consulta	{"id": 193, "worker": 1, "espera_ms": 786.64}
+1792539830.068538	consumidor-1	cache_erro	{"id": 193}
+1792539830.068656	produtor-1	enfileirar	{"id": 243, "fila": 50}
+1792539830.075621	consumidor-0	recuperacao	{"id": 296, "trechos": 5, "bytes": 506, "tokens_aprox": 52, "ms": 8.98}
+1792539830.077680	consumidor-1	recuperacao	{"id": 193, "trechos": 5, "bytes": 803, "tokens_aprox": 83, "ms": 9.13}
+1792539830.096428	consumidor-0	geracao	{"id": 296, "ms": 20.81, "resumo": "[68db08a4] 5 trechos: termo1177..."}
+1792539830.096490	consumidor-0	consulta	{"id": 298, "worker": 0, "espera_ms": 794.84}
+1792539830.096500	consumidor-0	cache_erro	{"id": 298}
+1792539830.096666	produtor-0	enfileirar	{"id": 348, "fila": 50}
+1792539830.098647	consumidor-1	geracao	{"id": 193, "ms": 20.97, "resumo": "[d50b45cc] 5 trechos: termo4918..."}
+1792539830.098704	consumidor-1	consulta	{"id": 195, "worker": 1, "espera_ms": 787.37}
+1792539830.098715	consumidor-1	cache_erro	{"id": 195}
+1792539830.098869	produtor-1	enfileirar	{"id": 245, "fila": 50}
+1792539830.106485	consumidor-0	recuperacao	{"id": 298, "trechos": 5, "bytes": 766, "tokens_aprox": 79, "ms": 9.96}
+1792539830.108982	consumidor-1	recuperacao	{"id": 195, "trechos": 5, "bytes": 673, "tokens_aprox": 69, "ms": 10.25}
+1792539830.127649	consumidor-0	geracao	{"id": 298, "ms": 21.17, "resumo": "[a5aa88ba] 5 trechos: termo345..."}
+1792539830.127721	consumidor-0	consulta	{"id": 300, "worker": 0, "espera_ms": 797.1}
+1792539830.127732	consumidor-0	cache_erro	{"id": 300}
+1792539830.127897	produtor-0	enfileirar	{"id": 350, "fila": 50}
+1792539830.129979	consumidor-1	geracao	{"id": 195, "ms": 21.0, "resumo": "[91de0751] 5 trechos: termo4398..."}
+1792539830.130058	consumidor-1	consulta	{"id": 197, "worker": 1, "espera_ms": 789.36}
+1792539830.130073	consumidor-1	cache_erro	{"id": 197}
+1792539830.130244	produtor-1	enfileirar	{"id": 247, "fila": 50}
+1792539830.137243	consumidor-0	recuperacao	{"id": 300, "trechos": 5, "bytes": 1554, "tokens_aprox": 159, "ms": 9.49}
+1792539830.140277	consumidor-1	recuperacao	{"id": 197, "trechos": 5, "bytes": 1238, "tokens_aprox": 127, "ms": 10.19}
+1792539830.159516	consumidor-0	geracao	{"id": 300, "ms": 22.28, "resumo": "[5a2ec0ac] 5 trechos: termo3908..."}
+1792539830.159585	consumidor-0	consulta	{"id": 302, "worker": 0, "espera_ms": 798.66}
+1792539830.159595	consumidor-0	cache_erro	{"id": 302}
+1792539830.159807	produtor-0	enfileirar	{"id": 352, "fila": 50}
+1792539830.161706	consumidor-1	geracao	{"id": 197, "ms": 21.43, "resumo": "[863d07a7] 5 trechos: termo1754 termo2388 termo220"}
+1792539830.161759	consumidor-1	consulta	{"id": 199, "worker": 1, "espera_ms": 791.76}
+1792539830.161771	consumidor-1	cache_erro	{"id": 199}
+1792539830.161919	produtor-1	enfileirar	{"id": 249, "fila": 50}
+1792539830.168746	consumidor-0	recuperacao	{"id": 302, "trechos": 5, "bytes": 493, "tokens_aprox": 51, "ms": 9.13}
+1792539830.170425	consumidor-1	recuperacao	{"id": 199, "trechos": 5, "bytes": 1048, "tokens_aprox": 108, "ms": 8.64}
+1792539830.189437	consumidor-0	geracao	{"id": 302, "ms": 20.69, "resumo": "[c8ed01a1] 5 trechos: termo2596 termo4792 termo423"}
+1792539830.189501	consumidor-0	consulta	{"id": 304, "worker": 0, "espera_ms": 799.34}
+1792539830.189512	consumidor-0	cache_erro	{"id": 304}
+1792539830.189615	produtor-0	enfileirar	{"id": 354, "fila": 50}
+1792539830.191770	consumidor-1	geracao	{"id": 199, "ms": 21.35, "resumo": "[37250b31] 5 trechos: termo3312 termo4380 termo315"}
+1792539830.191860	consumidor-1	consulta	{"id": 201, "worker": 1, "espera_ms": 787.28}
+1792539830.191880	consumidor-1	cache_erro	{"id": 201}
+1792539830.192146	produtor-1	enfileirar	{"id": 251, "fila": 50}
+1792539830.198854	consumidor-0	recuperacao	{"id": 304, "trechos": 5, "bytes": 838, "tokens_aprox": 86, "ms": 9.32}
+1792539830.202115	consumidor-1	recuperacao	{"id": 201, "trechos": 5, "bytes": 810, "tokens_aprox": 83, "ms": 10.21}
+1792539830.219852	consumidor-0	geracao	{"id": 304, "ms": 21.0, "resumo": "[88767fd9] 5 trechos: termo2553..."}
+1792539830.219922	consumidor-0	consulta	{"id": 306, "worker": 0, "espera_ms": 794.83}
+1792539830.219983	consumidor-0	cache_erro	{"id": 306}
+1792539830.220168	produtor-0	enfileirar	{"id": 356, "fila": 50}
+1792539830.223282	consumidor-1	geracao	{"id": 201, "ms": 21.17, "resumo": "[645c1714] 5 trechos: termo3922..."}
+1792539830.223337	consumidor-1	consulta	{"id": 203, "worker": 1, "espera_ms": 794.0}
+1792539830.223347	consumidor-1	cache_erro	{"id": 203}
+1792539830.223473	produtor-1	enfileirar	{"id": 253, "fila": 50}
+1792539830.229520	consumidor-0	recuperacao	{"id": 306, "trechos": 5, "bytes": 674, "tokens_aprox": 69, "ms": 9.52}
+1792539830.231948	consumidor-1	recuperacao	{"id": 203, "trechos": 5, "bytes": 918, "tokens_aprox": 95, "ms": 8.58}
+1792539830.250648	consumidor-0	geracao	{"id": 306, "ms": 21.13, "resumo": "[1c2f47c7] 5 trechos: termo2904..."}
+1792539830.250717	consumidor-0	consulta	{"id": 308, "worker": 0, "espera_ms": 794.07}
+1792539830.250728	consumidor-0	cache_erro	{"id": 308}
+1792539830.250871	produtor-0	enfileirar	{"id": 358, "fila": 50}
+1792539830.253270	consumidor-1	geracao	{"id": 203, "ms": 21.33, "resumo": "[faced60b] 5 trechos: termo4198 termo3396..."}
+1792539830.253340	consumidor-1	consulta	{"id": 205, "worker": 1, "espera_ms": 791.84}
+1792539830.253351	consumidor-1	cache_erro	{"id": 205}
+1792539830.253593	produtor-1	enfileirar	{"id": 255, "fila": 50}
+1792539830.259557	consumidor-0	recuperacao	{"id": 308, "trechos": 5, "bytes": 1185, "tokens_aprox": 122, "ms": 8.81}
+1792539830.261915	consumidor-1	recuperacao	{"id": 205, "trechos": 5, "bytes": 1209, "tokens_aprox": 124, "ms": 8.55}
+1792539830.280990	consumidor-0	geracao	{"id": 308, "ms": 21.43, "resumo": "[0c57933f] 5 trechos: termo246..."}
+1792539830.281106	consumidor-0	consulta	{"id": 310, "worker": 0, "espera_ms": 793.22}
+1792539830.281118	consumidor-0	cache_erro	{"id": 310}
+1792539830.281378	produtor-0	enfileirar	{"id": 360, "fila": 50}
+1792539830.283315	consumidor-1	geracao	{"id": 205, "ms": 21.4, "resumo": "[1ddb7f7b] 5 trechos: termo2315 termo4781 termo185"}
+1792539830.283380	consumidor-1	consulta	{"id": 207, "worker": 1, "espera_ms": 790.78}
+1792539830.283402	consumidor-1	cache_erro	{"id": 207}
+1792539830.283526	produtor-1	enfileirar	{"id": 257, "fila": 50}
+1792539830.290519	consumidor-0	recuperacao	{"id": 310, "trechos": 5, "bytes": 1179, "tokens_aprox": 122, "ms": 9.38}
+1792539830.293062	consumidor-1	recuperacao	{"id": 207, "trechos": 5, "bytes": 95, "tokens_aprox": 10, "ms": 9.65}
+1792539830.311982	consumidor-0	geracao	{"id": 310, "ms": 21.46, "resumo": "[c248792b] 5 trechos: termo4926 termo53..."}
+1792539830.312089	consumidor-0	consulta	{"id": 312, "worker": 0, "espera_ms": 794.41}
+1792539830.312109	consumidor-0	cache_erro	{"id": 312}
+1792539830.312491	produtor-0	enfileirar	{"id": 362, "fila": 50}
+1792539830.313368	consumidor-1	geracao	{"id": 207, "ms": 20.3, "resumo": "[fe0a4a3c] 5 trechos: termo3311 termo2644 termo391"}
+1792539830.313489	consumidor-1	consulta	{"id": 209, "worker": 1, "espera_ms": 791.75}
+1792539830.313517	consumidor-1	cache_erro	{"id": 209}
+1792539830.313786	produtor-1	enfileirar	{"id": 259, "fila": 50}
+1792539830.322147	consumidor-0	recuperacao	{"id": 312, "trechos": 5, "bytes": 844, "tokens_aprox": 87, "ms": 10.0}
+1792539830.323200	consumidor-1	recuperacao	{"id": 209, "trechos": 5, "bytes": 542, "tokens_aprox": 56, "ms": 9.66}
+1792539830.343242	consumidor-0	geracao	{"id": 312, "ms": 21.11, "resumo": "[53722ea7] 5 trechos: termo3025..."}
+1792539830.343321	consumidor-0	consulta	{"id": 314, "worker": 0, "espera_ms": 795.67}
+1792539830.343332	consumidor-0	cache_erro	{"id": 314}
+1792539830.343495	produtor-0	enfileirar	{"id": 364, "fila": 50}
+1792539830.343874	consumidor-1	geracao	{"id": 209, "ms": 20.68, "resumo": "[914fc979] 5 trechos: termo3972..."}
+1792539830.343911	consumidor-1	consulta	{"id": 211, "worker": 1, "espera_ms": 792.74}
+1792539830.343921	consumidor-1	cache_erro	{"id": 211}
+1792539830.344046	produtor-1	enfileirar	{"id": 261, "fila": 50}
+1792539830.352787	consumidor-0	recuperacao	{"id": 314, "trechos": 5, "bytes": 1554, "tokens_aprox": 161, "ms": 9.43}
+1792539830.354707	consumidor-1	recuperacao	{"id": 211, "trechos": 5, "bytes": 471, "tokens_aprox": 49, "ms": 10.77}
+1792539830.374599	consumidor-0	geracao	{"id": 314, "ms": 21.82, "resumo": "[79ae7247] 5 trechos: termo1637..."}
+1792539830.374671	consumidor-0	consulta	{"id": 316, "worker": 0, "espera_ms": 796.45}
+1792539830.374682	consumidor-0	cache_erro	{"id": 316}
+1792539830.374871	produtor-0	enfileirar	{"id": 366, "fila": 50}
+1792539830.375376	consumidor-1	geracao	{"id": 211, "ms": 20.67, "resumo": "[61d54075] 5 trechos: termo3211 termo645 termo1195"}
+1792539830.375432	consumidor-1	consulta	{"id": 213, "worker": 1, "espera_ms": 793.21}
+1792539830.375444	consumidor-1	cache_erro	{"id": 213}
+1792539830.375584	produtor-1	enfileirar	{"id": 263, "fila": 50}
+1792539830.384586	consumidor-0	recuperacao	{"id": 316, "trechos": 5, "bytes": 1259, "tokens_aprox": 129, "ms": 9.88}
+1792539830.386208	consumidor-1	recuperacao	{"id": 213, "trechos": 5, "bytes": 555, "tokens_aprox": 57, "ms": 10.75}
+1792539830.406284	consumidor-0	geracao	{"id": 316, "ms": 21.7, "resumo": "[d2aa44e1] 5 trechos: termo290 termo363 termo4584 "}
+1792539830.406378	consumidor-0	consulta	{"id": 318, "worker": 0, "espera_ms": 798.34}
+1792539830.406390	consumidor-0	cache_erro	{"id": 318}
+1792539830.406571	produtor-0	enfileirar	{"id": 368, "fila": 50}
+1792539830.406879	consumidor-1	geracao	{"id": 213, "ms": 20.68, "resumo": "[75f889c5] 5 trechos: termo847 termo2507..."}
+1792539830.406929	consumidor-1	consulta	{"id": 215, "worker": 1, "espera_ms": 794.95}
+1792539830.406939	consumidor-1	cache_erro	{"id": 215}
+1792539830.407082	produtor-1	enfileirar	{"id": 265, "fila": 50}
+1792539830.416211	consumidor-0	recuperacao	{"id": 318, "trechos": 5, "bytes": 1118, "tokens_aprox": 114, "ms": 9.8}
+1792539830.417603	consumidor-1	recuperacao	{"id": 215, "trechos": 5, "bytes": 972, "tokens_aprox": 100, "ms": 10.65}
+1792539830.437585	consumidor-0	geracao	{"id": 318, "ms": 21.36, "resumo": "[26eb1ac1] 5 trechos: termo3766 termo1096 termo479"}
+1792539830.437668	consumidor-0	consulta	{"id": 320, "worker": 0, "espera_ms": 799.58}
+1792539830.437678	consumidor-0	cache_erro	{"id": 320}
+1792539830.437861	produtor-0	enfileirar	{"id": 370, "fila": 50}
+1792539830.438883	consumidor-1	geracao	{"id": 215, "ms": 21.28, "resumo": "[d57e0669] 5 trechos: termo1244 termo4225 termo462"}
+1792539830.438952	consumidor-1	consulta	{"id": 217, "worker": 1, "espera_ms": 796.43}
+1792539830.438964	consumidor-1	cache_erro	{"id": 217}
+1792539830.439170	produtor-1	enfileirar	{"id": 267, "fila": 50}
+1792539830.446963	consumidor-0	recuperacao	{"id": 320, "trechos": 5, "bytes": 446, "tokens_aprox": 46, "ms": 9.27}
+1792539830.448547	consumidor-1	recuperacao	{"id": 217, "trechos": 5, "bytes": 918, "tokens_aprox": 94, "ms": 9.57}
+1792539830.467732	consumidor-0	geracao	{"id": 320, "ms": 20.77, "resumo": "[1349a3bb] 5 trechos: termo2485..."}
+1792539830.467806	consumidor-0	consulta	{"id": 322, "worker": 0, "espera_ms": 799.9}
+1792539830.467818	consumidor-0	cache_erro	{"id": 322}
+1792539830.467990	produtor-0	enfileirar	{"id": 372, "fila": 50}
+1792539830.469754	consumidor-1	geracao	{"id": 217, "ms": 21.21, "resumo": "[7b8ec5dc] 5 trechos: termo3672 termo2338..."}
+1792539830.469797	consumidor-1	consulta	{"id": 219, "worker": 1, "espera_ms": 797.96}
+1792539830.469808	consumidor-1	cache_erro	{"id": 219}
+1792539830.469871	produtor-1	enfileirar	{"id": 269, "fila": 50}
+1792539830.476954	consumidor-0	recuperacao	{"id": 322, "trechos": 5, "bytes": 772, "tokens_aprox": 79, "ms": 9.12}
+1792539830.479115	consumidor-1	recuperacao	{"id": 219, "trechos": 5, "bytes": 889, "tokens_aprox": 92, "ms": 9.3}
+1792539830.497965	consumidor-0	geracao	{"id": 322, "ms": 21.01, "resumo": "[6a75d554] 5 trechos: termo3289 termo3629 termo468"}
+1792539830.498038	consumidor-0	consulta	{"id": 324, "worker": 0, "espera_ms": 797.49}
+1792539830.498049	consumidor-0	cache_erro	{"id": 324}
+1792539830.498207	produtor-0	enfileirar	{"id": 374, "fila": 50}
+1792539830.500292	consumidor-1	geracao	{"id": 219, "ms": 21.18, "resumo": "[e7271475] 5 trechos: termo979 termo2445..."}
+1792539830.500407	consumidor-1	consulta	{"id": 221, "worker": 1, "espera_ms": 797.28}
+1792539830.500419	consumidor-1	cache_erro	{"id": 221}
+1792539830.500578	produtor-1	enfileirar	{"id": 271, "fila": 50}
+1792539830.507219	consumidor-0	recuperacao	{"id": 324, "trechos": 5, "bytes": 424, "tokens_aprox": 44, "ms": 9.14}
+1792539830.509482	consumidor-1	recuperacao	{"id": 221, "trechos": 5, "bytes": 829, "tokens_aprox": 85, "ms": 9.05}
+1792539830.527887	consumidor-0	geracao	{"id": 324, "ms": 20.68, "resumo": "[e4842337] 5 trechos: termo2836..."}
+1792539830.527957	consumidor-0	consulta	{"id": 326, "worker": 0, "espera_ms": 797.09}
+1792539830.527970	consumidor-0	cache_erro	{"id": 326}
+1792539830.528136	produtor-0	enfileirar	{"id": 376, "fila": 50}
+1792539830.530471	consumidor-1	geracao	{"id": 221, "ms": 20.99, "resumo": "[5c6669ae] 5 trechos: termo3308..."}
+1792539830.530532	consumidor-1	consulta	{"id": 223, "worker": 1, "espera_ms": 796.68}
+1792539830.530543	consumidor-1	cache_erro	{"id": 223}
+1792539830.530726	produtor-1	enfileirar	{"id": 273, "fila": 50}
+1792539830.537195	consumidor-0	recuperacao	{"id": 326, "trechos": 5, "bytes": 486, "tokens_aprox": 50, "ms": 9.21}
+1792539830.540742	consumidor-1	recuperacao	{"id": 223, "trechos": 5, "bytes": 1191, "tokens_aprox": 123, "ms": 10.18}
+1792539830.557943	consumidor-0	geracao	{"id": 326, "ms": 20.75, "resumo": "[0890bf86] 5 trechos: termo616 termo4553..."}
+1792539830.558011	consumidor-0	consulta	{"id": 328, "worker": 0, "espera_ms": 795.83}
+1792539830.558022	consumidor-0	cache_erro	{"id": 328}
+1792539830.558176	produtor-0	enfileirar	{"id": 378, "fila": 50}
+1792539830.562248	consumidor-1	geracao	{"id": 223, "ms": 21.52, "resumo": "[b519dca9] 5 trechos: termo4391 termo2109 termo195"}
+1792539830.562299	consumidor-1	consulta	{"id": 225, "worker": 1, "espera_ms": 798.07}
+1792539830.562309	consumidor-1	cache_erro	{"id": 225}
+1792539830.562533	produtor-1	enfileirar	{"id": 275, "fila": 50}
+1792539830.567026	consumidor-0	recuperacao	{"id": 328, "trechos": 5, "bytes": 810, "tokens_aprox": 84, "ms": 8.99}
+1792539830.571143	consumidor-1	recuperacao	{"id": 225, "trechos": 5, "bytes": 514, "tokens_aprox": 53, "ms": 8.82}
+1792539830.588105	consumidor-0	geracao	{"id": 328, "ms": 21.08, "resumo": "[c47faac6] 5 trechos: termo2760 termo251..."}
+1792539830.588182	consumidor-0	consulta	{"id": 330, "worker": 0, "espera_ms": 794.4}
+1792539830.588195	consumidor-0	cache_erro	{"id": 330}
+1792539830.588393	produtor-0	enfileirar	{"id": 380, "fila": 50}
+1792539830.592077	consumidor-1	geracao	{"id": 225, "ms": 20.93, "resumo": "[2f86c6a6] 5 trechos: termo4061..."}
+1792539830.592134	consumidor-1	consulta	{"id": 227, "worker": 1, "espera_ms": 796.81}
+1792539830.592145	consumidor-1	cache_erro	{"id": 227}
+1792539830.592314	produtor-1	enfileirar	{"id": 277, "fila": 50}
+1792539830.597151	consumidor-0	recuperacao	{"id": 330, "trechos": 5, "bytes": 1253, "tokens_aprox": 129, "ms": 8.9}
+1792539830.601467	consumidor-1	recuperacao	{"id": 227, "trechos": 5, "bytes": 805, "tokens_aprox": 83, "ms": 9.31}
+1792539830.618725	consumidor-0	geracao	{"id": 330, "ms": 21.62, "resumo": "[5dd94a41] 5 trechos: termo791 termo2106 termo1266"}
+1792539830.618810	consumidor-0	consulta	{"id": 332, "worker": 0, "espera_ms": 795.04}
+1792539830.618821	consumidor-0	cache_erro	{"id": 332}
+1792539830.618993	produtor-0	enfileirar	{"id": 382, "fila": 50}
+1792539830.622470	consumidor-1	geracao	{"id": 227, "ms": 21.01, "resumo": "[f53c6dea] 5 trechos: termo1919..."}
+1792539830.622530	consumidor-1	consulta	{"id": 229, "worker": 1, "espera_ms": 797.24}
+1792539830.622540	consumidor-1	cache_erro	{"id": 229}
+1792539830.622737	produtor-1	enfileirar	{"id": 279, "fila": 50}
+1792539830.627590	consumidor-0	recuperacao	{"id": 332, "trechos": 5, "bytes": 1206, "tokens_aprox": 123, "ms": 8.75}
+1792539830.631708	consumidor-1	recuperacao	{"id": 229, "trechos": 5, "bytes": 809, "tokens_aprox": 83, "ms": 9.15}
+1792539830.649117	consumidor-0	geracao	{"id": 332, "ms": 21.53, "resumo": "[f671161d] 5 trechos: termo969..."}
+1792539830.649187	consumidor-0	consulta	{"id": 334, "worker": 0, "espera_ms": 794.62}
+1792539830.649198	consumidor-0	cache_erro	{"id": 334}
+1792539830.649367	produtor-0	enfileirar	{"id": 384, "fila": 50}
+1792539830.652748	consumidor-1	geracao	{"id": 229, "ms": 21.04, "resumo": "[ab1586b5] 5 trechos: termo2410..."}
+1792539830.652802	consumidor-1	consulta	{"id": 231, "worker": 1, "espera_ms": 796.68}
+1792539830.652812	consumidor-1	cache_erro	{"id": 231}
+1792539830.652964	produtor-1	enfileirar	{"id": 281, "fila": 50}
+1792539830.657685	consumidor-0	recuperacao	{"id": 334, "trechos": 5, "bytes": 1021, "tokens_aprox": 105, "ms": 8.47}
+1792539830.661356	consumidor-1	recuperacao	{"id": 231, "trechos": 5, "bytes": 54, "tokens_aprox": 6, "ms": 8.53}
+1792539830.678898	consumidor-0	geracao	{"id": 334, "ms": 21.21, "resumo": "[c396e3e5] 5 trechos: termo1587 termo1277 termo931"}
+1792539830.678999	consumidor-0	consulta	{"id": 336, "worker": 0, "espera_ms": 794.04}
+1792539830.679010	consumidor-0	cache_erro	{"id": 336}
+1792539830.679229	produtor-0	enfileirar	{"id": 386, "fila": 50}
+1792539830.681662	consumidor-1	geracao	{"id": 231, "ms": 20.3, "resumo": "[c8948fe6] 5 trechos: termo4155..."}
+1792539830.681701	consumidor-1	consulta	{"id": 233, "worker": 1, "espera_ms": 794.43}
+1792539830.681724	consumidor-1	cache_erro	{"id": 233}
+1792539830.681983	produtor-1	enfileirar	{"id": 283, "fila": 50}
+1792539830.688357	consumidor-0	recuperacao	{"id": 336, "trechos": 5, "bytes": 1221, "tokens_aprox": 125, "ms": 9.33}
+1792539830.690480	consumidor-1	recuperacao	{"id": 233, "trechos": 5, "bytes": 580, "tokens_aprox": 60, "ms": 8.74}
+1792539830.709803	consumidor-0	geracao	{"id": 336, "ms": 21.44, "resumo": "[35830208] 5 trechos: termo2341..."}
+1792539830.709877	consumidor-0	consulta	{"id": 338, "worker": 0, "espera_ms": 795.15}
+1792539830.709888	consumidor-0	cache_erro	{"id": 338}
+1792539830.710035	produtor-0	enfileirar	{"id": 388, "fila": 50}
+1792539830.711402	consumidor-1	geracao	{"id": 233, "ms": 20.92, "resumo": "[6e95db9f] 5 trechos: termo2976..."}
+1792539830.711455	consumidor-1	consulta	{"id": 235, "worker": 1, "espera_ms": 794.04}
+1792539830.711465	consumidor-1	cache_erro	{"id": 235}
+1792539830.711658	produtor-1	enfileirar	{"id": 285, "fila": 50}
+1792539830.719001	consumidor-0	recuperacao	{"id": 338, "trechos": 5, "bytes": 1210, "tokens_aprox": 124, "ms": 9.09}
+1792539830.721266	consumidor-1	recuperacao	{"id": 235, "trechos": 5, "bytes": 1570, "tokens_aprox": 161, "ms": 9.79}
+1792539830.740605	consumidor-0	geracao	{"id": 338, "ms": 21.61, "resumo": "[2dac775f] 5 trechos: termo4856..."}
+1792539830.740682	consumidor-0	consulta	{"id": 340, "worker": 0, "espera_ms": 795.71}
+1792539830.740692	consumidor-0	cache_erro	{"id": 340}
+1792539830.740863	produtor-0	enfileirar	{"id": 390, "fila": 50}
+1792539830.743133	consumidor-1	geracao	{"id": 235, "ms": 21.87, "resumo": "[b700a0cd] 5 trechos: termo4529..."}
+1792539830.743197	consumidor-1	consulta	{"id": 237, "worker": 1, "espera_ms": 794.92}
+1792539830.743208	consumidor-1	cache_erro	{"id": 237}
+1792539830.743332	produtor-1	enfileirar	{"id": 287, "fila": 50}
+1792539830.750073	consumidor-0	recuperacao	{"id": 340, "trechos": 5, "bytes": 84, "tokens_aprox": 9, "ms": 9.34}
+1792539830.751970	consumidor-1	recuperacao	{"id": 237, "trechos": 5, "bytes": 1263, "tokens_aprox": 129, "ms": 8.75}
+1792539830.770440	consumidor-0	geracao	{"id": 340, "ms": 20.4, "resumo": "[b7008c1f] 5 trechos: termo2435..."}
+1792539830.770510	consumidor-0	consulta	{"id": 342, "worker": 0, "espera_ms": 794.58}
+1792539830.770529	consumidor-0	cache_erro	{"id": 342}
+1792539830.770746	produtor-0	enfileirar	{"id": 392, "fila": 50}
+1792539830.773415	consumidor-1	geracao	{"id": 237, "ms": 21.44, "resumo": "[7edb05b4] 5 trechos: termo4177 termo3517 termo116"}
+1792539830.773479	consumidor-1	consulta	{"id": 239, "worker": 1, "espera_ms": 794.55}
+1792539830.773490	consumidor-1	cache_erro	{"id": 239}
+1792539830.773752	produtor-1	enfileirar	{"id": 289, "fila": 50}
+1792539830.779313	consumidor-0	recuperacao	{"id": 342, "trechos": 5, "bytes": 461, "tokens_aprox": 48, "ms": 8.77}
+1792539830.782555	consumidor-1	recuperacao	{"id": 239, "trechos": 5, "bytes": 474, "tokens_aprox": 49, "ms": 9.05}
+1792539830.800055	consumidor-0	geracao	{"id": 342, "ms": 20.74, "resumo": "[28093c8c] 5 trechos: termo2446..."}
+1792539830.800137	consumidor-0	consulta	{"id": 344, "worker": 0, "espera_ms": 793.57}
+1792539830.800148	consumidor-0	cache_erro	{"id": 344}
+1792539830.800366	produtor-0	enfileirar	{"id": 394, "fila": 50}
+1792539830.803175	consumidor-1	geracao	{"id": 239, "ms": 20.62, "resumo": "[e1419f8b] 5 trechos: termo1586..."}
+1792539830.803245	consumidor-1	consulta	{"id": 241, "worker": 1, "espera_ms": 794.59}
+1792539830.803256	consumidor-1	cache_erro	{"id": 241}
+1792539830.803409	produtor-1	enfileirar	{"id": 291, "fila": 50}
+1792539830.809052	consumidor-0	recuperacao	{"id": 344, "trechos": 5, "bytes": 1576, "tokens_aprox": 161, "ms": 8.89}
+1792539830.812330	consumidor-1	recuperacao	{"id": 241, "trechos": 5, "bytes": 342, "tokens_aprox": 35, "ms": 9.06}
+1792539830.830851	consumidor-0	geracao	{"id": 344, "ms": 21.8, "resumo": "[0af555f5] 5 trechos: termo2681..."}
+1792539830.830914	consumidor-0	consulta	{"id": 346, "worker": 0, "espera_ms": 793.92}
+1792539830.830925	consumidor-0	cache_erro	{"id": 346}
+1792539830.831074	produtor-0	enfileirar	{"id": 396, "fila": 50}
+1792539830.832947	consumidor-1	geracao	{"id": 241, "ms": 20.62, "resumo": "[65000387] 5 trechos: termo514 termo2844 termo768 "}
+1792539830.833017	consumidor-1	consulta	{"id": 243, "worker": 1, "espera_ms": 793.71}
+1792539830.833028	consumidor-1	cache_erro	{"id": 243}
+1792539830.833198	produtor-1	enfileirar	{"id": 293, "fila": 50}
+1792539830.840060	consumidor-0	recuperacao	{"id": 346, "trechos": 5, "bytes": 1239, "tokens_aprox": 128, "ms": 9.12}
+1792539830.842598	consumidor-1	recuperacao	{"id": 243, "trechos": 5, "bytes": 1210, "tokens_aprox": 124, "ms": 9.55}
+1792539830.861699	consumidor-0	geracao	{"id": 346, "ms": 21.63, "resumo": "[1d14b0bb] 5 trechos: termo2976..."}
+1792539830.861789	consumidor-0	consulta	{"id": 348, "worker": 0, "espera_ms": 794.94}
+1792539830.861799	consumidor-0	cache_erro	{"id": 348}
+1792539830.861952	produtor-0	enfileirar	{"id": 398, "fila": 50}
+1792539830.864054	consumidor-1	geracao	{"id": 243, "ms": 21.46, "resumo": "[343ef8f7] 5 trechos: termo4235..."}
+1792539830.864106	consumidor-1	consulta	{"id": 245, "worker": 1, "espera_ms": 795.42}
+1792539830.864118	consumidor-1	cache_erro	{"id": 245}
+1792539830.864391	produtor-1	enfileirar	{"id": 295, "fila": 50}
+1792539830.870728	consumidor-0	recuperacao	{"id": 348, "trechos": 5, "bytes": 770, "tokens_aprox": 79, "ms": 8.91}
+1792539830.872643	consumidor-1	recuperacao	{"id": 245, "trechos": 5, "bytes": 558, "tokens_aprox": 58, "ms": 8.51}
+1792539830.891817	consumidor-0	geracao	{"id": 348, "ms": 21.09, "resumo": "[b0fc6437] 5 trechos: termo3349..."}
+1792539830.891888	consumidor-0	consulta	{"id": 350, "worker": 0, "espera_ms": 795.2}
+1792539830.891899	consumidor-0	cache_erro	{"id": 350}
+1792539830.892035	produtor-1	enfileirar	{"id": 297, "fila": 50}
+1792539830.893540	consumidor-1	geracao	{"id": 245, "ms": 20.9, "resumo": "[ad2ba8dd] 5 trechos: termo2543..."}
+1792539830.893604	consumidor-1	consulta	{"id": 247, "worker": 1, "espera_ms": 794.7}
+1792539830.893614	consumidor-1	cache_erro	{"id": 247}
+1792539830.893898	produtor-1	enfileirar	{"id": 299, "fila": 50}
+1792539830.901450	consumidor-0	recuperacao	{"id": 350, "trechos": 5, "bytes": 1203, "tokens_aprox": 124, "ms": 9.53}
+1792539830.903835	consumidor-1	recuperacao	{"id": 247, "trechos": 5, "bytes": 1954, "tokens_aprox": 200, "ms": 10.21}
+1792539830.922992	consumidor-0	geracao	{"id": 350, "ms": 21.54, "resumo": "[64415f2f] 5 trechos: termo3553..."}
+1792539830.923065	consumidor-0	consulta	{"id": 352, "worker": 0, "espera_ms": 795.14}
+1792539830.923077	consumidor-0	cache_erro	{"id": 352}
+1792539830.923239	produtor-1	enfileirar	{"id": 301, "fila": 50}
+1792539830.926033	consumidor-1	geracao	{"id": 247, "ms": 22.2, "resumo": "[f7a7b14e] 5 trechos: termo2621 termo2145 termo145"}
+1792539830.926083	consumidor-1	consulta	{"id": 249, "worker": 1, "espera_ms": 795.81}
+1792539830.926094	consumidor-1	cache_erro	{"id": 249}
+1792539830.926269	produtor-1	enfileirar	{"id": 303, "fila": 50}
+1792539830.932121	consumidor-0	recuperacao	{"id": 352, "trechos": 5, "bytes": 832, "tokens_aprox": 86, "ms": 9.03}
+1792539830.935427	consumidor-1	recuperacao	{"id": 249, "trechos": 5, "bytes": 1552, "tokens_aprox": 159, "ms": 9.32}
+1792539830.953219	consumidor-0	geracao	{"id": 352, "ms": 21.1, "resumo": "[c07c37e8] 5 trechos: termo721..."}
+1792539830.953317	consumidor-0	consulta	{"id": 354, "worker": 0, "espera_ms": 793.48}
+1792539830.953349	consumidor-0	cache_erro	{"id": 354}
+1792539830.953768	produtor-1	enfileirar	{"id": 305, "fila": 50}
+1792539830.957307	consumidor-1	geracao	{"id": 249, "ms": 21.88, "resumo": "[aad697e9] 5 trechos: termo2402..."}
+1792539830.957375	consumidor-1	consulta	{"id": 251, "worker": 1, "espera_ms": 795.43}
+1792539830.957386	consumidor-1	cache_erro	{"id": 251}
+1792539830.957515	produtor-1	enfileirar	{"id": 307, "fila": 50}
+1792539830.962196	consumidor-0	recuperacao	{"id": 354, "trechos": 5, "bytes": 1064, "tokens_aprox": 110, "ms": 8.83}
+1792539830.965861	consumidor-1	recuperacao	{"id": 251, "trechos": 5, "bytes": 579, "tokens_aprox": 60, "ms": 8.46}
+1792539830.983466	consumidor-0	geracao	{"id": 354, "ms": 21.27, "resumo": "[983805f9] 5 trechos: termo668..."}
+1792539830.983530	consumidor-0	consulta	{"id": 356, "worker": 0, "espera_ms": 793.89}
+1792539830.983540	consumidor-0	cache_erro	{"id": 356}
+1792539830.983700	produtor-1	enfileirar	{"id": 309, "fila": 50}
+1792539830.986609	consumidor-1	geracao	{"id": 251, "ms": 20.75, "resumo": "[28cb7cdc] 5 trechos: termo666 termo4592 termo4790"}
+1792539830.986651	consumidor-1	consulta	{"id": 253, "worker": 1, "espera_ms": 794.48}
+1792539830.986661	consumidor-1	cache_erro	{"id": 253}
+1792539830.986876	produtor-1	enfileirar	{"id": 311, "fila": 50}
+1792539830.992322	consumidor-0	recuperacao	{"id": 356, "trechos": 5, "bytes": 1616, "tokens_aprox": 166, "ms": 8.77}
+1792539830.996040	consumidor-1	recuperacao	{"id": 253, "trechos": 5, "bytes": 1176, "tokens_aprox": 122, "ms": 9.36}
+1792539831.014188	consumidor-0	geracao	{"id": 356, "ms": 21.86, "resumo": "[e89524d9] 5 trechos: termo2484 termo254 termo1175"}
+1792539831.014268	consumidor-0	consulta	{"id": 358, "worker": 0, "espera_ms": 794.07}
+1792539831.014279	consumidor-0	cache_erro	{"id": 358}
+1792539831.014465	produtor-1	enfileirar	{"id": 313, "fila": 50}
+1792539831.017531	consumidor-1	geracao	{"id": 253, "ms": 21.5, "resumo": "[bb25074e] 5 trechos: termo4865..."}
+1792539831.017589	consumidor-1	consulta	{"id": 255, "worker": 1, "espera_ms": 794.09}
+1792539831.017598	consumidor-1	cache_erro	{"id": 255}
+1792539831.017822	produtor-1	enfileirar	{"id": 315, "fila": 50}
+1792539831.022964	consumidor-0	recuperacao	{"id": 358, "trechos": 5, "bytes": 1130, "tokens_aprox": 116, "ms": 8.67}
+1792539831.026568	consumidor-1	recuperacao	{"id": 255, "trechos": 5, "bytes": 1055, "tokens_aprox": 108, "ms": 8.96}
+1792539831.044245	consumidor-0	geracao	{"id": 358, "ms": 21.28, "resumo": "[20759bb2] 5 trechos: termo3921 termo2375..."}
+1792539831.044318	consumidor-0	consulta	{"id": 360, "worker": 0, "espera_ms": 793.42}
+1792539831.044329	consumidor-0	cache_erro	{"id": 360}
+1792539831.044544	produtor-1	enfileirar	{"id": 317, "fila": 50}
+1792539831.047794	consumidor-1	geracao	{"id": 255, "ms": 21.22, "resumo": "[77fdc6c2] 5 trechos: termo1098 termo1870 termo380"}
+1792539831.047858	consumidor-1	consulta	{"id": 257, "worker": 1, "espera_ms": 794.23}
+1792539831.047867	consumidor-1	cache_erro	{"id": 257}
+1792539831.048021	produtor-1	enfileirar	{"id": 319, "fila": 50}
+1792539831.053039	consumidor-0	recuperacao	{"id": 360, "trechos": 5, "bytes": 473, "tokens_aprox": 49, "ms": 8.7}
+1792539831.056452	consumidor-1	recuperacao	{"id": 257, "trechos": 5, "bytes": 489, "tokens_aprox": 50, "ms": 8.57}
+1792539831.073782	consumidor-0	geracao	{"id": 360, "ms": 20.74, "resumo": "[50f55e9c] 5 trechos: termo1135 termo4067..."}
+1792539831.073917	consumidor-0	consulta	{"id": 362, "worker": 0, "espera_ms": 792.51}
+1792539831.073931	consumidor-0	cache_erro	{"id": 362}
+1792539831.074115	produtor-1	enfileirar	{"id": 321, "fila": 50}
+1792539831.077120	consumidor-1	geracao	{"id": 257, "ms": 20.67, "resumo": "[4355b5b4] 5 trechos: termo3243 termo3668 termo104"}
+1792539831.077178	consumidor-1	consulta	{"id": 259, "worker": 1, "espera_ms": 793.6}
+1792539831.077188	consumidor-1	cache_erro	{"id": 259}
+1792539831.077395	produtor-1	enfileirar	{"id": 323, "fila": 50}
+1792539831.082959	consumidor-0	recuperacao	{"id": 362, "trechos": 5, "bytes": 598, "tokens_aprox": 62, "ms": 9.01}
+1792539831.085631	consumidor-1	recuperacao	{"id": 259, "trechos": 5, "bytes": 426, "tokens_aprox": 44, "ms": 8.43}
+1792539831.103882	consumidor-0	geracao	{"id": 362, "ms": 20.92, "resumo": "[446a8fa3] 5 trechos: termo2744..."}
+1792539831.103966	consumidor-0	consulta	{"id": 364, "worker": 0, "espera_ms": 791.44}
+1792539831.103978	consumidor-0	cache_erro	{"id": 364}
+1792539831.104162	produtor-1	enfileirar	{"id": 325, "fila": 50}
+1792539831.106240	consumidor-1	geracao	{"id": 259, "ms": 20.61, "resumo": "[b7af6a24] 5 trechos: termo4664..."}
+1792539831.106304	consumidor-1	consulta	{"id": 261, "worker": 1, "espera_ms": 792.49}
+1792539831.106315	consumidor-1	cache_erro	{"id": 261}
+1792539831.106505	produtor-1	enfileirar	{"id": 327, "fila": 50}
+1792539831.113252	consumidor-0	recuperacao	{"id": 364, "trechos": 5, "bytes": 1206, "tokens_aprox": 123, "ms": 9.26}
+1792539831.115607	consumidor-1	recuperacao	{"id": 261, "trechos": 5, "bytes": 644, "tokens_aprox": 66, "ms": 9.28}
+1792539831.134772	consumidor-0	geracao	{"id": 364, "ms": 21.52, "resumo": "[8cf1b780] 5 trechos: termo4075 termo2547 termo416"}
+1792539831.134888	consumidor-0	consulta	{"id": 366, "worker": 0, "espera_ms": 791.37}
+1792539831.134903	consumidor-0	cache_erro	{"id": 366}
+1792539831.135091	produtor-1	enfileirar	{"id": 329, "fila": 50}
+1792539831.136492	consumidor-1	geracao	{"id": 261, "ms": 20.89, "resumo": "[ab952d64] 5 trechos: termo1718..."}
+1792539831.136545	consumidor-1	consulta	{"id": 263, "worker": 1, "espera_ms": 792.47}
+1792539831.136557	consumidor-1	cache_erro	{"id": 263}
+1792539831.136683	produtor-1	enfileirar	{"id": 331, "fila": 50}
+1792539831.144053	consumidor-0	recuperacao	{"id": 366, "trechos": 5, "bytes": 491, "tokens_aprox": 51, "ms": 9.13}
+1792539831.145575	consumidor-1	recuperacao	{"id": 263, "trechos": 5, "bytes": 439, "tokens_aprox": 46, "ms": 9.01}
+1792539831.164827	consumidor-0	geracao	{"id": 366, "ms": 20.77, "resumo": "[f4172d3a] 5 trechos: termo236..."}
+1792539831.164900	consumidor-0	consulta	{"id": 368, "worker": 0, "espera_ms": 789.99}
+1792539831.164912	consumidor-0	cache_erro	{"id": 368}
+1792539831.165076	produtor-1	enfileirar	{"id": 333, "fila": 50}
+1792539831.166269	consumidor-1	geracao	{"id": 263, "ms": 20.69, "resumo": "[b667d250] 5 trechos: termo2851 termo3402..."}
+1792539831.166336	consumidor-1	consulta	{"id": 265, "worker": 1, "espera_ms": 790.73}
+1792539831.166347	consumidor-1	cache_erro	{"id": 265}
+1792539831.166497	produtor-1	enfileirar	{"id": 335, "fila": 50}
+1792539831.174616	consumidor-0	recuperacao	{"id": 368, "trechos": 5, "bytes": 397, "tokens_aprox": 41, "ms": 9.69}
+1792539831.175279	consumidor-1	recuperacao	{"id": 265, "trechos": 5, "bytes": 595, "tokens_aprox": 62, "ms": 8.92}
+1792539831.195300	consumidor-0	geracao	{"id": 368, "ms": 20.68, "resumo": "[3a12e9f2] 5 trechos: termo2183..."}
+1792539831.195384	consumidor-0	consulta	{"id": 370, "worker": 0, "espera_ms": 788.75}
+1792539831.195401	consumidor-0	cache_erro	{"id": 370}
+1792539831.195568	produtor-1	enfileirar	{"id": 337, "fila": 50}
+1792539831.196025	consumidor-1	geracao	{"id": 265, "ms": 20.75, "resumo": "[df30b9a2] 5 trechos: termo1160..."}
+1792539831.196060	consumidor-1	consulta	{"id": 267, "worker": 1, "espera_ms": 788.94}
+1792539831.196081	consumidor-1	cache_erro	{"id": 267}
+1792539831.196269	produtor-1	enfileirar	{"id": 339, "fila": 50}
+1792539831.205610	consumidor-0	recuperacao	{"id": 370, "trechos": 5, "bytes": 468, "tokens_aprox": 48, "ms": 10.16}
+1792539831.206543	consumidor-1	recuperacao	{"id": 267, "trechos": 5, "bytes": 786, "tokens_aprox": 82, "ms": 10.45}
+1792539831.226700	consumidor-0	geracao	{"id": 370, "ms": 21.12, "resumo": "[93a949cb] 5 trechos: termo2851 termo4889 termo316"}
+1792539831.226784	consumidor-0	consulta	{"id": 372, "worker": 0, "espera_ms": 788.89}
+1792539831.226796	consumidor-0	cache_erro	{"id": 372}
+1792539831.226973	produtor-1	enfileirar	{"id": 341, "fila": 50}
+1792539831.227606	consumidor-1	geracao	{"id": 267, "ms": 21.07, "resumo": "[3190163a] 5 trechos: termo40..."}
+1792539831.227644	consumidor-1	consulta	{"id": 269, "worker": 1, "espera_ms": 788.44}
+1792539831.227653	consumidor-1	cache_erro	{"id": 269}
+1792539831.227860	produtor-1	enfileirar	{"id": 343, "fila": 50}
+1792539831.236161	consumidor-0	recuperacao	{"id": 372, "trechos": 5, "bytes": 1959, "tokens_aprox": 200, "ms": 9.34}
+1792539831.239712	consumidor-1	recuperacao	{"id": 269, "trechos": 5, "bytes": 1077, "tokens_aprox": 111, "ms": 12.04}
+1792539831.258469	consumidor-0	geracao	{"id": 372, "ms": 22.31, "resumo": "[60acc265] 5 trechos: termo2334 termo1578 termo147"}
+1792539831.258564	consumidor-0	consulta	{"id": 374, "worker": 0, "espera_ms": 790.54}
+1792539831.258576	consumidor-0	cache_erro	{"id": 374}
+1792539831.258764	produtor-1	enfileirar	{"id": 345, "fila": 50}
+1792539831.260976	consumidor-1	geracao	{"id": 269, "ms": 21.27, "resumo": "[5218458e] 5 trechos: termo3227..."}
+1792539831.261029	consumidor-1	consulta	{"id": 271, "worker": 1, "espera_ms": 791.13}
+1792539831.261038	consumidor-1	cache_erro	{"id": 271}
+1792539831.261188	produtor-1	enfileirar	{"id": 347, "fila": 50}
+1792539831.267395	consumidor-0	recuperacao	{"id": 374, "trechos": 5, "bytes": 1601, "tokens_aprox": 164, "ms": 8.8}
+1792539831.269861	consumidor-1	recuperacao	{"id": 271, "trechos": 5, "bytes": 1063, "tokens_aprox": 109, "ms": 8.81}
+1792539831.289365	consumidor-0	geracao	{"id": 374, "ms": 21.97, "resumo": "[eea3bb68] 5 trechos: termo3507 termo4010 termo418"}
+1792539831.289436	consumidor-0	consulta	{"id": 376, "worker": 0, "espera_ms": 791.2}
+1792539831.289448	consumidor-0	cache_erro	{"id": 376}
+1792539831.289643	produtor-1	enfileirar	{"id": 349, "fila": 50}
+1792539831.291120	consumidor-1	geracao	{"id": 271, "ms": 21.26, "resumo": "[d4b5800a] 5 trechos: termo3502..."}
+1792539831.291168	consumidor-1	consulta	{"id": 273, "worker": 1, "espera_ms": 790.55}
+1792539831.291191	consumidor-1	cache_erro	{"id": 273}
+1792539831.291343	produtor-1	enfileirar	{"id": 351, "fila": 50}
+1792539831.298324	consumidor-0	recuperacao	{"id": 376, "trechos": 5, "bytes": 1589, "tokens_aprox": 162, "ms": 8.85}
+1792539831.301075	consumidor-1	recuperacao	{"id": 273, "trechos": 5, "bytes": 1748, "tokens_aprox": 181, "ms": 9.87}
+1792539831.320182	consumidor-0	geracao	{"id": 376, "ms": 21.87, "resumo": "[763a1ef2] 5 trechos: termo4422 termo1045 termo162"}
+1792539831.320258	consumidor-0	consulta	{"id": 378, "worker": 0, "espera_ms": 792.1}
+1792539831.320270	consumidor-0	cache_erro	{"id": 378}
+1792539831.320425	produtor-1	enfileirar	{"id": 353, "fila": 50}
+1792539831.323033	consumidor-1	geracao	{"id": 273, "ms": 21.96, "resumo": "[758c4f6f] 5 trechos: termo2495 termo4645 termo199"}
+1792539831.323082	consumidor-1	consulta	{"id": 275, "worker": 1, "espera_ms": 792.32}
+1792539831.323092	consumidor-1	cache_erro	{"id": 275}
+1792539831.323197	produtor-1	enfileirar	{"id": 355, "fila": 50}
+1792539831.329042	consumidor-0	recuperacao	{"id": 378, "trechos": 5, "bytes": 455, "tokens_aprox": 47, "ms": 8.76}
+1792539831.332210	consumidor-1	recuperacao	{"id": 275, "trechos": 5, "bytes": 754, "tokens_aprox": 78, "ms": 9.1}
+1792539831.349697	consumidor-0	geracao	{"id": 378, "ms": 20.65, "resumo": "[0437ac69] 5 trechos: termo3332 termo1079..."}
+1792539831.349773	consumidor-0	consulta	{"id": 380, "worker": 0, "espera_ms": 791.57}
+1792539831.349784	consumidor-0	cache_erro	{"id": 380}
+1792539831.349967	produtor-1	enfileirar	{"id": 357, "fila": 50}
+1792539831.353224	consumidor-1	geracao	{"id": 275, "ms": 21.01, "resumo": "[c40f6214] 5 trechos: termo7..."}
+1792539831.353304	consumidor-1	consulta	{"id": 277, "worker": 1, "espera_ms": 790.75}
+1792539831.353316	consumidor-1	cache_erro	{"id": 277}
+1792539831.353496	produtor-1	enfileirar	{"id": 359, "fila": 50}
+1792539831.358561	consumidor-0	recuperacao	{"id": 380, "trechos": 5, "bytes": 553, "tokens_aprox": 57, "ms": 8.75}
+1792539831.361890	consumidor-1	recuperacao	{"id": 277, "trechos": 5, "bytes": 1222, "tokens_aprox": 125, "ms": 8.56}
+1792539831.379312	consumidor-0	geracao	{"id": 380, "ms": 20.76, "resumo": "[03a4368f] 5 trechos: termo1295..."}
+1792539831.379377	consumidor-0	consulta	{"id": 382, "worker": 0, "espera_ms": 790.96}
+1792539831.379388	consumidor-0	cache_erro	{"id": 382}
+1792539831.379697	produtor-1	enfileirar	{"id": 361, "fila": 50}
+1792539831.383500	consumidor-1	geracao	{"id": 277, "ms": 21.61, "resumo": "[726b59a0] 5 trechos: termo2229 termo2740 termo274"}
+1792539831.383575	consumidor-1	consulta	{"id": 279, "worker": 1, "espera_ms": 791.23}
+1792539831.383587	consumidor-1	cache_erro	{"id": 279}
+1792539831.383734	produtor-1	enfileirar	{"id": 363, "fila": 50}
+1792539831.388148	consumidor-0	recuperacao	{"id": 382, "trechos": 5, "bytes": 523, "tokens_aprox": 54, "ms": 8.74}
+1792539831.392429	consumidor-1	recuperacao	{"id": 279, "trechos": 5, "bytes": 1955, "tokens_aprox": 200, "ms": 8.83}
+1792539831.408906	consumidor-0	geracao	{"id": 382, "ms": 20.76, "resumo": "[d69d63eb] 5 trechos: termo625..."}
+1792539831.408982	consumidor-0	consulta	{"id": 384, "worker": 0, "espera_ms": 789.96}
+1792539831.408993	consumidor-0	cache_erro	{"id": 384}
+1792539831.409167	produtor-1	enfileirar	{"id": 365, "fila": 50}
+1792539831.414615	consumidor-1	geracao	{"id": 279, "ms": 22.18, "resumo": "[98d47fda] 5 trechos: termo3510 termo2858 termo636"}
+1792539831.414702	consumidor-1	consulta	{"id": 281, "worker": 1, "espera_ms": 791.94}
+1792539831.414714	consumidor-1	cache_erro	{"id": 281}
+1792539831.414863	produtor-1	enfileirar	{"id": 367, "fila": 50}
+1792539831.417531	consumidor-0	recuperacao	{"id": 384, "trechos": 5, "bytes": 83, "tokens_aprox": 9, "ms": 8.53}
+1792539831.423763	consumidor-1	recuperacao	{"id": 281, "trechos": 5, "bytes": 1925, "tokens_aprox": 198, "ms": 9.03}
+1792539831.437793	consumidor-0	geracao	{"id": 384, "ms": 20.26, "resumo": "[12d416f9] 5 trechos: termo4807..."}
+1792539831.437870	consumidor-0	consulta	{"id": 386, "worker": 0, "espera_ms": 788.47}
+1792539831.437881	consumidor-0	cache_erro	{"id": 386}
+1792539831.438143	produtor-1	enfileirar	{"id": 369, "fila": 50}
+1792539831.445992	consumidor-1	geracao	{"id": 281, "ms": 22.23, "resumo": "[6e24dfb6] 5 trechos: termo583 termo662 termo1173 "}
+1792539831.446068	consumidor-1	consulta	{"id": 283, "worker": 1, "espera_ms": 793.08}
+1792539831.446079	consumidor-1	cache_erro	{"id": 283}
+1792539831.446244	produtor-1	enfileirar	{"id": 371, "fila": 50}
+1792539831.447061	consumidor-0	recuperacao	{"id": 386, "trechos": 5, "bytes": 690, "tokens_aprox": 71, "ms": 9.16}
+1792539831.454367	consumidor-1	recuperacao	{"id": 283, "trechos": 5, "bytes": 827, "tokens_aprox": 85, "ms": 8.27}
+1792539831.468034	consumidor-0	geracao	{"id": 386, "ms": 20.97, "resumo": "[c6b85868] 5 trechos: termo4041 termo3129 termo466"}
+1792539831.468112	consumidor-0	consulta	{"id": 388, "worker": 0, "espera_ms": 788.86}
+1792539831.468123	consumidor-0	cache_erro	{"id": 388}
+1792539831.468293	produtor-1	enfileirar	{"id": 373, "fila": 50}
+1792539831.475533	consumidor-1	geracao	{"id": 283, "ms": 21.17, "resumo": "[f71f13be] 5 trechos: termo3736 termo2668 termo127"}
+1792539831.475625	consumidor-1	consulta	{"id": 285, "worker": 1, "espera_ms": 793.62}
+1792539831.475637	consumidor-1	cache_erro	{"id": 285}
+1792539831.475847	produtor-1	enfileirar	{"id": 375, "fila": 50}
+1792539831.477305	consumidor-0	recuperacao	{"id": 388, "trechos": 5, "bytes": 1380, "tokens_aprox": 142, "ms": 9.17}
+1792539831.484136	consumidor-1	recuperacao	{"id": 285, "trechos": 5, "bytes": 665, "tokens_aprox": 68, "ms": 8.48}
+1792539831.498996	consumidor-0	geracao	{"id": 388, "ms": 21.69, "resumo": "[63278a4c] 5 trechos: termo3852 termo2172 termo111"}
+1792539831.499067	consumidor-0	consulta	{"id": 390, "worker": 0, "espera_ms": 789.01}
+1792539831.499078	consumidor-0	cache_erro	{"id": 390}
+1792539831.499323	produtor-1	enfileirar	{"id": 377, "fila": 50}
+1792539831.505030	consumidor-1	geracao	{"id": 285, "ms": 20.89, "resumo": "[26b28c89] 5 trechos: termo4497 termo2076 termo553"}
+1792539831.505114	consumidor-1	consulta	{"id": 287, "worker": 1, "espera_ms": 793.43}
+1792539831.505128	consumidor-1	cache_erro	{"id": 287}
+1792539831.505308	produtor-1	enfileirar	{"id": 379, "fila": 50}
+1792539831.507818	consumidor-0	recuperacao	{"id": 390, "trechos": 5, "bytes": 472, "tokens_aprox": 48, "ms": 8.72}
+1792539831.513426	consumidor-1	recuperacao	{"id": 287, "trechos": 5, "bytes": 305, "tokens_aprox": 32, "ms": 8.28}
+1792539831.528619	consumidor-0	geracao	{"id": 390, "ms": 20.8, "resumo": "[84603d94] 5 trechos: termo2182..."}
+1792539831.528690	consumidor-0	consulta	{"id": 392, "worker": 0, "espera_ms": 787.8}
+1792539831.528702	consumidor-0	cache_erro	{"id": 392}
+1792539831.528888	produtor-1	enfileirar	{"id": 381, "fila": 50}
+1792539831.533914	consumidor-1	geracao	{"id": 287, "ms": 20.49, "resumo": "[8b6bcaac] 5 trechos: termo707 termo3967 termo4486"}
+1792539831.533988	consumidor-1	consulta	{"id": 289, "worker": 1, "espera_ms": 790.62}
+1792539831.533999	consumidor-1	cache_erro	{"id": 289}
+1792539831.534192	produtor-1	enfileirar	{"id": 383, "fila": 50}
+1792539831.537383	consumidor-0	recuperacao	{"id": 392, "trechos": 5, "bytes": 805, "tokens_aprox": 83, "ms": 8.66}
+1792539831.543446	consumidor-1	recuperacao	{"id": 289, "trechos": 5, "bytes": 735, "tokens_aprox": 76, "ms": 9.43}
+1792539831.558579	consumidor-0	geracao	{"id": 392, "ms": 21.2, "resumo": "[76fea89a] 5 trechos: termo4554..."}
+1792539831.558657	consumidor-0	consulta	{"id": 394, "worker": 0, "espera_ms": 787.88}
+1792539831.558668	consumidor-0	cache_erro	{"id": 394}
+1792539831.558847	produtor-1	enfileirar	{"id": 385, "fila": 50}
+1792539831.564394	consumidor-1	geracao	{"id": 289, "ms": 20.95, "resumo": "[b60a8130] 5 trechos: termo161..."}
+1792539831.564465	consumidor-1	consulta	{"id": 291, "worker": 1, "espera_ms": 790.69}
+1792539831.564476	consumidor-1	cache_erro	{"id": 291}
+1792539831.564647	produtor-1	enfileirar	{"id": 387, "fila": 50}
+1792539831.567388	consumidor-0	recuperacao	{"id": 394, "trechos": 5, "bytes": 142, "tokens_aprox": 15, "ms": 8.71}
+1792539831.573701	consumidor-1	recuperacao	{"id": 291, "trechos": 5, "bytes": 1187, "tokens_aprox": 122, "ms": 9.21}
+1792539831.587821	consumidor-0	geracao	{"id": 394, "ms": 20.43, "resumo": "[b6ed33a4] 5 trechos: termo4897..."}
+1792539831.587899	consumidor-0	consulta	{"id": 396, "worker": 0, "espera_ms": 787.49}
+1792539831.587910	consumidor-0	cache_erro	{"id": 396}
+1792539831.588068	produtor-1	enfileirar	{"id": 389, "fila": 50}
+1792539831.595239	consumidor-1	geracao	{"id": 291, "ms": 21.54, "resumo": "[a769326e] 5 trechos: termo2130..."}
+1792539831.595309	consumidor-1	consulta	{"id": 293, "worker": 1, "espera_ms": 791.84}
+1792539831.595320	consumidor-1	cache_erro	{"id": 293}
+1792539831.595469	produtor-1	enfileirar	{"id": 391, "fila": 50}
+1792539831.596201	consumidor-0	recuperacao	{"id": 396, "trechos": 5, "bytes": 976, "tokens_aprox": 100, "ms": 8.27}
+1792539831.604532	consumidor-1	recuperacao	{"id": 293, "trechos": 5, "bytes": 1281, "tokens_aprox": 131, "ms": 9.18}
+1792539831.617482	consumidor-0	geracao	{"id": 396, "ms": 21.29, "resumo": "[015d2bc2] 5 trechos: termo916 termo812 termo2188 "}
+1792539831.617582	consumidor-0	consulta	{"id": 398, "worker": 0, "espera_ms": 786.47}
+1792539831.617595	consumidor-0	cache_erro	{"id": 398}
+1792539831.617772	produtor-1	enfileirar	{"id": 393, "fila": 50}
+1792539831.625494	consumidor-0	recuperacao	{"id": 398, "trechos": 5, "bytes": 903, "tokens_aprox": 93, "ms": 7.88}
+1792539831.626515	consumidor-1	geracao	{"id": 293, "ms": 22.0, "resumo": "[a785e376] 5 trechos: termo4603..."}
+1792539831.626632	consumidor-1	consulta	{"id": 295, "worker": 1, "espera_ms": 793.41}
+1792539831.626644	consumidor-1	cache_erro	{"id": 295}
+1792539831.626803	produtor-1	enfileirar	{"id": 395, "fila": 50}
+1792539831.635226	consumidor-1	recuperacao	{"id": 295, "trechos": 5, "bytes": 751, "tokens_aprox": 77, "ms": 8.57}
+1792539831.646627	consumidor-0	geracao	{"id": 398, "ms": 21.13, "resumo": "[eca5d3ca] 5 trechos: termo491..."}
+1792539831.646711	consumidor-0	consulta	{"id": 297, "worker": 0, "espera_ms": 782.28}
+1792539831.646722	consumidor-0	cache_erro	{"id": 297}
+1792539831.646901	produtor-1	enfileirar	{"id": 397, "fila": 50}
+1792539831.654541	consumidor-0	recuperacao	{"id": 297, "trechos": 5, "bytes": 94, "tokens_aprox": 10, "ms": 7.81}
+1792539831.656123	consumidor-1	geracao	{"id": 295, "ms": 20.9, "resumo": "[74be7ba5] 5 trechos: termo4358..."}
+1792539831.656170	consumidor-1	consulta	{"id": 299, "worker": 1, "espera_ms": 764.11}
+1792539831.656180	consumidor-1	cache_erro	{"id": 299}
+1792539831.656321	produtor-1	enfileirar	{"id": 399, "fila": 50}
+1792539831.664614	consumidor-1	recuperacao	{"id": 299, "trechos": 5, "bytes": 123, "tokens_aprox": 13, "ms": 8.42}
+1792539831.674804	consumidor-0	geracao	{"id": 297, "ms": 20.26, "resumo": "[38257bd9] 5 trechos: termo2749..."}
+1792539831.674877	consumidor-0	consulta	{"id": 301, "worker": 0, "espera_ms": 780.95}
+1792539831.674888	consumidor-0	cache_erro	{"id": 301}
+1792539831.683724	consumidor-0	recuperacao	{"id": 301, "trechos": 5, "bytes": 485, "tokens_aprox": 50, "ms": 8.82}
+1792539831.684918	consumidor-1	geracao	{"id": 299, "ms": 20.31, "resumo": "[a885add2] 5 trechos: termo2538..."}
+1792539831.684976	consumidor-1	consulta	{"id": 303, "worker": 1, "espera_ms": 761.71}
+1792539831.684987	consumidor-1	cache_erro	{"id": 303}
+1792539831.693429	consumidor-1	recuperacao	{"id": 303, "trechos": 5, "bytes": 1186, "tokens_aprox": 122, "ms": 8.42}
+1792539831.704450	consumidor-0	geracao	{"id": 301, "ms": 20.73, "resumo": "[c7a51375] 5 trechos: termo1354..."}
+1792539831.704499	consumidor-0	consulta	{"id": 305, "worker": 0, "espera_ms": 778.21}
+1792539831.704518	consumidor-0	cache_erro	{"id": 305}
+1792539831.712494	consumidor-0	recuperacao	{"id": 305, "trechos": 5, "bytes": 873, "tokens_aprox": 90, "ms": 7.96}
+1792539831.714895	consumidor-1	geracao	{"id": 303, "ms": 21.48, "resumo": "[e529bc88] 5 trechos: termo3694 termo540 termo3176"}
+1792539831.714932	consumidor-1	consulta	{"id": 307, "worker": 1, "espera_ms": 761.11}
+1792539831.714943	consumidor-1	cache_erro	{"id": 307}
+1792539831.723594	consumidor-1	recuperacao	{"id": 307, "trechos": 5, "bytes": 1479, "tokens_aprox": 151, "ms": 8.63}
+1792539831.733611	consumidor-0	geracao	{"id": 305, "ms": 21.12, "resumo": "[3dabe474] 5 trechos: termo2709..."}
+1792539831.733674	consumidor-0	consulta	{"id": 309, "worker": 0, "espera_ms": 776.13}
+1792539831.733682	consumidor-0	cache_erro	{"id": 309}
+1792539831.741726	consumidor-0	recuperacao	{"id": 309, "trechos": 5, "bytes": 1110, "tokens_aprox": 115, "ms": 8.03}
+1792539831.745478	consumidor-1	geracao	{"id": 307, "ms": 21.89, "resumo": "[dfe43191] 5 trechos: termo3548 termo1400 termo473"}
+1792539831.745518	consumidor-1	consulta	{"id": 311, "worker": 1, "espera_ms": 761.79}
+1792539831.745536	consumidor-1	cache_erro	{"id": 311}
+1792539831.753689	consumidor-1	recuperacao	{"id": 311, "trechos": 5, "bytes": 735, "tokens_aprox": 76, "ms": 8.13}
+1792539831.763033	consumidor-0	geracao	{"id": 309, "ms": 21.31, "resumo": "[2d6614c3] 5 trechos: termo1712..."}
+1792539831.763097	consumidor-0	consulta	{"id": 313, "worker": 0, "espera_ms": 776.19}
+1792539831.763107	consumidor-0	cache_erro	{"id": 313}
+1792539831.770969	consumidor-0	recuperacao	{"id": 313, "trechos": 5, "bytes": 71, "tokens_aprox": 8, "ms": 7.85}
+1792539831.774688	consumidor-1	geracao	{"id": 311, "ms": 21.01, "resumo": "[91380fde] 5 trechos: termo3707..."}
+1792539831.774747	consumidor-1	consulta	{"id": 315, "worker": 1, "espera_ms": 760.25}
+1792539831.774755	consumidor-1	cache_erro	{"id": 315}
+1792539831.783064	consumidor-1	recuperacao	{"id": 315, "trechos": 5, "bytes": 707, "tokens_aprox": 73, "ms": 8.29}
+1792539831.791215	consumidor-0	geracao	{"id": 313, "ms": 20.25, "resumo": "[c710a6d1] 5 trechos: termo314 termo4688..."}
+1792539831.791255	consumidor-0	consulta	{"id": 317, "worker": 0, "espera_ms": 773.4}
+1792539831.791264	consumidor-0	cache_erro	{"id": 317}
+1792539831.799863	consumidor-0	recuperacao	{"id": 317, "trechos": 5, "bytes": 1134, "tokens_aprox": 116, "ms": 8.58}
+1792539831.804050	consumidor-1	geracao	{"id": 315, "ms": 20.99, "resumo": "[33490e5c] 5 trechos: termo3957 termo3492 termo273"}
+1792539831.804122	consumidor-1	consulta	{"id": 319, "worker": 1, "espera_ms": 759.55}
+1792539831.804132	consumidor-1	cache_erro	{"id": 319}
+1792539831.813221	consumidor-1	recuperacao	{"id": 319, "trechos": 5, "bytes": 1198, "tokens_aprox": 123, "ms": 9.07}
+1792539831.821214	consumidor-0	geracao	{"id": 317, "ms": 21.36, "resumo": "[404a6a08] 5 trechos: termo1558 termo2672 termo625"}
+1792539831.821265	consumidor-0	consulta	{"id": 321, "worker": 0, "espera_ms": 773.22}
+1792539831.821274	consumidor-0	cache_erro	{"id": 321}
+1792539831.829544	consumidor-0	recuperacao	{"id": 321, "trechos": 5, "bytes": 476, "tokens_aprox": 50, "ms": 8.25}
+1792539831.834620	consumidor-1	geracao	{"id": 319, "ms": 21.4, "resumo": "[40d3247c] 5 trechos: termo1238 termo2840..."}
+1792539831.834666	consumidor-1	consulta	{"id": 323, "worker": 1, "espera_ms": 760.52}
+1792539831.834674	consumidor-1	cache_erro	{"id": 323}
+1792539831.843560	consumidor-1	recuperacao	{"id": 323, "trechos": 5, "bytes": 686, "tokens_aprox": 71, "ms": 8.86}
+1792539831.850218	consumidor-0	geracao	{"id": 321, "ms": 20.68, "resumo": "[43347af2] 5 trechos: termo66..."}
+1792539831.850261	consumidor-0	consulta	{"id": 325, "worker": 0, "espera_ms": 772.83}
+1792539831.850270	consumidor-0	cache_erro	{"id": 325}
+1792539831.858721	consumidor-0	recuperacao	{"id": 325, "trechos": 5, "bytes": 1245, "tokens_aprox": 128, "ms": 8.43}
+1792539831.864470	consumidor-1	geracao	{"id": 323, "ms": 20.92, "resumo": "[ca71933d] 5 trechos: termo1517..."}
+1792539831.864535	consumidor-1	consulta	{"id": 327, "worker": 1, "espera_ms": 760.35}
+1792539831.864544	consumidor-1	cache_erro	{"id": 327}
+1792539831.873066	consumidor-1	recuperacao	{"id": 327, "trechos": 5, "bytes": 898, "tokens_aprox": 92, "ms": 8.5}
+1792539831.880180	consumidor-0	geracao	{"id": 325, "ms": 21.47, "resumo": "[30aa74aa] 5 trechos: termo296..."}
+1792539831.880224	consumidor-0	consulta	{"id": 329, "worker": 0, "espera_ms": 773.65}
+1792539831.880232	consumidor-0	cache_erro	{"id": 329}
+1792539831.888199	consumidor-0	recuperacao	{"id": 329, "trechos": 5, "bytes": 83, "tokens_aprox": 9, "ms": 7.96}
+1792539831.894130	consumidor-1	geracao	{"id": 327, "ms": 21.07, "resumo": "[b48954fe] 5 trechos: termo1540..."}
+1792539831.894166	consumidor-1	consulta	{"id": 331, "worker": 1, "espera_ms": 759.04}
+1792539831.894175	consumidor-1	cache_erro	{"id": 331}
+1792539831.903230	consumidor-1	recuperacao	{"id": 331, "trechos": 5, "bytes": 845, "tokens_aprox": 87, "ms": 9.04}
+1792539831.908540	consumidor-0	geracao	{"id": 329, "ms": 20.34, "resumo": "[d72fe088] 5 trechos: termo1255 termo2155 termo316"}
+1792539831.908586	consumidor-0	consulta	{"id": 333, "worker": 0, "espera_ms": 771.87}
+1792539831.908606	consumidor-0	cache_erro	{"id": 333}
+1792539831.916759	consumidor-0	recuperacao	{"id": 333, "trechos": 5, "bytes": 1596, "tokens_aprox": 163, "ms": 8.14}
+1792539831.924236	consumidor-1	geracao	{"id": 331, "ms": 21.01, "resumo": "[1bfeee15] 5 trechos: termo3610..."}
+1792539831.924272	consumidor-1	consulta	{"id": 335, "worker": 1, "espera_ms": 759.17}
+1792539831.924281	consumidor-1	cache_erro	{"id": 335}
+1792539831.932570	consumidor-1	recuperacao	{"id": 335, "trechos": 5, "bytes": 836, "tokens_aprox": 86, "ms": 8.27}
+1792539831.938566	consumidor-0	geracao	{"id": 333, "ms": 21.81, "resumo": "[74123bc6] 5 trechos: termo4878 termo4037 termo266"}
+1792539831.938627	consumidor-0	consulta	{"id": 337, "worker": 0, "espera_ms": 772.1}
+1792539831.938720	consumidor-0	cache_erro	{"id": 337}
+1792539831.947448	consumidor-0	recuperacao	{"id": 337, "trechos": 5, "bytes": 1005, "tokens_aprox": 102, "ms": 8.7}
+1792539831.953758	consumidor-1	geracao	{"id": 335, "ms": 21.2, "resumo": "[8d6ba888] 5 trechos: termo2932 termo347 termo3065"}
+1792539831.953797	consumidor-1	consulta	{"id": 339, "worker": 1, "espera_ms": 758.2}
+1792539831.953805	consumidor-1	cache_erro	{"id": 339}
+1792539831.963092	consumidor-1	recuperacao	{"id": 339, "trechos": 5, "bytes": 1262, "tokens_aprox": 130, "ms": 9.27}
+1792539831.968824	consumidor-0	geracao	{"id": 337, "ms": 21.39, "resumo": "[85e29fe5] 5 trechos: termo2136..."}
+1792539831.968864	consumidor-0	consulta	{"id": 341, "worker": 0, "espera_ms": 772.57}
+1792539831.968872	consumidor-0	cache_erro	{"id": 341}
+1792539831.977085	consumidor-0	recuperacao	{"id": 341, "trechos": 5, "bytes": 1265, "tokens_aprox": 130, "ms": 8.2}
+1792539831.984627	consumidor-1	geracao	{"id": 339, "ms": 21.54, "resumo": "[4dbec1b8] 5 trechos: termo262..."}
+1792539831.984672	consumidor-1	consulta	{"id": 343, "worker": 1, "espera_ms": 757.67}
+1792539831.984681	consumidor-1	cache_erro	{"id": 343}
+1792539831.992942	consumidor-1	recuperacao	{"id": 343, "trechos": 5, "bytes": 812, "tokens_aprox": 84, "ms": 8.25}
+1792539831.998548	consumidor-0	geracao	{"id": 341, "ms": 21.47, "resumo": "[85b3440c] 5 trechos: termo3397 termo4550 termo397"}
+1792539831.998597	consumidor-0	consulta	{"id": 345, "worker": 0, "espera_ms": 770.71}
+1792539831.998606	consumidor-0	cache_erro	{"id": 345}
+1792539832.007542	consumidor-0	recuperacao	{"id": 345, "trechos": 5, "bytes": 834, "tokens_aprox": 86, "ms": 8.92}
+1792539832.014196	consumidor-1	geracao	{"id": 343, "ms": 21.26, "resumo": "[af15657b] 5 trechos: termo4120 termo4359..."}
+1792539832.014240	consumidor-1	consulta	{"id": 347, "worker": 1, "espera_ms": 755.45}
+1792539832.014248	consumidor-1	cache_erro	{"id": 347}
+1792539832.022374	consumidor-1	recuperacao	{"id": 347, "trechos": 5, "bytes": 861, "tokens_aprox": 88, "ms": 8.11}
+1792539832.028659	consumidor-0	geracao	{"id": 345, "ms": 21.12, "resumo": "[a17483bc] 5 trechos: termo4526..."}
+1792539832.028697	consumidor-0	consulta	{"id": 349, "worker": 0, "espera_ms": 767.49}
+1792539832.028706	consumidor-0	cache_erro	{"id": 349}
+1792539832.037036	consumidor-0	recuperacao	{"id": 349, "trechos": 5, "bytes": 1573, "tokens_aprox": 161, "ms": 8.31}
+1792539832.043470	consumidor-1	geracao	{"id": 347, "ms": 21.1, "resumo": "[48fe0176] 5 trechos: termo4267..."}
+1792539832.043513	consumidor-1	consulta	{"id": 351, "worker": 1, "espera_ms": 753.84}
+1792539832.043522	consumidor-1	cache_erro	{"id": 351}
+1792539832.051889	consumidor-1	recuperacao	{"id": 351, "trechos": 5, "bytes": 892, "tokens_aprox": 91, "ms": 8.35}
+1792539832.058949	consumidor-0	geracao	{"id": 349, "ms": 21.92, "resumo": "[091d89e7] 5 trechos: termo1110..."}
+1792539832.058995	consumidor-0	consulta	{"id": 353, "worker": 0, "espera_ms": 767.63}
+1792539832.059004	consumidor-0	cache_erro	{"id": 353}
+1792539832.067463	consumidor-0	recuperacao	{"id": 353, "trechos": 5, "bytes": 1187, "tokens_aprox": 122, "ms": 8.44}
+1792539832.073140	consumidor-1	geracao	{"id": 351, "ms": 21.25, "resumo": "[a0938c46] 5 trechos: termo766..."}
+1792539832.073186	consumidor-1	consulta	{"id": 355, "worker": 1, "espera_ms": 752.74}
+1792539832.073195	consumidor-1	cache_erro	{"id": 355}
+1792539832.081108	consumidor-1	recuperacao	{"id": 355, "trechos": 5, "bytes": 993, "tokens_aprox": 102, "ms": 7.9}
+1792539832.088871	consumidor-0	geracao	{"id": 353, "ms": 21.42, "resumo": "[a48736ad] 5 trechos: termo4866..."}
+1792539832.088906	consumidor-0	consulta	{"id": 357, "worker": 0, "espera_ms": 765.68}
+1792539832.088915	consumidor-0	cache_erro	{"id": 357}
+1792539832.097004	consumidor-0	recuperacao	{"id": 357, "trechos": 5, "bytes": 1399, "tokens_aprox": 143, "ms": 8.07}
+1792539832.102404	consumidor-1	geracao	{"id": 355, "ms": 21.3, "resumo": "[78fd0fe4] 5 trechos: termo1946 termo4642 termo396"}
+1792539832.102448	consumidor-1	consulta	{"id": 359, "worker": 1, "espera_ms": 752.32}
+1792539832.102467	consumidor-1	cache_erro	{"id": 359}
+1792539832.111152	consumidor-1	recuperacao	{"id": 359, "trechos": 5, "bytes": 582, "tokens_aprox": 59, "ms": 8.67}
+1792539832.118710	consumidor-0	geracao	{"id": 357, "ms": 21.71, "resumo": "[b515d48a] 5 trechos: termo1586 termo519 termo4272"}
+1792539832.118768	consumidor-0	consulta	{"id": 361, "worker": 0, "espera_ms": 765.23}
+1792539832.118778	consumidor-0	cache_erro	{"id": 361}
+1792539832.126834	consumidor-0	recuperacao	{"id": 361, "trechos": 5, "bytes": 426, "tokens_aprox": 44, "ms": 8.04}
+1792539832.131973	consumidor-1	geracao	{"id": 359, "ms": 20.82, "resumo": "[562850fb] 5 trechos: termo3485..."}
+1792539832.132026	consumidor-1	consulta	{"id": 363, "worker": 1, "espera_ms": 752.3}
+1792539832.132035	consumidor-1	cache_erro	{"id": 363}
+1792539832.140693	consumidor-1	recuperacao	{"id": 363, "trechos": 5, "bytes": 873, "tokens_aprox": 90, "ms": 8.64}
+1792539832.147547	consumidor-0	geracao	{"id": 361, "ms": 20.72, "resumo": "[c6ae238a] 5 trechos: termo3259..."}
+1792539832.147585	consumidor-0	consulta	{"id": 365, "worker": 0, "espera_ms": 763.83}
+1792539832.147593	consumidor-0	cache_erro	{"id": 365}
+1792539832.155654	consumidor-0	recuperacao	{"id": 365, "trechos": 5, "bytes": 944, "tokens_aprox": 97, "ms": 8.05}
+1792539832.161825	consumidor-1	geracao	{"id": 363, "ms": 21.14, "resumo": "[3823b0ae] 5 trechos: termo104..."}
+1792539832.161861	consumidor-1	consulta	{"id": 367, "worker": 1, "espera_ms": 752.67}
+1792539832.161869	consumidor-1	cache_erro	{"id": 367}
+1792539832.170285	consumidor-1	recuperacao	{"id": 367, "trechos": 5, "bytes": 1147, "tokens_aprox": 117, "ms": 8.4}
+1792539832.176860	consumidor-0	geracao	{"id": 365, "ms": 21.21, "resumo": "[5a9316df] 5 trechos: termo3928..."}
+1792539832.176905	consumidor-0	consulta	{"id": 369, "worker": 0, "espera_ms": 762.02}
+1792539832.176914	consumidor-0	cache_erro	{"id": 369}
+1792539832.184845	consumidor-0	recuperacao	{"id": 369, "trechos": 5, "bytes": 1569, "tokens_aprox": 161, "ms": 7.92}
+1792539832.191997	consumidor-1	geracao	{"id": 367, "ms": 21.72, "resumo": "[79d27990] 5 trechos: termo3339 termo1236 termo431"}
+1792539832.192047	consumidor-1	consulta	{"id": 371, "worker": 1, "espera_ms": 753.88}
+1792539832.192061	consumidor-1	cache_erro	{"id": 371}
+1792539832.200751	consumidor-1	recuperacao	{"id": 371, "trechos": 5, "bytes": 1050, "tokens_aprox": 108, "ms": 8.67}
+1792539832.206634	consumidor-0	geracao	{"id": 369, "ms": 21.79, "resumo": "[b5790318] 5 trechos: termo2348..."}
+1792539832.206674	consumidor-0	consulta	{"id": 373, "worker": 0, "espera_ms": 760.4}
+1792539832.206682	consumidor-0	cache_erro	{"id": 373}
+1792539832.215199	consumidor-0	recuperacao	{"id": 373, "trechos": 5, "bytes": 833, "tokens_aprox": 86, "ms": 8.5}
+1792539832.221997	consumidor-1	geracao	{"id": 371, "ms": 21.25, "resumo": "[788e01c0] 5 trechos: termo2323 termo3407 termo385"}
+1792539832.222043	consumidor-1	consulta	{"id": 375, "worker": 1, "espera_ms": 753.72}
+1792539832.222053	consumidor-1	cache_erro	{"id": 375}
+1792539832.229987	consumidor-1	recuperacao	{"id": 375, "trechos": 5, "bytes": 300, "tokens_aprox": 31, "ms": 7.92}
+1792539832.236199	consumidor-0	geracao	{"id": 373, "ms": 21.0, "resumo": "[7bb9795c] 5 trechos: termo555..."}
+1792539832.236249	consumidor-0	consulta	{"id": 377, "worker": 0, "espera_ms": 760.29}
+1792539832.236258	consumidor-0	cache_erro	{"id": 377}
+1792539832.244860	consumidor-0	recuperacao	{"id": 377, "trechos": 5, "bytes": 297, "tokens_aprox": 31, "ms": 8.59}
+1792539832.250551	consumidor-1	geracao	{"id": 375, "ms": 20.56, "resumo": "[13d9265e] 5 trechos: termo2976..."}
+1792539832.250602	consumidor-1	consulta	{"id": 379, "worker": 1, "espera_ms": 751.24}
+1792539832.250614	consumidor-1	cache_erro	{"id": 379}
+1792539832.258548	consumidor-1	recuperacao	{"id": 379, "trechos": 5, "bytes": 1209, "tokens_aprox": 124, "ms": 7.92}
+1792539832.265346	consumidor-0	geracao	{"id": 377, "ms": 20.49, "resumo": "[42a24024] 5 trechos: termo2277..."}
+1792539832.265397	consumidor-0	consulta	{"id": 381, "worker": 0, "espera_ms": 760.05}
+1792539832.265464	consumidor-0	cache_erro	{"id": 381}
+1792539832.274149	consumidor-0	recuperacao	{"id": 381, "trechos": 5, "bytes": 1399, "tokens_aprox": 143, "ms": 8.66}
+1792539832.279917	consumidor-1	geracao	{"id": 379, "ms": 21.37, "resumo": "[e3ef54b7] 5 trechos: termo2984..."}
+1792539832.279975	consumidor-1	consulta	{"id": 383, "worker": 1, "espera_ms": 751.06}
+1792539832.279985	consumidor-1	cache_erro	{"id": 383}
+1792539832.288591	consumidor-1	recuperacao	{"id": 383, "trechos": 5, "bytes": 1208, "tokens_aprox": 124, "ms": 8.58}
+1792539832.295870	consumidor-0	geracao	{"id": 381, "ms": 21.73, "resumo": "[cb6898f3] 5 trechos: termo4182 termo3911 termo766"}
+1792539832.295906	consumidor-0	consulta	{"id": 385, "worker": 0, "espera_ms": 761.68}
+1792539832.295924	consumidor-0	cache_erro	{"id": 385}
+1792539832.304437	consumidor-0	recuperacao	{"id": 385, "trechos": 5, "bytes": 213, "tokens_aprox": 22, "ms": 8.5}
+1792539832.309979	consumidor-1	geracao	{"id": 383, "ms": 21.39, "resumo": "[c4f265ea] 5 trechos: termo1854 termo3795 termo283"}
+1792539832.310054	consumidor-1	consulta	{"id": 387, "worker": 1, "espera_ms": 751.18}
+1792539832.310063	consumidor-1	cache_erro	{"id": 387}
+1792539832.319717	consumidor-1	recuperacao	{"id": 387, "trechos": 5, "bytes": 1161, "tokens_aprox": 120, "ms": 9.64}
+1792539832.324888	consumidor-0	geracao	{"id": 385, "ms": 20.45, "resumo": "[5d978ab0] 5 trechos: termo680 termo2711 termo2788"}
+1792539832.324929	consumidor-0	consulta	{"id": 389, "worker": 0, "espera_ms": 760.25}
+1792539832.324937	consumidor-0	cache_erro	{"id": 389}
+1792539832.333456	consumidor-0	recuperacao	{"id": 389, "trechos": 5, "bytes": 95, "tokens_aprox": 10, "ms": 8.5}
+1792539832.341116	consumidor-1	geracao	{"id": 387, "ms": 21.4, "resumo": "[d75b9c71] 5 trechos: termo366 termo3152 termo2585"}
+1792539832.341171	consumidor-1	consulta	{"id": 391, "worker": 1, "espera_ms": 753.07}
+1792539832.341179	consumidor-1	cache_erro	{"id": 391}
+1792539832.349401	consumidor-1	recuperacao	{"id": 391, "trechos": 5, "bytes": 868, "tokens_aprox": 90, "ms": 8.21}
+1792539832.353775	consumidor-0	geracao	{"id": 389, "ms": 20.32, "resumo": "[97755a9f] 5 trechos: termo2079 termo2702 termo193"}
+1792539832.353815	consumidor-0	consulta	{"id": 393, "worker": 0, "espera_ms": 758.29}
+1792539832.353823	consumidor-0	cache_erro	{"id": 393}
+1792539832.361745	consumidor-0	recuperacao	{"id": 393, "trechos": 5, "bytes": 630, "tokens_aprox": 64, "ms": 7.91}
+1792539832.370463	consumidor-1	geracao	{"id": 391, "ms": 21.06, "resumo": "[63461307] 5 trechos: termo3839 termo4193..."}
+1792539832.370527	consumidor-1	consulta	{"id": 395, "worker": 1, "espera_ms": 752.72}
+1792539832.370535	consumidor-1	cache_erro	{"id": 395}
+1792539832.378990	consumidor-1	recuperacao	{"id": 395, "trechos": 5, "bytes": 829, "tokens_aprox": 87, "ms": 8.42}
+1792539832.382678	consumidor-0	geracao	{"id": 393, "ms": 20.94, "resumo": "[3fbcf284] 5 trechos: termo1609..."}
+1792539832.382716	consumidor-0	consulta	{"id": 397, "worker": 0, "espera_ms": 755.89}
+1792539832.382724	consumidor-0	cache_erro	{"id": 397}
+1792539832.390349	consumidor-0	recuperacao	{"id": 397, "trechos": 5, "bytes": 809, "tokens_aprox": 83, "ms": 7.61}
+1792539832.400116	consumidor-1	geracao	{"id": 395, "ms": 21.15, "resumo": "[2e6b0058] 5 trechos: termo939 termo3907..."}
+1792539832.400183	consumidor-1	consulta	{"id": 399, "worker": 1, "espera_ms": 753.25}
+1792539832.400192	consumidor-1	cache_erro	{"id": 399}
+1792539832.408557	consumidor-1	recuperacao	{"id": 399, "trechos": 5, "bytes": 1348, "tokens_aprox": 139, "ms": 8.35}
+1792539832.411434	consumidor-0	geracao	{"id": 397, "ms": 21.09, "resumo": "[140eb84c] 5 trechos: termo3227..."}
+1792539832.430224	consumidor-1	geracao	{"id": 399, "ms": 21.67, "resumo": "[64266568] 5 trechos: termo4698 termo3024 termo415"}
+1792539832.436871	MainThread	encerramento	{"status": "ok", "processadas": 400, "erros": 0, "wall_s": 6.0843}
