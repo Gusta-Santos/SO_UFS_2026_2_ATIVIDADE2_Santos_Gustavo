@@ -19,7 +19,7 @@ def main():
     ap.add_argument("--out", default="results/raw/c1_c2.csv")
     a = ap.parse_args()
 
-    commit = git_commit()                            # antes de medir (subprocess mexe nos contadores)
+    commit = git_commit()                            # antes de medir
     size = os.path.getsize(a.file)
     m0 = store.meminfo()
     s0 = store.snapshot()
@@ -43,7 +43,6 @@ def main():
         "minflt": s1["minflt"] - s0["minflt"],
         "majflt": s1["majflt"] - s0["majflt"],
         "disk_read_mb": round((s1["io_read_bytes"] - s0["io_read_bytes"]) / MB, 1),
-        "rchar_mb": round((s1["io_rchar"] - s0["io_rchar"]) / MB, 1),
         "memavail_before_mb": round(m0["MemAvailable"] / MB),
         "memavail_after_mb": round(m1["MemAvailable"] / MB),
         "cached_before_mb": round(m0["Cached"] / MB),

@@ -1,4 +1,4 @@
-1792543290.509106	MainThread	inicio	{"index": "data/index_100mb", "nreq": 20, "workload": "distinct", "uniq": 20, "workers": 1, "producers": 2, "queue_size": 50, "cache_size": 0, "cache_policy": "lru", "vec_mode": "ram", "k": 5, "max_ctx": 2000, "gen_cpu": 20000, "gen_io_ms": 20.0, "put_timeout": null, "put_retries": 3, "retry_wait_ms": 50.0, "gen_fail_rate": 0.0, "gen_retries": 2, "mem_limit_mb": 100, "seed": 1, "label": "c6_e1_limite_baixo", "rep": 3, "no_cache_lock": false, "no_log_lock": false}
-1792543290.509508	MainThread	limite_memoria	{"adicional_mb": 100}
-1792543290.509674	MainThread	falha	{"etapa": "abrir_indice", "erro": "MemoryError((38745088,), dtype('float32'))"}
-1792543290.509686	MainThread	encerramento	{"status": "erro"}
+1792544045.734580	MainThread	inicio	{"index": "data/index_100mb", "nreq": 20, "workload": "distinct", "uniq": 20, "workers": 1, "producers": 2, "queue_size": 50, "cache_size": 0, "cache_policy": "lru", "vec_mode": "ram", "k": 5, "max_ctx": 2000, "gen_cpu": 20000, "gen_io_ms": 20.0, "put_timeout": null, "put_retries": 3, "retry_wait_ms": 50.0, "gen_fail_rate": 0.0, "gen_retries": 2, "mem_limit_mb": 100, "seed": 1, "label": "c6_e1_limite_baixo", "rep": 3, "no_cache_lock": false, "no_log_lock": false}
+1792544045.734988	MainThread	limite_memoria	{"adicional_mb": 100}
+1792544045.735097	MainThread	falha	{"etapa": "abrir_indice", "erro": "MemoryError((38745088,), dtype('float32'))"}
+1792544045.735106	MainThread	encerramento	{"status": "erro"}

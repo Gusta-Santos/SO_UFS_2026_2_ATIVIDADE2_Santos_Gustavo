@@ -16,3 +16,21 @@ e1) limite de memoria (100 MB adicionais) com indice em RAM | rep 3 | codigo de 
 e2) limite de memoria (600 MB adicionais) com indice em RAM | rep 1 | codigo de saida: 0
 e2) limite de memoria (600 MB adicionais) com indice em RAM | rep 2 | codigo de saida: 0
 e2) limite de memoria (600 MB adicionais) com indice em RAM | rep 3 | codigo de saida: 0
+a) arquivo/indice ausente | rep 1 | codigo de saida: 2
+a) arquivo/indice ausente | rep 2 | codigo de saida: 2
+a) arquivo/indice ausente | rep 3 | codigo de saida: 2
+b) banco do indice indisponivel (falha por requisicao) | rep 1 | codigo de saida: 0
+b) banco do indice indisponivel (falha por requisicao) | rep 2 | codigo de saida: 0
+b) banco do indice indisponivel (falha por requisicao) | rep 3 | codigo de saida: 0
+c) fila saturada: timeout + retentativas + descarte | rep 1 | codigo de saida: 0
+c) fila saturada: timeout + retentativas + descarte | rep 2 | codigo de saida: 0
+c) fila saturada: timeout + retentativas + descarte | rep 3 | codigo de saida: 0
+d) servico externo com 30% de falha + retentativas | rep 1 | codigo de saida: 0
+d) servico externo com 30% de falha + retentativas | rep 2 | codigo de saida: 0
+d) servico externo com 30% de falha + retentativas | rep 3 | codigo de saida: 0
+e1) limite de memoria (100 MB adicionais) com indice em RAM | rep 1 | codigo de saida: 2
+e1) limite de memoria (100 MB adicionais) com indice em RAM | rep 2 | codigo de saida: 2
+e1) limite de memoria (100 MB adicionais) com indice em RAM | rep 3 | codigo de saida: 2
+e2) limite de memoria (600 MB adicionais) com indice em RAM | rep 1 | codigo de saida: 0
+e2) limite de memoria (600 MB adicionais) com indice em RAM | rep 2 | codigo de saida: 0
+e2) limite de memoria (600 MB adicionais) com indice em RAM | rep 3 | codigo de saida: 0

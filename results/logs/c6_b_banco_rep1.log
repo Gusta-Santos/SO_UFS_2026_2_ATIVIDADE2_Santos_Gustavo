@@ -1,202 +1,202 @@
-1792543261.339957	MainThread	inicio	{"index": "data/index_100mb_semdb", "nreq": 50, "workload": "distinct", "uniq": 20, "workers": 2, "producers": 2, "queue_size": 50, "cache_size": 0, "cache_policy": "lru", "vec_mode": "mmap", "k": 5, "max_ctx": 2000, "gen_cpu": 20000, "gen_io_ms": 20.0, "put_timeout": null, "put_retries": 3, "retry_wait_ms": 50.0, "gen_fail_rate": 0.0, "gen_retries": 2, "mem_limit_mb": 0, "seed": 1, "label": "c6_b_banco", "rep": 1, "no_cache_lock": false, "no_log_lock": false}
-1792543261.341412	produtor-0	enfileirar	{"id": 0, "fila": 1}
-1792543261.341440	produtor-0	enfileirar	{"id": 2, "fila": 2}
-1792543261.341451	produtor-0	enfileirar	{"id": 4, "fila": 3}
-1792543261.341460	produtor-0	enfileirar	{"id": 6, "fila": 4}
-1792543261.341465	produtor-0	enfileirar	{"id": 8, "fila": 5}
-1792543261.341468	produtor-0	enfileirar	{"id": 10, "fila": 6}
-1792543261.341473	produtor-0	enfileirar	{"id": 12, "fila": 7}
-1792543261.341477	produtor-0	enfileirar	{"id": 14, "fila": 8}
-1792543261.341491	produtor-0	enfileirar	{"id": 16, "fila": 9}
-1792543261.341496	produtor-0	enfileirar	{"id": 18, "fila": 10}
-1792543261.341500	produtor-0	enfileirar	{"id": 20, "fila": 11}
-1792543261.341504	produtor-0	enfileirar	{"id": 22, "fila": 12}
-1792543261.341508	produtor-0	enfileirar	{"id": 24, "fila": 13}
-1792543261.341512	produtor-0	enfileirar	{"id": 26, "fila": 14}
-1792543261.341516	produtor-0	enfileirar	{"id": 28, "fila": 15}
-1792543261.341520	produtor-0	enfileirar	{"id": 30, "fila": 16}
-1792543261.341524	produtor-0	enfileirar	{"id": 32, "fila": 17}
-1792543261.341561	produtor-0	enfileirar	{"id": 34, "fila": 18}
-1792543261.341568	produtor-0	enfileirar	{"id": 36, "fila": 19}
-1792543261.341573	produtor-0	enfileirar	{"id": 38, "fila": 20}
-1792543261.341577	produtor-0	enfileirar	{"id": 40, "fila": 21}
-1792543261.341581	produtor-0	enfileirar	{"id": 42, "fila": 22}
-1792543261.341584	produtor-0	enfileirar	{"id": 44, "fila": 23}
-1792543261.341588	produtor-0	enfileirar	{"id": 46, "fila": 24}
-1792543261.341592	produtor-0	enfileirar	{"id": 48, "fila": 25}
-1792543261.341685	consumidor-1	consulta	{"id": 0, "worker": 1, "espera_ms": 0.28}
-1792543261.341698	consumidor-1	cache_erro	{"id": 0}
-1792543261.341818	produtor-1	enfileirar	{"id": 1, "fila": 25}
-1792543261.341839	produtor-1	enfileirar	{"id": 3, "fila": 26}
-1792543261.341846	produtor-1	enfileirar	{"id": 5, "fila": 27}
-1792543261.341851	produtor-1	enfileirar	{"id": 7, "fila": 28}
-1792543261.341855	produtor-1	enfileirar	{"id": 9, "fila": 29}
-1792543261.341859	produtor-1	enfileirar	{"id": 11, "fila": 30}
-1792543261.341864	produtor-1	enfileirar	{"id": 13, "fila": 31}
-1792543261.341868	produtor-1	enfileirar	{"id": 15, "fila": 32}
-1792543261.341872	produtor-1	enfileirar	{"id": 17, "fila": 33}
-1792543261.341876	produtor-1	enfileirar	{"id": 19, "fila": 34}
-1792543261.341880	produtor-1	enfileirar	{"id": 21, "fila": 35}
-1792543261.341884	produtor-1	enfileirar	{"id": 23, "fila": 36}
-1792543261.341891	produtor-1	enfileirar	{"id": 25, "fila": 37}
-1792543261.341895	produtor-1	enfileirar	{"id": 27, "fila": 38}
-1792543261.341899	produtor-1	enfileirar	{"id": 29, "fila": 39}
-1792543261.341903	produtor-1	enfileirar	{"id": 31, "fila": 40}
-1792543261.341953	produtor-1	enfileirar	{"id": 33, "fila": 41}
-1792543261.341958	produtor-1	enfileirar	{"id": 35, "fila": 42}
-1792543261.341962	produtor-1	enfileirar	{"id": 37, "fila": 43}
-1792543261.341966	produtor-1	enfileirar	{"id": 39, "fila": 44}
-1792543261.341970	produtor-1	enfileirar	{"id": 41, "fila": 45}
-1792543261.341974	produtor-1	enfileirar	{"id": 43, "fila": 46}
-1792543261.341978	produtor-1	enfileirar	{"id": 45, "fila": 47}
-1792543261.341982	produtor-1	enfileirar	{"id": 47, "fila": 48}
-1792543261.341986	produtor-1	enfileirar	{"id": 49, "fila": 49}
-1792543261.342117	consumidor-0	consulta	{"id": 2, "worker": 0, "espera_ms": 0.68}
-1792543261.342128	consumidor-0	cache_erro	{"id": 2}
-1792543261.369966	consumidor-1	falha	{"id": 0, "erro": "OperationalError('unable to open database file')"}
-1792543261.370027	consumidor-1	consulta	{"id": 4, "worker": 1, "espera_ms": 28.57}
-1792543261.370038	consumidor-1	cache_erro	{"id": 4}
-1792543261.374765	consumidor-0	falha	{"id": 2, "erro": "OperationalError('unable to open database file')"}
-1792543261.374840	consumidor-0	consulta	{"id": 6, "worker": 0, "espera_ms": 33.37}
-1792543261.374858	consumidor-0	cache_erro	{"id": 6}
-1792543261.378749	consumidor-1	falha	{"id": 4, "erro": "OperationalError('unable to open database file')"}
-1792543261.378807	consumidor-1	consulta	{"id": 8, "worker": 1, "espera_ms": 37.34}
-1792543261.378827	consumidor-1	cache_erro	{"id": 8}
-1792543261.384428	consumidor-0	falha	{"id": 6, "erro": "OperationalError('unable to open database file')"}
-1792543261.384485	consumidor-0	consulta	{"id": 10, "worker": 0, "espera_ms": 43.01}
-1792543261.384496	consumidor-0	cache_erro	{"id": 10}
-1792543261.387847	consumidor-1	falha	{"id": 8, "erro": "OperationalError('unable to open database file')"}
-1792543261.387900	consumidor-1	consulta	{"id": 12, "worker": 1, "espera_ms": 46.42}
-1792543261.387910	consumidor-1	cache_erro	{"id": 12}
-1792543261.393222	consumidor-0	falha	{"id": 10, "erro": "OperationalError('unable to open database file')"}
-1792543261.393272	consumidor-0	consulta	{"id": 14, "worker": 0, "espera_ms": 51.79}
-1792543261.393281	consumidor-0	cache_erro	{"id": 14}
-1792543261.396765	consumidor-1	falha	{"id": 12, "erro": "OperationalError('unable to open database file')"}
-1792543261.396815	consumidor-1	consulta	{"id": 16, "worker": 1, "espera_ms": 55.32}
-1792543261.396824	consumidor-1	cache_erro	{"id": 16}
-1792543261.402136	consumidor-0	falha	{"id": 14, "erro": "OperationalError('unable to open database file')"}
-1792543261.402189	consumidor-0	consulta	{"id": 18, "worker": 0, "espera_ms": 60.69}
-1792543261.402199	consumidor-0	cache_erro	{"id": 18}
-1792543261.405876	consumidor-1	falha	{"id": 16, "erro": "OperationalError('unable to open database file')"}
-1792543261.405924	consumidor-1	consulta	{"id": 20, "worker": 1, "espera_ms": 64.42}
-1792543261.405933	consumidor-1	cache_erro	{"id": 20}
-1792543261.410893	consumidor-0	falha	{"id": 18, "erro": "OperationalError('unable to open database file')"}
-1792543261.410948	consumidor-0	consulta	{"id": 22, "worker": 0, "espera_ms": 69.44}
-1792543261.410957	consumidor-0	cache_erro	{"id": 22}
-1792543261.415998	consumidor-1	falha	{"id": 20, "erro": "OperationalError('unable to open database file')"}
-1792543261.416057	consumidor-1	consulta	{"id": 24, "worker": 1, "espera_ms": 74.54}
-1792543261.416068	consumidor-1	cache_erro	{"id": 24}
-1792543261.419813	consumidor-0	falha	{"id": 22, "erro": "OperationalError('unable to open database file')"}
-1792543261.419858	consumidor-0	consulta	{"id": 26, "worker": 0, "espera_ms": 78.34}
-1792543261.419868	consumidor-0	cache_erro	{"id": 26}
-1792543261.424569	consumidor-1	falha	{"id": 24, "erro": "OperationalError('unable to open database file')"}
-1792543261.424624	consumidor-1	consulta	{"id": 28, "worker": 1, "espera_ms": 83.1}
-1792543261.424634	consumidor-1	cache_erro	{"id": 28}
-1792543261.428581	consumidor-0	falha	{"id": 26, "erro": "OperationalError('unable to open database file')"}
-1792543261.428631	consumidor-0	consulta	{"id": 30, "worker": 0, "espera_ms": 87.11}
-1792543261.428642	consumidor-0	cache_erro	{"id": 30}
-1792543261.433386	consumidor-1	falha	{"id": 28, "erro": "OperationalError('unable to open database file')"}
-1792543261.433431	consumidor-1	consulta	{"id": 32, "worker": 1, "espera_ms": 91.9}
-1792543261.433441	consumidor-1	cache_erro	{"id": 32}
-1792543261.437416	consumidor-0	falha	{"id": 30, "erro": "OperationalError('unable to open database file')"}
-1792543261.437466	consumidor-0	consulta	{"id": 34, "worker": 0, "espera_ms": 95.91}
-1792543261.437476	consumidor-0	cache_erro	{"id": 34}
-1792543261.442151	consumidor-1	falha	{"id": 32, "erro": "OperationalError('unable to open database file')"}
-1792543261.442195	consumidor-1	consulta	{"id": 36, "worker": 1, "espera_ms": 100.62}
-1792543261.442204	consumidor-1	cache_erro	{"id": 36}
-1792543261.446609	consumidor-0	falha	{"id": 34, "erro": "OperationalError('unable to open database file')"}
-1792543261.446661	consumidor-0	consulta	{"id": 38, "worker": 0, "espera_ms": 105.08}
-1792543261.446738	consumidor-0	cache_erro	{"id": 38}
-1792543261.451043	consumidor-1	falha	{"id": 36, "erro": "OperationalError('unable to open database file')"}
-1792543261.451085	consumidor-1	consulta	{"id": 40, "worker": 1, "espera_ms": 109.5}
-1792543261.451094	consumidor-1	cache_erro	{"id": 40}
-1792543261.455418	consumidor-0	falha	{"id": 38, "erro": "OperationalError('unable to open database file')"}
-1792543261.455457	consumidor-0	consulta	{"id": 42, "worker": 0, "espera_ms": 113.87}
-1792543261.455467	consumidor-0	cache_erro	{"id": 42}
-1792543261.460459	consumidor-1	falha	{"id": 40, "erro": "OperationalError('unable to open database file')"}
-1792543261.460514	consumidor-1	consulta	{"id": 44, "worker": 1, "espera_ms": 118.92}
-1792543261.460525	consumidor-1	cache_erro	{"id": 44}
-1792543261.464747	consumidor-0	falha	{"id": 42, "erro": "OperationalError('unable to open database file')"}
-1792543261.464795	consumidor-0	consulta	{"id": 46, "worker": 0, "espera_ms": 123.2}
-1792543261.464806	consumidor-0	cache_erro	{"id": 46}
-1792543261.469420	consumidor-1	falha	{"id": 44, "erro": "OperationalError('unable to open database file')"}
-1792543261.469464	consumidor-1	consulta	{"id": 48, "worker": 1, "espera_ms": 127.87}
-1792543261.469474	consumidor-1	cache_erro	{"id": 48}
-1792543261.473174	consumidor-0	falha	{"id": 46, "erro": "OperationalError('unable to open database file')"}
-1792543261.473216	consumidor-0	consulta	{"id": 1, "worker": 0, "espera_ms": 131.4}
-1792543261.473224	consumidor-0	cache_erro	{"id": 1}
-1792543261.478348	consumidor-1	falha	{"id": 48, "erro": "OperationalError('unable to open database file')"}
-1792543261.478398	consumidor-1	consulta	{"id": 3, "worker": 1, "espera_ms": 136.55}
-1792543261.478408	consumidor-1	cache_erro	{"id": 3}
-1792543261.482226	consumidor-0	falha	{"id": 1, "erro": "OperationalError('unable to open database file')"}
-1792543261.482277	consumidor-0	consulta	{"id": 5, "worker": 0, "espera_ms": 140.43}
-1792543261.482286	consumidor-0	cache_erro	{"id": 5}
-1792543261.487722	consumidor-1	falha	{"id": 3, "erro": "OperationalError('unable to open database file')"}
-1792543261.487800	consumidor-1	consulta	{"id": 7, "worker": 1, "espera_ms": 145.94}
-1792543261.487812	consumidor-1	cache_erro	{"id": 7}
-1792543261.491512	consumidor-0	falha	{"id": 5, "erro": "OperationalError('unable to open database file')"}
-1792543261.491567	consumidor-0	consulta	{"id": 9, "worker": 0, "espera_ms": 149.71}
-1792543261.491577	consumidor-0	cache_erro	{"id": 9}
-1792543261.497195	consumidor-1	falha	{"id": 7, "erro": "OperationalError('unable to open database file')"}
-1792543261.497258	consumidor-1	consulta	{"id": 11, "worker": 1, "espera_ms": 155.39}
-1792543261.497269	consumidor-1	cache_erro	{"id": 11}
-1792543261.501087	consumidor-0	falha	{"id": 9, "erro": "OperationalError('unable to open database file')"}
-1792543261.501143	consumidor-0	consulta	{"id": 13, "worker": 0, "espera_ms": 159.27}
-1792543261.501153	consumidor-0	cache_erro	{"id": 13}
-1792543261.507262	consumidor-1	falha	{"id": 11, "erro": "OperationalError('unable to open database file')"}
-1792543261.507323	consumidor-1	consulta	{"id": 15, "worker": 1, "espera_ms": 165.45}
-1792543261.507334	consumidor-1	cache_erro	{"id": 15}
-1792543261.511341	consumidor-0	falha	{"id": 13, "erro": "OperationalError('unable to open database file')"}
-1792543261.511408	consumidor-0	consulta	{"id": 17, "worker": 0, "espera_ms": 169.53}
-1792543261.511422	consumidor-0	cache_erro	{"id": 17}
-1792543261.518109	consumidor-1	falha	{"id": 15, "erro": "OperationalError('unable to open database file')"}
-1792543261.518170	consumidor-1	consulta	{"id": 19, "worker": 1, "espera_ms": 176.29}
-1792543261.518181	consumidor-1	cache_erro	{"id": 19}
-1792543261.521438	consumidor-0	falha	{"id": 17, "erro": "OperationalError('unable to open database file')"}
-1792543261.521485	consumidor-0	consulta	{"id": 21, "worker": 0, "espera_ms": 179.6}
-1792543261.521495	consumidor-0	cache_erro	{"id": 21}
-1792543261.527266	consumidor-1	falha	{"id": 19, "erro": "OperationalError('unable to open database file')"}
-1792543261.527331	consumidor-1	consulta	{"id": 23, "worker": 1, "espera_ms": 185.44}
-1792543261.527343	consumidor-1	cache_erro	{"id": 23}
-1792543261.530464	consumidor-0	falha	{"id": 21, "erro": "OperationalError('unable to open database file')"}
-1792543261.530505	consumidor-0	consulta	{"id": 25, "worker": 0, "espera_ms": 188.61}
-1792543261.530515	consumidor-0	cache_erro	{"id": 25}
-1792543261.536603	consumidor-1	falha	{"id": 23, "erro": "OperationalError('unable to open database file')"}
-1792543261.536660	consumidor-1	consulta	{"id": 27, "worker": 1, "espera_ms": 194.76}
-1792543261.536671	consumidor-1	cache_erro	{"id": 27}
-1792543261.539633	consumidor-0	falha	{"id": 25, "erro": "OperationalError('unable to open database file')"}
-1792543261.539690	consumidor-0	consulta	{"id": 29, "worker": 0, "espera_ms": 197.79}
-1792543261.539702	consumidor-0	cache_erro	{"id": 29}
-1792543261.545951	consumidor-1	falha	{"id": 27, "erro": "OperationalError('unable to open database file')"}
-1792543261.546002	consumidor-1	consulta	{"id": 31, "worker": 1, "espera_ms": 204.09}
-1792543261.546012	consumidor-1	cache_erro	{"id": 31}
-1792543261.548924	consumidor-0	falha	{"id": 29, "erro": "OperationalError('unable to open database file')"}
-1792543261.548981	consumidor-0	consulta	{"id": 33, "worker": 0, "espera_ms": 207.02}
-1792543261.548992	consumidor-0	cache_erro	{"id": 33}
-1792543261.555351	consumidor-1	falha	{"id": 31, "erro": "OperationalError('unable to open database file')"}
-1792543261.555407	consumidor-1	consulta	{"id": 35, "worker": 1, "espera_ms": 213.44}
-1792543261.555417	consumidor-1	cache_erro	{"id": 35}
-1792543261.558302	consumidor-0	falha	{"id": 33, "erro": "OperationalError('unable to open database file')"}
-1792543261.558358	consumidor-0	consulta	{"id": 37, "worker": 0, "espera_ms": 216.39}
-1792543261.558368	consumidor-0	cache_erro	{"id": 37}
-1792543261.564467	consumidor-1	falha	{"id": 35, "erro": "OperationalError('unable to open database file')"}
-1792543261.564525	consumidor-1	consulta	{"id": 39, "worker": 1, "espera_ms": 222.55}
-1792543261.564536	consumidor-1	cache_erro	{"id": 39}
-1792543261.567421	consumidor-0	falha	{"id": 37, "erro": "OperationalError('unable to open database file')"}
-1792543261.567474	consumidor-0	consulta	{"id": 41, "worker": 0, "espera_ms": 225.5}
-1792543261.567484	consumidor-0	cache_erro	{"id": 41}
-1792543261.574396	consumidor-1	falha	{"id": 39, "erro": "OperationalError('unable to open database file')"}
-1792543261.574458	consumidor-1	consulta	{"id": 43, "worker": 1, "espera_ms": 232.48}
-1792543261.574470	consumidor-1	cache_erro	{"id": 43}
-1792543261.577357	consumidor-0	falha	{"id": 41, "erro": "OperationalError('unable to open database file')"}
-1792543261.577410	consumidor-0	consulta	{"id": 45, "worker": 0, "espera_ms": 235.43}
-1792543261.577422	consumidor-0	cache_erro	{"id": 45}
-1792543261.583974	consumidor-1	falha	{"id": 43, "erro": "OperationalError('unable to open database file')"}
-1792543261.584028	consumidor-1	consulta	{"id": 47, "worker": 1, "espera_ms": 242.04}
-1792543261.584039	consumidor-1	cache_erro	{"id": 47}
-1792543261.586555	consumidor-0	falha	{"id": 45, "erro": "OperationalError('unable to open database file')"}
-1792543261.586603	consumidor-0	consulta	{"id": 49, "worker": 0, "espera_ms": 244.61}
-1792543261.586614	consumidor-0	cache_erro	{"id": 49}
-1792543261.592997	consumidor-1	falha	{"id": 47, "erro": "OperationalError('unable to open database file')"}
-1792543261.595834	consumidor-0	falha	{"id": 49, "erro": "OperationalError('unable to open database file')"}
-1792543261.601922	MainThread	encerramento	{"status": "ok", "processadas": 50, "erros": 50, "wall_s": 0.255}
+1792544016.638945	MainThread	inicio	{"index": "data/index_100mb_semdb", "nreq": 50, "workload": "distinct", "uniq": 20, "workers": 2, "producers": 2, "queue_size": 50, "cache_size": 0, "cache_policy": "lru", "vec_mode": "mmap", "k": 5, "max_ctx": 2000, "gen_cpu": 20000, "gen_io_ms": 20.0, "put_timeout": null, "put_retries": 3, "retry_wait_ms": 50.0, "gen_fail_rate": 0.0, "gen_retries": 2, "mem_limit_mb": 0, "seed": 1, "label": "c6_b_banco", "rep": 1, "no_cache_lock": false, "no_log_lock": false}
+1792544016.640727	produtor-0	enfileirar	{"id": 0, "fila": 1}
+1792544016.640756	produtor-0	enfileirar	{"id": 2, "fila": 2}
+1792544016.640767	produtor-0	enfileirar	{"id": 4, "fila": 3}
+1792544016.640773	produtor-0	enfileirar	{"id": 6, "fila": 4}
+1792544016.640777	produtor-0	enfileirar	{"id": 8, "fila": 5}
+1792544016.640781	produtor-0	enfileirar	{"id": 10, "fila": 6}
+1792544016.640785	produtor-0	enfileirar	{"id": 12, "fila": 7}
+1792544016.640789	produtor-0	enfileirar	{"id": 14, "fila": 8}
+1792544016.640793	produtor-0	enfileirar	{"id": 16, "fila": 9}
+1792544016.640799	produtor-0	enfileirar	{"id": 18, "fila": 10}
+1792544016.640803	produtor-0	enfileirar	{"id": 20, "fila": 11}
+1792544016.640807	produtor-0	enfileirar	{"id": 22, "fila": 12}
+1792544016.640810	produtor-0	enfileirar	{"id": 24, "fila": 13}
+1792544016.640815	produtor-0	enfileirar	{"id": 26, "fila": 14}
+1792544016.640819	produtor-0	enfileirar	{"id": 28, "fila": 15}
+1792544016.640823	produtor-0	enfileirar	{"id": 30, "fila": 16}
+1792544016.640827	produtor-0	enfileirar	{"id": 32, "fila": 17}
+1792544016.640831	produtor-0	enfileirar	{"id": 34, "fila": 18}
+1792544016.640835	produtor-0	enfileirar	{"id": 36, "fila": 19}
+1792544016.640838	produtor-0	enfileirar	{"id": 38, "fila": 20}
+1792544016.640842	produtor-0	enfileirar	{"id": 40, "fila": 21}
+1792544016.640846	produtor-0	enfileirar	{"id": 42, "fila": 22}
+1792544016.640850	produtor-0	enfileirar	{"id": 44, "fila": 23}
+1792544016.640854	produtor-0	enfileirar	{"id": 46, "fila": 24}
+1792544016.640858	produtor-0	enfileirar	{"id": 48, "fila": 25}
+1792544016.640957	produtor-1	enfileirar	{"id": 1, "fila": 26}
+1792544016.640968	produtor-1	enfileirar	{"id": 3, "fila": 27}
+1792544016.640973	produtor-1	enfileirar	{"id": 5, "fila": 28}
+1792544016.640977	produtor-1	enfileirar	{"id": 7, "fila": 29}
+1792544016.640981	produtor-1	enfileirar	{"id": 9, "fila": 30}
+1792544016.640985	produtor-1	enfileirar	{"id": 11, "fila": 31}
+1792544016.640989	produtor-1	enfileirar	{"id": 13, "fila": 32}
+1792544016.640993	produtor-1	enfileirar	{"id": 15, "fila": 33}
+1792544016.640997	produtor-1	enfileirar	{"id": 17, "fila": 34}
+1792544016.641001	produtor-1	enfileirar	{"id": 19, "fila": 35}
+1792544016.641004	produtor-1	enfileirar	{"id": 21, "fila": 36}
+1792544016.641008	produtor-1	enfileirar	{"id": 23, "fila": 37}
+1792544016.641012	produtor-1	enfileirar	{"id": 25, "fila": 38}
+1792544016.641016	produtor-1	enfileirar	{"id": 27, "fila": 39}
+1792544016.641019	produtor-1	enfileirar	{"id": 29, "fila": 40}
+1792544016.641023	produtor-1	enfileirar	{"id": 31, "fila": 41}
+1792544016.641027	produtor-1	enfileirar	{"id": 33, "fila": 42}
+1792544016.641033	produtor-1	enfileirar	{"id": 35, "fila": 43}
+1792544016.641037	produtor-1	enfileirar	{"id": 37, "fila": 44}
+1792544016.641041	produtor-1	enfileirar	{"id": 39, "fila": 45}
+1792544016.641044	produtor-1	enfileirar	{"id": 41, "fila": 46}
+1792544016.641048	produtor-1	enfileirar	{"id": 43, "fila": 47}
+1792544016.641052	produtor-1	enfileirar	{"id": 45, "fila": 48}
+1792544016.641056	produtor-1	enfileirar	{"id": 47, "fila": 49}
+1792544016.641060	produtor-1	enfileirar	{"id": 49, "fila": 50}
+1792544016.641089	consumidor-1	consulta	{"id": 0, "worker": 1, "espera_ms": 0.38}
+1792544016.641108	consumidor-1	cache_erro	{"id": 0}
+1792544016.641182	consumidor-0	consulta	{"id": 2, "worker": 0, "espera_ms": 0.43}
+1792544016.641244	consumidor-0	cache_erro	{"id": 2}
+1792544016.670573	consumidor-1	falha	{"id": 0, "erro": "OperationalError('unable to open database file')"}
+1792544016.670632	consumidor-1	consulta	{"id": 4, "worker": 1, "espera_ms": 29.86}
+1792544016.670644	consumidor-1	cache_erro	{"id": 4}
+1792544016.670999	consumidor-0	falha	{"id": 2, "erro": "OperationalError('unable to open database file')"}
+1792544016.671036	consumidor-0	consulta	{"id": 6, "worker": 0, "espera_ms": 30.26}
+1792544016.671045	consumidor-0	cache_erro	{"id": 6}
+1792544016.689625	consumidor-1	falha	{"id": 4, "erro": "OperationalError('unable to open database file')"}
+1792544016.689698	consumidor-1	consulta	{"id": 8, "worker": 1, "espera_ms": 48.91}
+1792544016.689711	consumidor-1	cache_erro	{"id": 8}
+1792544016.690305	consumidor-0	falha	{"id": 6, "erro": "OperationalError('unable to open database file')"}
+1792544016.690374	consumidor-0	consulta	{"id": 10, "worker": 0, "espera_ms": 49.59}
+1792544016.690395	consumidor-0	cache_erro	{"id": 10}
+1792544016.701994	consumidor-0	falha	{"id": 10, "erro": "OperationalError('unable to open database file')"}
+1792544016.702163	consumidor-0	consulta	{"id": 12, "worker": 0, "espera_ms": 61.37}
+1792544016.702178	consumidor-0	cache_erro	{"id": 12}
+1792544016.703006	consumidor-1	falha	{"id": 8, "erro": "OperationalError('unable to open database file')"}
+1792544016.703057	consumidor-1	consulta	{"id": 14, "worker": 1, "espera_ms": 62.26}
+1792544016.703068	consumidor-1	cache_erro	{"id": 14}
+1792544016.714829	consumidor-1	falha	{"id": 14, "erro": "OperationalError('unable to open database file')"}
+1792544016.714898	consumidor-1	consulta	{"id": 16, "worker": 1, "espera_ms": 74.1}
+1792544016.714910	consumidor-1	cache_erro	{"id": 16}
+1792544016.715291	consumidor-0	falha	{"id": 12, "erro": "OperationalError('unable to open database file')"}
+1792544016.715353	consumidor-0	consulta	{"id": 18, "worker": 0, "espera_ms": 74.55}
+1792544016.715365	consumidor-0	cache_erro	{"id": 18}
+1792544016.726593	consumidor-0	falha	{"id": 18, "erro": "OperationalError('unable to open database file')"}
+1792544016.726652	consumidor-0	consulta	{"id": 20, "worker": 0, "espera_ms": 85.84}
+1792544016.726675	consumidor-0	cache_erro	{"id": 20}
+1792544016.727056	consumidor-1	falha	{"id": 16, "erro": "OperationalError('unable to open database file')"}
+1792544016.727096	consumidor-1	consulta	{"id": 22, "worker": 1, "espera_ms": 86.29}
+1792544016.727106	consumidor-1	cache_erro	{"id": 22}
+1792544016.736589	consumidor-1	falha	{"id": 22, "erro": "OperationalError('unable to open database file')"}
+1792544016.736649	consumidor-1	consulta	{"id": 24, "worker": 1, "espera_ms": 95.83}
+1792544016.736660	consumidor-1	cache_erro	{"id": 24}
+1792544016.736864	consumidor-0	falha	{"id": 20, "erro": "OperationalError('unable to open database file')"}
+1792544016.736913	consumidor-0	consulta	{"id": 26, "worker": 0, "espera_ms": 96.09}
+1792544016.736924	consumidor-0	cache_erro	{"id": 26}
+1792544016.746312	consumidor-1	falha	{"id": 24, "erro": "OperationalError('unable to open database file')"}
+1792544016.746370	consumidor-1	consulta	{"id": 28, "worker": 1, "espera_ms": 105.55}
+1792544016.746381	consumidor-1	cache_erro	{"id": 28}
+1792544016.746601	consumidor-0	falha	{"id": 26, "erro": "OperationalError('unable to open database file')"}
+1792544016.746657	consumidor-0	consulta	{"id": 30, "worker": 0, "espera_ms": 105.83}
+1792544016.746670	consumidor-0	cache_erro	{"id": 30}
+1792544016.756107	consumidor-0	falha	{"id": 30, "erro": "OperationalError('unable to open database file')"}
+1792544016.756160	consumidor-0	consulta	{"id": 32, "worker": 0, "espera_ms": 115.33}
+1792544016.756171	consumidor-0	cache_erro	{"id": 32}
+1792544016.756472	consumidor-1	falha	{"id": 28, "erro": "OperationalError('unable to open database file')"}
+1792544016.756517	consumidor-1	consulta	{"id": 34, "worker": 1, "espera_ms": 115.68}
+1792544016.756526	consumidor-1	cache_erro	{"id": 34}
+1792544016.765996	consumidor-1	falha	{"id": 34, "erro": "OperationalError('unable to open database file')"}
+1792544016.766066	consumidor-1	consulta	{"id": 36, "worker": 1, "espera_ms": 125.23}
+1792544016.766078	consumidor-1	cache_erro	{"id": 36}
+1792544016.766405	consumidor-0	falha	{"id": 32, "erro": "OperationalError('unable to open database file')"}
+1792544016.766447	consumidor-0	consulta	{"id": 38, "worker": 0, "espera_ms": 125.61}
+1792544016.766520	consumidor-0	cache_erro	{"id": 38}
+1792544016.776206	consumidor-1	falha	{"id": 36, "erro": "OperationalError('unable to open database file')"}
+1792544016.776264	consumidor-1	consulta	{"id": 40, "worker": 1, "espera_ms": 135.42}
+1792544016.776276	consumidor-1	cache_erro	{"id": 40}
+1792544016.776555	consumidor-0	falha	{"id": 38, "erro": "OperationalError('unable to open database file')"}
+1792544016.776601	consumidor-0	consulta	{"id": 42, "worker": 0, "espera_ms": 135.75}
+1792544016.776610	consumidor-0	cache_erro	{"id": 42}
+1792544016.785352	consumidor-0	falha	{"id": 42, "erro": "OperationalError('unable to open database file')"}
+1792544016.785404	consumidor-0	consulta	{"id": 44, "worker": 0, "espera_ms": 144.55}
+1792544016.785414	consumidor-0	cache_erro	{"id": 44}
+1792544016.785739	consumidor-1	falha	{"id": 40, "erro": "OperationalError('unable to open database file')"}
+1792544016.785781	consumidor-1	consulta	{"id": 46, "worker": 1, "espera_ms": 144.92}
+1792544016.785790	consumidor-1	cache_erro	{"id": 46}
+1792544016.795017	consumidor-0	falha	{"id": 44, "erro": "OperationalError('unable to open database file')"}
+1792544016.795075	consumidor-0	consulta	{"id": 48, "worker": 0, "espera_ms": 154.21}
+1792544016.795085	consumidor-0	cache_erro	{"id": 48}
+1792544016.795241	consumidor-1	falha	{"id": 46, "erro": "OperationalError('unable to open database file')"}
+1792544016.795285	consumidor-1	consulta	{"id": 1, "worker": 1, "espera_ms": 154.33}
+1792544016.795295	consumidor-1	cache_erro	{"id": 1}
+1792544016.804217	consumidor-0	falha	{"id": 48, "erro": "OperationalError('unable to open database file')"}
+1792544016.804271	consumidor-0	consulta	{"id": 3, "worker": 0, "espera_ms": 163.3}
+1792544016.804281	consumidor-0	cache_erro	{"id": 3}
+1792544016.804469	consumidor-1	falha	{"id": 1, "erro": "OperationalError('unable to open database file')"}
+1792544016.804517	consumidor-1	consulta	{"id": 5, "worker": 1, "espera_ms": 163.54}
+1792544016.804527	consumidor-1	cache_erro	{"id": 5}
+1792544016.813395	consumidor-1	falha	{"id": 5, "erro": "OperationalError('unable to open database file')"}
+1792544016.813446	consumidor-1	consulta	{"id": 7, "worker": 1, "espera_ms": 172.47}
+1792544016.813457	consumidor-1	cache_erro	{"id": 7}
+1792544016.813766	consumidor-0	falha	{"id": 3, "erro": "OperationalError('unable to open database file')"}
+1792544016.813809	consumidor-0	consulta	{"id": 9, "worker": 0, "espera_ms": 172.82}
+1792544016.813819	consumidor-0	cache_erro	{"id": 9}
+1792544016.822269	consumidor-1	falha	{"id": 7, "erro": "OperationalError('unable to open database file')"}
+1792544016.822323	consumidor-1	consulta	{"id": 11, "worker": 1, "espera_ms": 181.33}
+1792544016.822333	consumidor-1	cache_erro	{"id": 11}
+1792544016.822497	consumidor-0	falha	{"id": 9, "erro": "OperationalError('unable to open database file')"}
+1792544016.822538	consumidor-0	consulta	{"id": 13, "worker": 0, "espera_ms": 181.55}
+1792544016.822547	consumidor-0	cache_erro	{"id": 13}
+1792544016.831109	consumidor-0	falha	{"id": 13, "erro": "OperationalError('unable to open database file')"}
+1792544016.831163	consumidor-0	consulta	{"id": 15, "worker": 0, "espera_ms": 190.17}
+1792544016.831174	consumidor-0	cache_erro	{"id": 15}
+1792544016.831421	consumidor-1	falha	{"id": 11, "erro": "OperationalError('unable to open database file')"}
+1792544016.831465	consumidor-1	consulta	{"id": 17, "worker": 1, "espera_ms": 190.46}
+1792544016.831475	consumidor-1	cache_erro	{"id": 17}
+1792544016.839999	consumidor-1	falha	{"id": 17, "erro": "OperationalError('unable to open database file')"}
+1792544016.840068	consumidor-1	consulta	{"id": 19, "worker": 1, "espera_ms": 199.06}
+1792544016.840079	consumidor-1	cache_erro	{"id": 19}
+1792544016.840221	consumidor-0	falha	{"id": 15, "erro": "OperationalError('unable to open database file')"}
+1792544016.840267	consumidor-0	consulta	{"id": 21, "worker": 0, "espera_ms": 199.26}
+1792544016.840278	consumidor-0	cache_erro	{"id": 21}
+1792544016.849927	consumidor-0	falha	{"id": 21, "erro": "OperationalError('unable to open database file')"}
+1792544016.849981	consumidor-0	consulta	{"id": 23, "worker": 0, "espera_ms": 208.97}
+1792544016.849991	consumidor-0	cache_erro	{"id": 23}
+1792544016.850222	consumidor-1	falha	{"id": 19, "erro": "OperationalError('unable to open database file')"}
+1792544016.850269	consumidor-1	consulta	{"id": 25, "worker": 1, "espera_ms": 209.25}
+1792544016.850279	consumidor-1	cache_erro	{"id": 25}
+1792544016.859026	consumidor-1	falha	{"id": 25, "erro": "OperationalError('unable to open database file')"}
+1792544016.859087	consumidor-1	consulta	{"id": 27, "worker": 1, "espera_ms": 218.07}
+1792544016.859097	consumidor-1	cache_erro	{"id": 27}
+1792544016.859308	consumidor-0	falha	{"id": 23, "erro": "OperationalError('unable to open database file')"}
+1792544016.859355	consumidor-0	consulta	{"id": 29, "worker": 0, "espera_ms": 218.33}
+1792544016.859365	consumidor-0	cache_erro	{"id": 29}
+1792544016.869600	consumidor-0	falha	{"id": 29, "erro": "OperationalError('unable to open database file')"}
+1792544016.869661	consumidor-0	consulta	{"id": 31, "worker": 0, "espera_ms": 228.63}
+1792544016.869672	consumidor-0	cache_erro	{"id": 31}
+1792544016.869908	consumidor-1	falha	{"id": 27, "erro": "OperationalError('unable to open database file')"}
+1792544016.869962	consumidor-1	consulta	{"id": 33, "worker": 1, "espera_ms": 228.93}
+1792544016.869972	consumidor-1	cache_erro	{"id": 33}
+1792544016.878751	consumidor-1	falha	{"id": 33, "erro": "OperationalError('unable to open database file')"}
+1792544016.878807	consumidor-1	consulta	{"id": 35, "worker": 1, "espera_ms": 237.77}
+1792544016.878817	consumidor-1	cache_erro	{"id": 35}
+1792544016.879042	consumidor-0	falha	{"id": 31, "erro": "OperationalError('unable to open database file')"}
+1792544016.879083	consumidor-0	consulta	{"id": 37, "worker": 0, "espera_ms": 238.04}
+1792544016.879093	consumidor-0	cache_erro	{"id": 37}
+1792544016.888535	consumidor-0	falha	{"id": 37, "erro": "OperationalError('unable to open database file')"}
+1792544016.888590	consumidor-0	consulta	{"id": 39, "worker": 0, "espera_ms": 247.54}
+1792544016.888601	consumidor-0	cache_erro	{"id": 39}
+1792544016.888891	consumidor-1	falha	{"id": 35, "erro": "OperationalError('unable to open database file')"}
+1792544016.888921	consumidor-1	consulta	{"id": 41, "worker": 1, "espera_ms": 247.87}
+1792544016.888930	consumidor-1	cache_erro	{"id": 41}
+1792544016.898950	consumidor-0	falha	{"id": 39, "erro": "OperationalError('unable to open database file')"}
+1792544016.899004	consumidor-0	consulta	{"id": 43, "worker": 0, "espera_ms": 257.95}
+1792544016.899015	consumidor-0	cache_erro	{"id": 43}
+1792544016.899256	consumidor-1	falha	{"id": 41, "erro": "OperationalError('unable to open database file')"}
+1792544016.899295	consumidor-1	consulta	{"id": 45, "worker": 1, "espera_ms": 258.24}
+1792544016.899304	consumidor-1	cache_erro	{"id": 45}
+1792544016.908082	consumidor-1	falha	{"id": 45, "erro": "OperationalError('unable to open database file')"}
+1792544016.908138	consumidor-1	consulta	{"id": 47, "worker": 1, "espera_ms": 267.08}
+1792544016.908149	consumidor-1	cache_erro	{"id": 47}
+1792544016.908354	consumidor-0	falha	{"id": 43, "erro": "OperationalError('unable to open database file')"}
+1792544016.908396	consumidor-0	consulta	{"id": 49, "worker": 0, "espera_ms": 267.33}
+1792544016.908406	consumidor-0	cache_erro	{"id": 49}
+1792544016.917224	consumidor-1	falha	{"id": 47, "erro": "OperationalError('unable to open database file')"}
+1792544016.917453	consumidor-0	falha	{"id": 49, "erro": "OperationalError('unable to open database file')"}
+1792544016.926861	MainThread	encerramento	{"status": "ok", "processadas": 50, "erros": 50, "wall_s": 0.2776}
