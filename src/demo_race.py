@@ -145,7 +145,7 @@ def exp_c(mode, nthreads, nlines):
     wall = run_threads(nthreads, worker)
     log.close()
     ok = bad = 0
-    with open(path, encoding="utf-8") as f:
+    with open(path, encoding="utf-8", errors="replace") as f:
         for line in f:
             p = line.rstrip("\n").split("\t", 3)
             try:

@@ -1,0 +1,41 @@
+strace: Process 51692 attached
+strace: Process 51693 attached
+strace: Process 51694 attached
+strace: Process 51695 attached
+strace: Process 51696 attached
+strace: Process 51697 attached
+strace: Process 51698 attached
+strace: Process 51699 attached
+strace: Process 51724 attached
+strace: Process 51725 attached
+strace: Process 51726 attached
+strace: Process 51727 attached
+strace: Process 51764 attached
+strace: Process 51765 attached
+strace: Process 51766 attached
+strace: Process 51767 attached
+strace: Process 51792 attached
+strace: Process 51793 attached
+strace: Process 51794 attached
+strace: Process 51795 attached
+strace: Process 51796 attached
+strace: Process 51797 attached
+strace: Process 51798 attached
+strace: Process 51799 attached
+strace: Process 51800 attached
+strace: Process 51801 attached
+strace: Process 51802 attached
+strace: Process 51803 attached
+strace: Process 51804 attached
+strace: Process 51805 attached
+strace: Process 51806 attached
+strace: Process 51807 attached
+strace: Process 51814 attached
+strace: Process 51815 attached
+strace: Process 51816 attached
+strace: Process 51817 attached
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+100.00   65.515979          68    962757    220933 futex
+------ ----------- ----------- --------- --------- ----------------
+100.00   65.515979          68    962757    220933 total

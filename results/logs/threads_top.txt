@@ -1,0 +1,12 @@
+top - 22:35:23 up  4:28,  1 user,  load average: 0.78, 0.33, 0.18
+Threads:   5 total,   3 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  7.1 us, 28.6 sy,  0.0 ni, 64.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   3918.6 total,   3344.9 free,    470.9 used,    102.8 buff/cache
+MiB Swap:   2048.0 total,   1658.8 free,    389.2 used.   3329.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  50913 panemto+  20   0  312016  12176   6516 R  40.0   0.3   0:00.27 python
+  50916 panemto+  20   0  312016  12176   6516 R  40.0   0.3   0:00.27 python
+  50914 panemto+  20   0  312016  12176   6516 S  33.3   0.3   0:00.27 python
+  50915 panemto+  20   0  312016  12176   6516 R  33.3   0.3   0:00.27 python
+  50897 panemto+  20   0  312016  12176   6516 S   0.0   0.3   0:00.02 python
