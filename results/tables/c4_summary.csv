@@ -1,0 +1,10 @@
+label,hit_rate_mean,hit_rate_std,cache_hits_mean,cache_hits_std,cache_misses_mean,cache_misses_std,evictions_mean,evictions_std,cache_saved_s_mean,cache_saved_s_std,throughput_rps_mean,throughput_rps_std,wall_s_mean,wall_s_std,lat_p95_ms_mean,lat_p95_ms_std,n_reps,workload,cache_size,policy,misses_acima_do_minimo
+c4_distinct_s0_lru,0.0,0.0,0.0,0.0,400.0,0.0,0.0,0.0,0.0,0.0,65.15,0.47,6.14,0.04,847.75,21.77,3,distinct,0,lru,
+c4_distinct_s20_lru,0.0,0.0,0.0,0.0,400.0,0.0,380.0,0.0,0.0,0.0,65.64,0.11,6.09,0.01,831.41,3.75,3,distinct,20,lru,
+c4_repeated_s0_lru,0.0,0.0,0.0,0.0,400.0,0.0,0.0,0.0,0.0,0.0,65.6,0.42,6.1,0.04,835.91,7.07,3,repeated,0,lru,
+c4_repeated_s10_fifo,0.48,0.03,190.0,11.79,210.0,11.79,180.33,10.41,5.81,0.32,124.32,7.95,3.23,0.21,493.0,31.16,3,repeated,10,fifo,
+c4_repeated_s10_lru,0.45,0.01,179.67,4.51,220.33,4.51,185.67,1.53,5.48,0.15,118.81,2.45,3.37,0.07,527.07,25.47,3,repeated,10,lru,
+c4_repeated_s20_fifo,0.94,0.0,375.67,0.58,24.33,0.58,0.0,0.0,12.28,0.01,961.8,22.47,0.42,0.01,292.28,1.96,3,repeated,20,fifo,4.33
+c4_repeated_s20_lru,0.94,0.0,376.0,0.0,24.0,0.0,0.0,0.0,12.33,0.28,961.25,28.61,0.42,0.01,296.92,9.21,3,repeated,20,lru,4.0
+c4_repeated_s40_fifo,0.94,0.0,375.33,0.58,24.67,0.58,0.0,0.0,12.15,0.04,973.27,15.65,0.41,0.01,291.81,0.95,3,repeated,40,fifo,4.67
+c4_repeated_s40_lru,0.94,0.0,376.33,0.58,23.67,0.58,0.0,0.0,12.22,0.11,997.81,36.64,0.4,0.01,291.78,2.87,3,repeated,40,lru,3.67
